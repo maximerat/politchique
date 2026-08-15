@@ -1,4 +1,12 @@
 <script setup lang="ts">
+import { candidats, cheminCandidat } from "#shared/candidats";
+
+// Ordre alphabétique stable : le footer sert aussi de maillage interne pour le
+// référencement, il ne suit donc pas le mélange aléatoire de la page d'accueil.
+const candidatsFooter = [...candidats].sort((a, b) =>
+  a.nom.localeCompare(b.nom, "fr"),
+);
+
 type DoorbellOptions = {
   id: string;
   appKey: string;
@@ -66,6 +74,29 @@ onMounted(() => {
         <NuxtPage />
       </main>
       <footer class="px-4 py-6 text-center text-sm">
+        <nav
+          class="mx-auto mb-6 max-w-5xl border-t border-gray-200 pt-6 text-left"
+          aria-label="Liste des candidats"
+        >
+          <p
+            class="mb-3 text-center text-xs font-semibold uppercase tracking-wide opacity-70"
+          >
+            Candidats à la présidentielle 2027
+          </p>
+          <ul
+            class="grid grid-cols-2 gap-x-4 gap-y-1 text-xs sm:grid-cols-3 lg:grid-cols-4"
+          >
+            <li v-for="candidat in candidatsFooter" :key="candidat.id">
+              <NuxtLink
+                :to="cheminCandidat(candidat.id)"
+                class="opacity-80 hover:opacity-100 hover:underline"
+              >
+                {{ candidat.nom }}
+                <span class="opacity-60">({{ candidat.parti }})</span>
+              </NuxtLink>
+            </li>
+          </ul>
+        </nav>
         <p
           class="mb-2 text-base tracking-widest uppercase font-extrabold opacity-90"
         >

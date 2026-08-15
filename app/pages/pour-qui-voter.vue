@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { candidats, statutsCandidature } from "#shared/candidats";
+
 type Theme =
   | "economie"
   | "immigration"
@@ -7,13 +9,6 @@ type Theme =
   | "europe"
   | "securite"
   | "social";
-
-type Candidate = {
-  id: string;
-  name: string;
-  party: string;
-  photo: string;
-};
 
 type Question = {
   id: string;
@@ -33,264 +28,27 @@ const themes: Array<{ id: Theme; label: string }> = [
   { id: "social", label: "Social / travail" },
 ];
 
-const candidateIds = [
-  "edouard-philippe",
-  "david-lisnard",
-  "gabriel-attal",
-  "jerome-guedj",
-  "jean-luc-melenchon",
-  "marine-le-pen",
-  "bruno-retailleau",
-  "xavier-bertrand",
-  "nicolas-dupont-aignan",
-  "florian-philippot",
-  "francois-asselineau",
-  "nathalie-arthaud",
-  "delphine-batho",
-  "clementine-autain",
-  "fabien-roussel",
-  "yannick-jadot",
-  "sandrine-rousseau",
-  "dominique-de-villepin",
-  "eric-zemmour",
-  "karim-bouamrane",
-] as const;
+const candidateIds = candidats.map((candidat) => candidat.id);
+const candidateIdSet = new Set(candidateIds);
 
-const candidateSources: Record<
-  string,
-  { label: string; url: string }
-> = {
-  "edouard-philippe": {
-    label: "Horizons — Le Manifeste",
-    url: "https://horizonsleparti.fr/le-manifeste/",
-  },
-  "david-lisnard": {
-    label: "Nouvelle Énergie — Programme",
-    url: "https://www.nouvelleenergie.fr/",
-  },
-  "gabriel-attal": {
-    label: "Renaissance — Site officiel",
-    url: "https://www.parti-renaissance.fr/",
-  },
-  "jerome-guedj": {
-    label: "Parti socialiste — Projet",
-    url: "https://ressources-militantes.parti-socialiste.fr/assets/pdf/PROJET_PS_V21avril-2.pdf",
-  },
-  "jean-luc-melenchon": {
-    label: "LFI — Avenir en commun 2025",
-    url: "https://melenchon2027.fr/programme2025/livre/",
-  },
-  "marine-le-pen": {
-    label: "RN — 22 mesures",
-    url: "https://rassemblementnational.fr/22-mesures",
-  },
-  "bruno-retailleau": {
-    label: "Les Républicains — Nos propositions",
-    url: "https://republicains.fr/qrtravail/",
-  },
-  "xavier-bertrand": {
-    label: "Nous France — La vision",
-    url: "https://www.nousfrance.fr/vision/",
-  },
-  "nicolas-dupont-aignan": {
-    label: "Debout la France — Le projet",
-    url: "https://www.debout-la-france.fr/notre-projet/",
-  },
-  "florian-philippot": {
-    label: "Les Patriotes — Grandes orientations",
-    url: "https://les-patriotes.fr/wp-content/uploads/2025/09/lespatriotes_projet.pdf",
-  },
-  "francois-asselineau": {
-    label: "UPR — Programme 2022",
-    url: "https://upr.fr/actualites/programme-presidentiel-2022",
-  },
-  "nathalie-arthaud": {
-    label: "Lutte ouvrière — Portail",
-    url: "https://www.lutte-ouvriere.org/",
-  },
-  "delphine-batho": {
-    label: "Génération Écologie — Notre projet",
-    url: "https://www.generationecologie.fr/a-propos/generation-ecologie/notre-projet/",
-  },
-  "clementine-autain": {
-    label: "Clémentine Autain — Mon manifeste",
-    url: "https://clementine-autain.fr/mon-manifeste/",
-  },
-  "fabien-roussel": {
-    label: "Fabien Roussel — La France des Jours heureux",
-    url: "https://www.fabienroussel2022.fr/le_programme",
-  },
-  "yannick-jadot": {
-    label: "Yannick Jadot — Programme présidentiel 2022",
-    url: "https://assets.nationbuilder.com/themes/6181b6eb4445ea720389b314/attachments/original/1643803625/programme_presidentiel_yannick_jadot.pdf?1643803625=",
-  },
-  "sandrine-rousseau": {
-    label: "Sandrine Rousseau — Vivantes",
-    url: "https://sandrinerousseau.fr/",
-  },
-  "dominique-de-villepin": {
-    label: "La France humaniste — Site officiel",
-    url: "https://lafrancehumaniste.fr/",
-  },
-  "eric-zemmour": {
-    label: "Éric Zemmour — Programme 2022",
-    url: "https://programme.ericzemmour.fr/",
-  },
-  "karim-bouamrane": {
-    label: "Karim Bouamrane — La France Humaine et Forte",
-    url: "https://www.lafrancehumaineetforte.fr/",
-  },
-};
+const candidateSources: Record<string, { label: string; url: string }> =
+  Object.fromEntries(
+    candidats.map((candidat) => [candidat.id, candidat.source]),
+  );
 
 function buildPositions(
-  values: Partial<Record<(typeof candidateIds)[number], number>>,
+  values: Record<string, number>,
 ): Record<string, number> {
-  return Object.fromEntries(
-    candidateIds.map((id) => [id, values[id] ?? 0]),
-  );
-}
+  if (import.meta.dev) {
+    for (const id of Object.keys(values)) {
+      if (!candidateIdSet.has(id)) {
+        console.warn(`[quiz] identifiant de candidat inconnu : ${id}`);
+      }
+    }
+  }
 
-const candidates: Candidate[] = [
-  {
-    id: "edouard-philippe",
-    name: "Édouard Philippe",
-    party: "Horizons",
-    photo:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Edouard_Philippe_en_2025.png/500px-Edouard_Philippe_en_2025.png",
-  },
-  {
-    id: "david-lisnard",
-    name: "David Lisnard",
-    party: "Nouvelle Énergie",
-    photo:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/David_Lisnard_-_2013.jpg/500px-David_Lisnard_-_2013.jpg",
-  },
-  {
-    id: "gabriel-attal",
-    name: "Gabriel Attal",
-    party: "Renaissance",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Gabriel%20Attal%202025%20%28cropped%29.jpg",
-  },
-  {
-    id: "jerome-guedj",
-    name: "Jérôme Guedj",
-    party: "Parti socialiste",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/J%C3%A9r%C3%B4me%20Guedj%202010%20%28cropped%29.jpg",
-  },
-  {
-    id: "jean-luc-melenchon",
-    name: "Jean-Luc Mélenchon",
-    party: "La France insoumise",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Luc%20M%C3%A9lenchon%20%28Place%20au%20Peuple%29%20001.jpg",
-  },
-  {
-    id: "marine-le-pen",
-    name: "Marine Le Pen",
-    party: "Rassemblement National",
-    photo:
-      "https://upload.wikimedia.org/wikipedia/commons/8/81/Marine_Le_Pen_2025_%28cropped%29.jpg",
-  },
-  {
-    id: "bruno-retailleau",
-    name: "Bruno Retailleau",
-    party: "Les Républicains",
-    photo:
-      "https://upload.wikimedia.org/wikipedia/commons/5/57/Bruno_Retailleau.png",
-  },
-  {
-    id: "xavier-bertrand",
-    name: "Xavier Bertrand",
-    party: "Nous France",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Xavier%20Bertrand%20-%202025%20%28cropped%29.jpg",
-  },
-  {
-    id: "nicolas-dupont-aignan",
-    name: "Nicolas Dupont-Aignan",
-    party: "Debout la France",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Nicolas_Dupont-Aignan%2C_homme_politique_fran%C3%A7ais_%28cropped%29.jpg",
-  },
-  {
-    id: "florian-philippot",
-    name: "Florian Philippot",
-    party: "Les Patriotes",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Florian_Philippot_%28A%29_%28cropped%29.JPG",
-  },
-  {
-    id: "francois-asselineau",
-    name: "François Asselineau",
-    party: "Union populaire républicaine",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois%20ASSELINEAU.jpg",
-  },
-  {
-    id: "nathalie-arthaud",
-    name: "Nathalie Arthaud",
-    party: "Lutte ouvrière",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Nathalie%20Arthaud%20%28LO%29%2019-05-2024.jpg",
-  },
-  {
-    id: "delphine-batho",
-    name: "Delphine Batho",
-    party: "Génération Écologie",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Delphine%20Batho%20%28cropped%29.png",
-  },
-  {
-    id: "clementine-autain",
-    name: "Clémentine Autain",
-    party: "L'APRÈS",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Cl%C3%A9mentine%20Autain%2C%202017%20%28cropped%29.jpg",
-  },
-  {
-    id: "fabien-roussel",
-    name: "Fabien Roussel",
-    party: "Parti communiste français",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Roussel%20Fabien%201.jpg",
-  },
-  {
-    id: "yannick-jadot",
-    name: "Yannick Jadot",
-    party: "Les Écologistes",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/20210819_jadot.yannick_5725.jpg",
-  },
-  {
-    id: "sandrine-rousseau",
-    name: "Sandrine Rousseau",
-    party: "Les Écologistes",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Sandrine%20Rousseau%2020210819%20%28cropped%29.jpg",
-  },
-  {
-    id: "dominique-de-villepin",
-    name: "Dominique de Villepin",
-    party: "La France humaniste",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Dominique%20de%20Villepin%20en%202026.jpg",
-  },
-  {
-    id: "eric-zemmour",
-    name: "Éric Zemmour",
-    party: "Reconquête",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%89ric%20Zemmour.jpg",
-  },
-  {
-    id: "karim-bouamrane",
-    name: "Karim Bouamrane",
-    party: "La France Humaine et Forte",
-    photo: "https://www.lafrancehumaineetforte.fr/kb_bleu_hero.jpeg",
-  },
-];
+  return Object.fromEntries(candidateIds.map((id) => [id, values[id] ?? 0]));
+}
 
 const questions: Question[] = [
   {
@@ -315,6 +73,11 @@ const questions: Question[] = [
       "dominique-de-villepin": 1,
       "eric-zemmour": 1,
       "karim-bouamrane": 1,
+      "marine-tondelier": -2,
+      "segolene-royal": -1,
+      "laurent-wauquiez": 2,
+      "clara-egger": 0,
+      "antoine-mikolajczak": 0,
     }),
     sources: {},
   },
@@ -337,6 +100,11 @@ const questions: Question[] = [
       "bruno-retailleau": 1,
       "marine-le-pen": 1,
       "xavier-bertrand": 1,
+      "marine-tondelier": 2,
+      "segolene-royal": 1,
+      "laurent-wauquiez": -1,
+      "clara-egger": 0,
+      "antoine-mikolajczak": 0,
     }),
     sources: {},
   },
@@ -361,6 +129,11 @@ const questions: Question[] = [
       "edouard-philippe": -1,
       "bruno-retailleau": -2,
       "david-lisnard": -1,
+      "marine-tondelier": 2,
+      "segolene-royal": 1,
+      "laurent-wauquiez": -2,
+      "clara-egger": 0,
+      "antoine-mikolajczak": 0,
     }),
     sources: {},
   },
@@ -386,6 +159,11 @@ const questions: Question[] = [
       "nathalie-arthaud": -1,
       "jerome-guedj": -1,
       "delphine-batho": -1,
+      "marine-tondelier": -2,
+      "segolene-royal": -1,
+      "laurent-wauquiez": 2,
+      "clara-egger": 0,
+      "antoine-mikolajczak": 0,
     }),
     sources: {},
   },
@@ -412,6 +190,11 @@ const questions: Question[] = [
       "dominique-de-villepin": 2,
       "eric-zemmour": 2,
       "karim-bouamrane": 2,
+      "marine-tondelier": -1,
+      "segolene-royal": 1,
+      "laurent-wauquiez": 2,
+      "clara-egger": 0,
+      "antoine-mikolajczak": 0,
     }),
     sources: {},
   },
@@ -430,6 +213,11 @@ const questions: Question[] = [
       "dominique-de-villepin": -1,
       "eric-zemmour": -2,
       "karim-bouamrane": -1,
+      "marine-tondelier": 2,
+      "segolene-royal": 0,
+      "laurent-wauquiez": -2,
+      "clara-egger": 0,
+      "antoine-mikolajczak": 1,
     }),
     sources: {},
   },
@@ -455,6 +243,11 @@ const questions: Question[] = [
       "eric-zemmour": 2,
       "karim-bouamrane": 0,
       "jean-luc-melenchon": 0,
+      "marine-tondelier": -2,
+      "segolene-royal": 0,
+      "laurent-wauquiez": 2,
+      "clara-egger": 0,
+      "antoine-mikolajczak": 2,
     }),
     sources: {},
   },
@@ -481,6 +274,11 @@ const questions: Question[] = [
       "dominique-de-villepin": -2,
       "eric-zemmour": 0,
       "karim-bouamrane": -2,
+      "marine-tondelier": -2,
+      "segolene-royal": -2,
+      "laurent-wauquiez": 0,
+      "clara-egger": 0,
+      "antoine-mikolajczak": -1,
     }),
     sources: {},
   },
@@ -507,6 +305,11 @@ const questions: Question[] = [
       "dominique-de-villepin": 1,
       "eric-zemmour": -2,
       "karim-bouamrane": 1,
+      "marine-tondelier": 2,
+      "segolene-royal": 1,
+      "laurent-wauquiez": -2,
+      "clara-egger": 0,
+      "antoine-mikolajczak": 0,
     }),
     sources: {},
   },
@@ -529,6 +332,11 @@ const questions: Question[] = [
       "delphine-batho": 1,
       "jerome-guedj": 1,
       "gabriel-attal": -1,
+      "marine-tondelier": 1,
+      "segolene-royal": 1,
+      "laurent-wauquiez": 0,
+      "clara-egger": 2,
+      "antoine-mikolajczak": 1,
     }),
     sources: {},
   },
@@ -552,6 +360,11 @@ const questions: Question[] = [
       "francois-asselineau": 1,
       "gabriel-attal": -2,
       "bruno-retailleau": -1,
+      "marine-tondelier": 2,
+      "segolene-royal": 1,
+      "laurent-wauquiez": 0,
+      "clara-egger": 2,
+      "antoine-mikolajczak": 1,
     }),
     sources: {},
   },
@@ -576,6 +389,297 @@ const questions: Question[] = [
       "xavier-bertrand": -1,
       "gabriel-attal": 0,
       "marine-le-pen": 0,
+      "marine-tondelier": 2,
+      "segolene-royal": 1,
+      "laurent-wauquiez": -2,
+      "clara-egger": 0,
+      "antoine-mikolajczak": 0,
+    }),
+    sources: {},
+  },
+  {
+    id: "q13",
+    theme: "immigration",
+    text: "Le droit du sol doit être restreint ou supprimé.",
+    positions: buildPositions({
+      "marine-le-pen": 2,
+      "eric-zemmour": 2,
+      "bruno-retailleau": 2,
+      "laurent-wauquiez": 2,
+      "nicolas-dupont-aignan": 2,
+      "xavier-bertrand": 1,
+      "david-lisnard": 1,
+      "edouard-philippe": 1,
+      "florian-philippot": 1,
+      "gabriel-attal": 0,
+      "francois-asselineau": 0,
+      "dominique-de-villepin": -1,
+      "segolene-royal": -1,
+      "karim-bouamrane": -1,
+      "jerome-guedj": -2,
+      "jean-luc-melenchon": -2,
+      "marine-tondelier": -2,
+      "sandrine-rousseau": -2,
+      "yannick-jadot": -2,
+      "delphine-batho": -2,
+      "fabien-roussel": -2,
+      "nathalie-arthaud": -2,
+      "clementine-autain": -2,
+    }),
+    sources: {},
+  },
+  {
+    id: "q14",
+    theme: "securite",
+    text: "Il faut instaurer des peines planchers et construire massivement des places de prison.",
+    positions: buildPositions({
+      "bruno-retailleau": 2,
+      "laurent-wauquiez": 2,
+      "marine-le-pen": 2,
+      "eric-zemmour": 2,
+      "xavier-bertrand": 2,
+      "nicolas-dupont-aignan": 2,
+      "david-lisnard": 2,
+      "edouard-philippe": 1,
+      "gabriel-attal": 1,
+      "florian-philippot": 1,
+      "francois-asselineau": 1,
+      "dominique-de-villepin": 1,
+      "karim-bouamrane": 1,
+      "segolene-royal": 1,
+      "fabien-roussel": 0,
+      "jerome-guedj": -1,
+      "yannick-jadot": -1,
+      "delphine-batho": -1,
+      "jean-luc-melenchon": -2,
+      "marine-tondelier": -2,
+      "sandrine-rousseau": -2,
+      "nathalie-arthaud": -2,
+      "clementine-autain": -2,
+    }),
+    sources: {},
+  },
+  {
+    id: "q15",
+    theme: "ecologie",
+    text: "L'agriculture doit être réorientée vers l'agroécologie et la réduction des pesticides, quitte à faire baisser certains rendements.",
+    positions: buildPositions({
+      "marine-tondelier": 2,
+      "sandrine-rousseau": 2,
+      "yannick-jadot": 2,
+      "delphine-batho": 2,
+      "jean-luc-melenchon": 2,
+      "clementine-autain": 2,
+      "fabien-roussel": 1,
+      "antoine-mikolajczak": 1,
+      "jerome-guedj": 1,
+      "segolene-royal": 1,
+      "karim-bouamrane": 0,
+      "nathalie-arthaud": 0,
+      "francois-asselineau": 0,
+      "dominique-de-villepin": 0,
+      "gabriel-attal": -1,
+      "edouard-philippe": -1,
+      "xavier-bertrand": -1,
+      "nicolas-dupont-aignan": -1,
+      "florian-philippot": -1,
+      "david-lisnard": -2,
+      "bruno-retailleau": -2,
+      "laurent-wauquiez": -2,
+      "marine-le-pen": -2,
+      "eric-zemmour": -2,
+    }),
+    sources: {},
+  },
+  {
+    id: "q16",
+    theme: "economie",
+    text: "Des secteurs stratégiques (énergie, rail, autoroutes) doivent être renationalisés.",
+    positions: buildPositions({
+      "jean-luc-melenchon": 2,
+      "fabien-roussel": 2,
+      "nathalie-arthaud": 2,
+      "clementine-autain": 2,
+      "nicolas-dupont-aignan": 2,
+      "florian-philippot": 2,
+      "francois-asselineau": 2,
+      "marine-tondelier": 1,
+      "sandrine-rousseau": 1,
+      "yannick-jadot": 1,
+      "delphine-batho": 1,
+      "jerome-guedj": 1,
+      "segolene-royal": 1,
+      "karim-bouamrane": 1,
+      "marine-le-pen": 1,
+      "eric-zemmour": 0,
+      "dominique-de-villepin": 0,
+      "antoine-mikolajczak": 0,
+      "bruno-retailleau": -1,
+      "laurent-wauquiez": -1,
+      "xavier-bertrand": -1,
+      "gabriel-attal": -2,
+      "edouard-philippe": -2,
+      "david-lisnard": -2,
+    }),
+    sources: {},
+  },
+  {
+    id: "q17",
+    theme: "social",
+    text: "Le versement des prestations sociales doit être conditionné à une activité ou à une contrepartie.",
+    positions: buildPositions({
+      "laurent-wauquiez": 2,
+      "bruno-retailleau": 2,
+      "eric-zemmour": 2,
+      "david-lisnard": 2,
+      "gabriel-attal": 2,
+      "marine-le-pen": 1,
+      "xavier-bertrand": 1,
+      "edouard-philippe": 1,
+      "nicolas-dupont-aignan": 1,
+      "karim-bouamrane": 0,
+      "dominique-de-villepin": 0,
+      "segolene-royal": 0,
+      "florian-philippot": 0,
+      "francois-asselineau": 0,
+      "jerome-guedj": -1,
+      "yannick-jadot": -1,
+      "delphine-batho": -1,
+      "marine-tondelier": -2,
+      "sandrine-rousseau": -2,
+      "jean-luc-melenchon": -2,
+      "fabien-roussel": -2,
+      "nathalie-arthaud": -2,
+      "clementine-autain": -2,
+    }),
+    sources: {},
+  },
+  {
+    id: "q18",
+    theme: "institutions",
+    text: "Il faut introduire une part de proportionnelle aux élections législatives.",
+    positions: buildPositions({
+      "marine-le-pen": 2,
+      "florian-philippot": 2,
+      "nicolas-dupont-aignan": 2,
+      "francois-asselineau": 2,
+      "marine-tondelier": 2,
+      "sandrine-rousseau": 2,
+      "yannick-jadot": 2,
+      "delphine-batho": 2,
+      "fabien-roussel": 2,
+      "clementine-autain": 2,
+      "jean-luc-melenchon": 1,
+      "jerome-guedj": 1,
+      "segolene-royal": 1,
+      "karim-bouamrane": 1,
+      "eric-zemmour": 1,
+      "dominique-de-villepin": 1,
+      "nathalie-arthaud": 1,
+      "clara-egger": 1,
+      "antoine-mikolajczak": 1,
+      "gabriel-attal": 0,
+      "edouard-philippe": 0,
+      "david-lisnard": 0,
+      "bruno-retailleau": -1,
+      "laurent-wauquiez": -1,
+      "xavier-bertrand": -1,
+    }),
+    sources: {},
+  },
+  {
+    id: "q19",
+    theme: "europe",
+    text: "La France doit maintenir ou renforcer son soutien militaire et financier à l'Ukraine.",
+    positions: buildPositions({
+      "gabriel-attal": 2,
+      "edouard-philippe": 2,
+      "jerome-guedj": 2,
+      "marine-tondelier": 2,
+      "yannick-jadot": 2,
+      "bruno-retailleau": 1,
+      "laurent-wauquiez": 1,
+      "xavier-bertrand": 1,
+      "david-lisnard": 1,
+      "sandrine-rousseau": 1,
+      "delphine-batho": 1,
+      "karim-bouamrane": 1,
+      "segolene-royal": 0,
+      "clementine-autain": 0,
+      "jean-luc-melenchon": -1,
+      "fabien-roussel": -1,
+      "nathalie-arthaud": -1,
+      "dominique-de-villepin": -1,
+      "marine-le-pen": -1,
+      "eric-zemmour": -1,
+      "nicolas-dupont-aignan": -2,
+      "florian-philippot": -2,
+      "francois-asselineau": -2,
+    }),
+    sources: {},
+  },
+  {
+    id: "q20",
+    theme: "economie",
+    text: "Il faut protéger la production française par des barrières douanières et une préférence nationale ou européenne dans les marchés publics.",
+    positions: buildPositions({
+      "marine-le-pen": 2,
+      "nicolas-dupont-aignan": 2,
+      "florian-philippot": 2,
+      "francois-asselineau": 2,
+      "eric-zemmour": 2,
+      "jean-luc-melenchon": 2,
+      "fabien-roussel": 2,
+      "antoine-mikolajczak": 2,
+      "marine-tondelier": 1,
+      "sandrine-rousseau": 1,
+      "delphine-batho": 1,
+      "clementine-autain": 1,
+      "jerome-guedj": 1,
+      "segolene-royal": 1,
+      "karim-bouamrane": 1,
+      "bruno-retailleau": 1,
+      "laurent-wauquiez": 1,
+      "xavier-bertrand": 1,
+      "dominique-de-villepin": 1,
+      "yannick-jadot": 0,
+      "david-lisnard": 0,
+      "edouard-philippe": 0,
+      "gabriel-attal": 0,
+      "nathalie-arthaud": 0,
+    }),
+    sources: {},
+  },
+  {
+    id: "q21",
+    theme: "institutions",
+    text: "Le président doit se limiter à un rôle d'arbitre et laisser les grands choix aux citoyens par référendum.",
+    positions: buildPositions({
+      "clara-egger": 2,
+      "francois-asselineau": 1,
+      "nicolas-dupont-aignan": 1,
+      "florian-philippot": 1,
+      "jean-luc-melenchon": 1,
+      "antoine-mikolajczak": 1,
+      "marine-tondelier": 1,
+      "fabien-roussel": 1,
+      "sandrine-rousseau": 1,
+      "yannick-jadot": 1,
+      "delphine-batho": 1,
+      "clementine-autain": 1,
+      "nathalie-arthaud": 0,
+      "marine-le-pen": 0,
+      "jerome-guedj": 0,
+      "karim-bouamrane": 0,
+      "edouard-philippe": -1,
+      "david-lisnard": -1,
+      "xavier-bertrand": -1,
+      "bruno-retailleau": -1,
+      "laurent-wauquiez": -1,
+      "dominique-de-villepin": -1,
+      "segolene-royal": -1,
+      "gabriel-attal": -2,
+      "eric-zemmour": -2,
     }),
     sources: {},
   },
@@ -598,6 +702,14 @@ const getSourceForCandidate = (
     label: "Fiche candidat",
     url: `/candidats/${candidateId}`,
   };
+
+const comparerDeclaresUniquement = ref(true);
+
+const candidates = computed(() =>
+  comparerDeclaresUniquement.value
+    ? candidats.filter((candidat) => candidat.statut === "declare")
+    : candidats,
+);
 
 const selectedPriorityThemes = ref<Theme[]>([]);
 const answers = reactive<Record<string, number>>({});
@@ -636,7 +748,7 @@ const getLabelForValue = (value: number) =>
   likertOptions.find((o) => o.value === value)?.label ?? "Neutre";
 
 const results = computed(() => {
-  const computedResults = candidates.map((candidate) => {
+  const computedResults = candidates.value.map((candidate) => {
     let weightedDistanceSum = 0;
     let weightedMaxDistance = 0;
 
@@ -731,7 +843,7 @@ const restartQuiz = () => {
 useSeoMeta({
   title: "Pour qui voter ? Quiz de proximité politique",
   description:
-    "Quiz de proximité politique : comparez vos réponses aux positions publiques de 20 candidats, avec méthode transparente et sources.",
+    "Quiz de proximité politique : comparez vos réponses aux positions publiques des candidats déclarés et pressentis à la présidentielle 2027, avec méthode transparente et sources.",
 });
 </script>
 
@@ -761,6 +873,7 @@ useSeoMeta({
       </template>
 
       <UAlert
+        class="fr-alerte"
         color="info"
         variant="soft"
         icon="i-lucide-shield-alert"
@@ -797,6 +910,22 @@ useSeoMeta({
         Thèmes prioritaires sélectionnés : {{ selectedPriorityThemes.length }}/3
         (pondéré ×1,5)
       </p>
+
+      <label
+        class="mt-4 flex items-center gap-2 rounded border border-gray-200 px-3 py-2 text-sm"
+      >
+        <input
+          v-model="comparerDeclaresUniquement"
+          type="checkbox"
+          class="accent-red-600"
+        />
+        <span>
+          Ne comparer qu'avec les
+          <strong>candidatures déclarées</strong> ({{ candidates.length }} sur
+          {{ candidats.length }}). Décoche pour inclure les candidatures
+          pressenties et retirées.
+        </span>
+      </label>
     </UCard>
 
     <UCard>
@@ -892,12 +1021,18 @@ useSeoMeta({
               <div class="flex items-center gap-3">
                 <UAvatar
                   :src="entry.candidate.photo"
-                  :alt="entry.candidate.name"
+                  :alt="entry.candidate.nom"
                   size="lg"
                 />
                 <div>
-                  <p class="font-semibold">{{ entry.candidate.name }}</p>
-                  <p class="text-xs text-muted">{{ entry.candidate.party }}</p>
+                  <p class="font-semibold">{{ entry.candidate.nom }}</p>
+                  <p class="text-xs text-muted">{{ entry.candidate.parti }}</p>
+                  <span
+                    class="fr-statut mt-1"
+                    :class="`fr-statut--${entry.candidate.statut}`"
+                  >
+                    {{ statutsCandidature[entry.candidate.statut].label }}
+                  </span>
                 </div>
               </div>
               <p class="mt-3 text-sm">
@@ -935,13 +1070,13 @@ useSeoMeta({
 
         <div v-if="results[0]">
           <h3 class="mb-2 font-semibold">
-            Pourquoi tu matches avec {{ results[0].candidate.name }}
+            Pourquoi tu matches avec {{ results[0].candidate.nom }}
           </h3>
           <ul class="list-disc space-y-2 pl-5 text-sm">
             <li v-for="item in results[0].bestMatches" :key="item.question.id">
               {{ item.question.text }} (toi:
               {{ getLabelForValue(item.userValue) }},
-              {{ results[0].candidate.name }}:
+              {{ results[0].candidate.nom }}:
               {{ getLabelForValue(item.candidateValue) }}) -
               <a
                 :href="item.source.url"
@@ -979,6 +1114,12 @@ useSeoMeta({
         </li>
         <li>Pondération ×1,5 pour tes thèmes prioritaires (max 3).</li>
         <li>Chaque position renvoie vers une source ou la fiche candidat.</li>
+        <li>
+          Par défaut, la comparaison ne retient que les
+          <strong>candidatures déclarées</strong> ; les candidatures
+          <strong>pressenties</strong> ou <strong>retirées</strong> peuvent être
+          réintégrées via la case à cocher de l'étape 1.
+        </li>
         <li>
           Le calcul est local au navigateur : aucune donnée identifiante n'est
           demandée.

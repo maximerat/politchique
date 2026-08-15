@@ -1,5 +1,17 @@
 <script setup lang="ts">
+import { candidatsParId, statutsCandidature } from "#shared/candidats";
+
 const route = useRoute();
+
+const candidat = computed(() => {
+  const match = route.path.match(/^\/candidats\/([^/]+)\/?$/);
+
+  return match?.[1] ? candidatsParId[match[1]] : undefined;
+});
+
+const statut = computed(() =>
+  candidat.value ? statutsCandidature[candidat.value.statut] : undefined,
+);
 
 const { data: page } = await useAsyncData("page-" + route.path, () => {
   const normalizedPath = route.path.endsWith("/")
@@ -26,6 +38,18 @@ const pageMeta = computed(
       photo?: string;
     },
 );
+// Nuxt Content ne conserve pas les champs de frontmatter non déclarés dans le
+// schéma de collection : on retombe sur le référentiel partagé des candidats.
+const photoEntete = computed(
+  () => candidat.value?.photo ?? pageMeta.value.photo,
+);
+const partiEntete = computed(
+  () => candidat.value?.parti ?? pageMeta.value.party,
+);
+const partiIconeEntete = computed(
+  () => candidat.value?.partiIcone ?? pageMeta.value.partyIcon,
+);
+
 const seoTitle = computed(() =>
   page.value?.title
     ? `${page.value.title} | Programme | Présidentielle française 2027`
@@ -63,8 +87,8 @@ if (!page.value) {
         <div class="flex items-center justify-between gap-4">
           <div class="flex items-center gap-3">
             <UAvatar
-              v-if="pageMeta.photo"
-              :src="pageMeta.photo"
+              v-if="photoEntete"
+              :src="photoEntete"
               :alt="page.title || 'Candidat'"
               size="lg"
             />
@@ -72,19 +96,29 @@ if (!page.value) {
               <h1 class="text-lg font-semibold">
                 {{ page.title || "Contenu" }}
               </h1>
-              <UBadge
-                v-if="pageMeta.party"
-                color="neutral"
-                variant="subtle"
-                size="sm"
-              >
-                <UIcon
-                  v-if="pageMeta.partyIcon"
-                  :name="pageMeta.partyIcon"
-                  class="mr-1"
-                />
-                {{ pageMeta.party }}
-              </UBadge>
+              <div class="flex flex-wrap items-center gap-2">
+                <UBadge
+                  v-if="partiEntete"
+                  color="neutral"
+                  variant="subtle"
+                  size="sm"
+                >
+                  <UIcon
+                    v-if="partiIconeEntete"
+                    :name="partiIconeEntete"
+                    class="mr-1"
+                  />
+                  {{ partiEntete }}
+                </UBadge>
+                <span
+                  v-if="candidat && statut"
+                  class="fr-statut"
+                  :class="`fr-statut--${candidat.statut}`"
+                >
+                  <UIcon :name="statut.icone" />
+                  {{ statut.label }}
+                </span>
+              </div>
             </div>
           </div>
           <UButton
@@ -104,6 +138,18 @@ if (!page.value) {
           :alt="page.title || 'Candidat'"
           class="h-40 w-40 rounded-xl object-cover shadow-sm"
         />
+      </div>
+
+      <div
+        v-if="candidat && statut"
+        class="fr-statut-bloc not-prose mb-6"
+        :class="`fr-statut-bloc--${candidat.statut}`"
+      >
+        <p class="fr-statut-bloc__titre">
+          <UIcon :name="statut.icone" class="mr-1 align-[-0.15em]" />
+          {{ statut.label }}
+        </p>
+        <p class="fr-statut-bloc__detail">{{ candidat.statutDetail }}</p>
       </div>
 
       <ContentRenderer :value="page" />

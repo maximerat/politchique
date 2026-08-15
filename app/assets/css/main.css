@@ -317,6 +317,98 @@ img[alt*="hoto"] {
   margin: 2rem 0;
 }
 
+/* === Encadrés d'information (UAlert) === */
+.fr-alerte {
+  border: 2px solid var(--fr-ink) !important;
+  border-left-width: 6px !important;
+  border-left-color: var(--fr-bleu) !important;
+  border-radius: 6px !important;
+  background: var(--fr-paper) !important;
+  color: var(--fr-ink) !important;
+}
+
+.fr-alerte [data-slot="icon"] {
+  color: var(--fr-rouge);
+}
+
+.fr-alerte [data-slot="title"] {
+  font-weight: 800;
+  font-size: 0.92rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.fr-alerte [data-slot="description"] {
+  opacity: 1;
+  font-weight: 500;
+}
+
+/* === Statut de candidature (déclarée / pressentie / retirée) === */
+.fr-statut {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.1rem 0.5rem;
+  border: 2px solid;
+  border-radius: 4px;
+  background: #ffffff;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+.fr-statut--declare {
+  border-color: var(--fr-bleu);
+  color: var(--fr-bleu);
+}
+
+.fr-statut--pressenti {
+  border-color: var(--fr-rouge);
+  color: var(--fr-rouge);
+}
+
+.fr-statut--retire {
+  border-color: rgba(11, 18, 32, 0.35);
+  color: var(--fr-ink-soft);
+}
+
+.fr-statut-bloc {
+  border: 2px solid var(--fr-ink);
+  border-left-width: 6px;
+  border-radius: 6px;
+  background: var(--fr-paper);
+  padding: 0.85rem 1.1rem;
+}
+
+.fr-statut-bloc--declare {
+  border-left-color: var(--fr-bleu);
+}
+
+.fr-statut-bloc--pressenti {
+  border-left-color: var(--fr-rouge);
+}
+
+.fr-statut-bloc--retire {
+  border-left-color: rgba(11, 18, 32, 0.35);
+}
+
+.fr-statut-bloc__titre {
+  font-weight: 800;
+  font-size: 0.92rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--fr-ink);
+}
+
+.fr-statut-bloc__detail {
+  margin-top: 0.35rem;
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: var(--fr-ink);
+}
+
 /* === Pied de page : Liberté · Égalité · Fraternité === */
 footer {
   background:

@@ -1,225 +1,11 @@
 <script setup lang="ts">
-const candidats = [
-  {
-    nom: "Édouard Philippe",
-    parti: "Horizons",
-    partiIcone: "i-lucide-compass",
-    photo:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Edouard_Philippe_en_2025.png/500px-Edouard_Philippe_en_2025.png",
-    statut: "Fiche disponible",
-    resume:
-      "Synthèse du Manifeste d'Horizons, avec principaux axes programmatiques, sources et positions publiques.",
-    to: "/candidats/edouard-philippe",
-  },
-  {
-    nom: "David Lisnard",
-    parti: "Nouvelle Énergie",
-    partiIcone: "i-lucide-bolt",
-    photo:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/David_Lisnard_-_2013.jpg/500px-David_Lisnard_-_2013.jpg",
-    statut: "Fiche disponible",
-    resume:
-      "Synthèse des positions de David Lisnard et de Nouvelle Énergie, avec sources et état des procédures.",
-    to: "/candidats/david-lisnard",
-  },
-  {
-    nom: "Gabriel Attal",
-    parti: "Renaissance",
-    partiIcone: "i-lucide-sun",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Gabriel%20Attal%202025%20%28cropped%29.jpg",
-    statut: "Fiche disponible",
-    resume:
-      "Synthèse des positions de Gabriel Attal et de Renaissance, avec sources et état des procédures.",
-    to: "/candidats/gabriel-attal",
-  },
-  {
-    nom: "Jérôme Guedj",
-    parti: "Parti socialiste",
-    partiIcone: "i-lucide-flower-2",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/J%C3%A9r%C3%B4me%20Guedj%202010%20%28cropped%29.jpg",
-    statut: "Fiche disponible",
-    resume:
-      "Synthèse neutre des positions de Jérôme Guedj et du Parti socialiste, avec sources et état des procédures.",
-    to: "/candidats/jerome-guedj",
-  },
-  {
-    nom: "Jean-Luc Mélenchon",
-    parti: "La France insoumise",
-    partiIcone: "i-lucide-megaphone",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Luc%20M%C3%A9lenchon%20%28Place%20au%20Peuple%29%20001.jpg",
-    statut: "Fiche disponible",
-    resume:
-      "Synthèse des positions de Jean-Luc Mélenchon et de La France insoumise, avec sources et état des procédures.",
-    to: "/candidats/jean-luc-melenchon",
-  },
-  {
-    nom: "Marine Le Pen",
-    parti: "Rassemblement National",
-    partiIcone: "i-lucide-flag",
-    photo:
-      "https://upload.wikimedia.org/wikipedia/commons/8/81/Marine_Le_Pen_2025_%28cropped%29.jpg",
-    statut: "Fiche disponible",
-    resume:
-      "Synthèse des positions de Marine Le Pen et du RN, avec sources et état des procédures.",
-    to: "/candidats/marine-le-pen",
-  },
-  {
-    nom: "Bruno Retailleau",
-    parti: "Les Républicains",
-    partiIcone: "i-lucide-shield",
-    photo:
-      "https://upload.wikimedia.org/wikipedia/commons/5/57/Bruno_Retailleau.png",
-    statut: "Fiche disponible",
-    resume:
-      "Synthèse neutre des positions de Bruno Retailleau et des Républicains, avec sources et état des procédures.",
-    to: "/candidats/bruno-retailleau",
-  },
-  {
-    nom: "Xavier Bertrand",
-    parti: "Nous France",
-    partiIcone: "i-lucide-map",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Xavier%20Bertrand%20-%202025%20%28cropped%29.jpg",
-    statut: "Fiche disponible",
-    resume:
-      "Synthèse neutre des positions de Xavier Bertrand et de Nous France, avec sources et état des procédures.",
-    to: "/candidats/xavier-bertrand",
-  },
-  {
-    nom: "Nicolas Dupont-Aignan",
-    parti: "Debout la France",
-    partiIcone: "i-lucide-flag",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Nicolas_Dupont-Aignan%2C_homme_politique_fran%C3%A7ais_%28cropped%29.jpg",
-    statut: "Fiche disponible",
-    resume:
-      "Synthèse neutre des positions de Nicolas Dupont-Aignan et de Debout la France, avec sources et état des procédures.",
-    to: "/candidats/nicolas-dupont-aignan",
-  },
-  {
-    nom: "Florian Philippot",
-    parti: "Les Patriotes",
-    partiIcone: "i-lucide-flag",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Florian_Philippot_%28A%29_%28cropped%29.JPG",
-    statut: "Fiche disponible",
-    resume:
-      "Synthèse neutre des positions de Florian Philippot et des Patriotes, avec sources et état des procédures.",
-    to: "/candidats/florian-philippot",
-  },
-  {
-    nom: "François Asselineau",
-    parti: "Union populaire républicaine",
-    partiIcone: "i-lucide-landmark",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois%20ASSELINEAU.jpg",
-    statut: "Fiche disponible",
-    resume:
-      "Synthèse neutre des positions de François Asselineau et de l'Union populaire républicaine, avec sources et état des procédures.",
-    to: "/candidats/francois-asselineau",
-  },
-  {
-    nom: "Nathalie Arthaud",
-    parti: "Lutte ouvrière",
-    partiIcone: "i-lucide-hammer",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Nathalie%20Arthaud%20%28LO%29%2019-05-2024.jpg",
-    statut: "Fiche disponible",
-    resume:
-      "Synthèse neutre des positions de Nathalie Arthaud et de Lutte ouvrière, avec sources et état des procédures.",
-    to: "/candidats/nathalie-arthaud",
-  },
-  {
-    nom: "Delphine Batho",
-    parti: "Génération Écologie",
-    partiIcone: "i-lucide-leaf",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Delphine%20Batho%20%28cropped%29.png",
-    statut: "Fiche disponible",
-    resume:
-      "Synthèse neutre des positions de Delphine Batho et de Génération Écologie, avec sources et état des procédures.",
-    to: "/candidats/delphine-batho",
-  },
-  {
-    nom: "Clémentine Autain",
-    parti: "L'APRÈS",
-    partiIcone: "i-lucide-leaf",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Cl%C3%A9mentine%20Autain%2C%202017%20%28cropped%29.jpg",
-    statut: "Fiche disponible",
-    resume:
-      "Synthèse neutre des positions de Clémentine Autain et de L'APRÈS, avec sources et état des procédures.",
-    to: "/candidats/clementine-autain",
-  },
-  {
-    nom: "Fabien Roussel",
-    parti: "Parti communiste français",
-    partiIcone: "i-lucide-hammer",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Roussel%20Fabien%201.jpg",
-    statut: "Fiche disponible",
-    resume:
-      "Synthèse neutre des positions de Fabien Roussel et du Parti communiste français, avec sources et état des procédures.",
-    to: "/candidats/fabien-roussel",
-  },
-  {
-    nom: "Yannick Jadot",
-    parti: "Les Écologistes",
-    partiIcone: "i-lucide-leaf",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/20210819_jadot.yannick_5725.jpg",
-    statut: "Fiche disponible",
-    resume:
-      "Synthèse neutre des positions de Yannick Jadot et des Écologistes, avec sources et état des procédures.",
-    to: "/candidats/yannick-jadot",
-  },
-  {
-    nom: "Sandrine Rousseau",
-    parti: "Les Écologistes",
-    partiIcone: "i-lucide-leaf",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Sandrine%20Rousseau%2020210819%20%28cropped%29.jpg",
-    statut: "Fiche disponible",
-    resume:
-      "Synthèse neutre des positions de Sandrine Rousseau et des Écologistes, avec sources et état des procédures.",
-    to: "/candidats/sandrine-rousseau",
-  },
-  {
-    nom: "Dominique de Villepin",
-    parti: "La France humaniste",
-    partiIcone: "i-lucide-landmark",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Dominique%20de%20Villepin%20en%202026.jpg",
-    statut: "Fiche disponible",
-    resume:
-      "Synthèse neutre des positions de Dominique de Villepin et de La France humaniste, avec sources et état des procédures.",
-    to: "/candidats/dominique-de-villepin",
-  },
-  {
-    nom: "Éric Zemmour",
-    parti: "Reconquête",
-    partiIcone: "i-lucide-flag",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%89ric%20Zemmour.jpg",
-    statut: "Fiche disponible",
-    resume:
-      "Synthèse neutre des positions d'Éric Zemmour et de Reconquête, avec sources et état des procédures.",
-    to: "/candidats/eric-zemmour",
-  },
-  {
-    nom: "Karim Bouamrane",
-    parti: "La France Humaine et Forte",
-    partiIcone: "i-lucide-handshake",
-    photo: "https://www.lafrancehumaineetforte.fr/kb_bleu_hero.jpeg",
-    statut: "Fiche disponible",
-    resume:
-      "Synthèse neutre des positions de Karim Bouamrane et de La France Humaine et Forte, avec sources et état des procédures.",
-    to: "/candidats/karim-bouamrane",
-  },
-];
+import {
+  candidats,
+  cheminCandidat,
+  statutsCandidature,
+  type Candidat,
+  type StatutCandidature,
+} from "#shared/candidats";
 
 function melangerCandidats<T>(liste: T[]): T[] {
   const copie = [...liste];
@@ -239,6 +25,7 @@ const candidatsAleatoires = useState("candidats-aleatoires", () =>
 );
 
 const recherche = ref("");
+const filtreStatut = ref<StatutCandidature | "tous">("tous");
 
 function normaliserTexte(texte: string) {
   return texte
@@ -247,17 +34,46 @@ function normaliserTexte(texte: string) {
     .toLowerCase();
 }
 
+const nombreParStatut = computed(() => ({
+  tous: candidats.length,
+  declare: candidats.filter((c) => c.statut === "declare").length,
+  pressenti: candidats.filter((c) => c.statut === "pressenti").length,
+  retire: candidats.filter((c) => c.statut === "retire").length,
+}));
+
+const filtres = computed(() => [
+  { valeur: "tous" as const, label: "Tous", nombre: nombreParStatut.value.tous },
+  {
+    valeur: "declare" as const,
+    label: "Déclarés",
+    nombre: nombreParStatut.value.declare,
+  },
+  {
+    valeur: "pressenti" as const,
+    label: "Pressentis",
+    nombre: nombreParStatut.value.pressenti,
+  },
+  {
+    valeur: "retire" as const,
+    label: "Retirés",
+    nombre: nombreParStatut.value.retire,
+  },
+]);
+
 const candidatsFiltres = computed(() => {
   const terme = normaliserTexte(recherche.value.trim());
 
-  if (!terme) {
-    return candidatsAleatoires.value;
-  }
+  return candidatsAleatoires.value.filter((candidat) => {
+    const correspondStatut =
+      filtreStatut.value === "tous" || candidat.statut === filtreStatut.value;
+    const correspondNom =
+      !terme || normaliserTexte(candidat.nom).includes(terme);
 
-  return candidatsAleatoires.value.filter((candidat) =>
-    normaliserTexte(candidat.nom).includes(terme),
-  );
+    return correspondStatut && correspondNom;
+  });
 });
+
+const statutDe = (candidat: Candidat) => statutsCandidature[candidat.statut];
 
 useSeoMeta({
   title: "Présidentielle française 2027 : candidats et programmes",
@@ -304,6 +120,7 @@ function remelangerCandidats() {
       </template>
 
       <UAlert
+        class="fr-alerte"
         color="info"
         variant="soft"
         icon="i-lucide-triangle-alert"
@@ -313,7 +130,9 @@ function remelangerCandidats() {
           Votez pour un candidat, et n'oubliez pas, vous serez déçu quoi qu'il
           arrive 😎<br />Cliquez sur la fiche d'un candidat pour voir son
           programme (ou ce qui s'en approche), les procédures et potentielles
-          condamnations.
+          condamnations.<br />Chaque fiche indique si la
+          <strong>candidature est déclarée</strong> (annoncée publiquement) ou
+          seulement <strong>pressentie</strong> (nom qui circule, sans annonce).
         </template>
       </UAlert>
 
@@ -366,17 +185,34 @@ function remelangerCandidats() {
         </template>
       </UInput>
 
+      <div class="flex flex-wrap items-center gap-2">
+        <UButton
+          v-for="filtre in filtres"
+          :key="filtre.valeur"
+          size="xs"
+          :variant="filtreStatut === filtre.valeur ? 'solid' : 'outline'"
+          :class="
+            filtreStatut === filtre.valeur
+              ? 'bg-blue-900 text-white hover:bg-blue-800'
+              : ''
+          "
+          @click="filtreStatut = filtre.valeur"
+        >
+          {{ filtre.label }} ({{ filtre.nombre }})
+        </UButton>
+      </div>
+
       <p
-        v-if="recherche.trim() && candidatsFiltres.length === 0"
+        v-if="candidatsFiltres.length === 0"
         class="rounded-lg border border-dashed border-gray-300 px-4 py-8 text-center text-sm text-muted"
       >
-        Aucun candidat ne correspond à « {{ recherche.trim() }} ».
+        Aucun candidat ne correspond à cette recherche.
       </p>
 
       <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         <UCard
           v-for="candidat in candidatsFiltres"
-          :key="candidat.to"
+          :key="candidat.id"
           :ui="{ body: 'space-y-4' }"
         >
           <div class="space-y-2">
@@ -392,6 +228,14 @@ function remelangerCandidats() {
                 {{ candidat.parti }}
               </UBadge>
             </div>
+            <span
+              class="fr-statut"
+              :class="`fr-statut--${candidat.statut}`"
+              :title="candidat.statutDetail"
+            >
+              <UIcon :name="statutDe(candidat).icone" />
+              {{ statutDe(candidat).label }}
+            </span>
             <p class="text-sm text-muted">
               {{ candidat.resume }}
             </p>
@@ -399,7 +243,7 @@ function remelangerCandidats() {
 
           <div class="flex items-center justify-between gap-3">
             <UButton
-              :to="candidat.to"
+              :to="cheminCandidat(candidat.id)"
               class="bg-blue-900 text-white hover:bg-blue-800"
               trailing-icon="i-lucide-arrow-right"
             >

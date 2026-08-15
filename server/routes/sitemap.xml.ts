@@ -1,28 +1,11 @@
+import { candidats, cheminCandidat } from "#shared/candidats";
+
 const routes = [
   "/",
   "/a-propos",
   "/about",
-  "/candidats/bruno-retailleau",
-  "/candidats/clementine-autain",
-  "/candidats/david-lisnard",
-  "/candidats/delphine-batho",
-  "/candidats/dominique-de-villepin",
-  "/candidats/edouard-philippe",
-  "/candidats/eric-zemmour",
-  "/candidats/fabien-roussel",
-  "/candidats/florian-philippot",
-  "/candidats/francois-asselineau",
-  "/candidats/gabriel-attal",
-  "/candidats/jean-luc-melenchon",
-  "/candidats/jerome-guedj",
-  "/candidats/karim-bouamrane",
-  "/candidats/marine-le-pen",
-  "/candidats/nathalie-arthaud",
-  "/candidats/sandrine-rousseau",
-  "/candidats/nicolas-dupont-aignan",
-  "/candidats/xavier-bertrand",
-  "/candidats/yannick-jadot",
   "/pour-qui-voter",
+  ...candidats.map((candidat) => cheminCandidat(candidat.id)),
 ].sort((a, b) => a.localeCompare(b));
 
 function getSiteUrl(event: Parameters<typeof getRequestURL>[0]) {
