@@ -55,12 +55,12 @@ useSeoMeta({
         <h2 class="text-lg font-semibold">A propos de moi</h2>
       </template>
       <p class="text-sm">
-        Je m'appelle Maxime, je ne m'estime pas trop politisé même j'ai
-        forcément des positions. L'origine de ce site est le suivant : J'en ai
-        marre de voir des gens au pouvoir avec un casier judiciaire long comme
-        le bras décider du sort de 70 millions de personnes (alors qu'on a exigé
-        à ma mère, ancienne femme de ménage d'avoir un casier vierge pour faire
-        son travail)
+        Je m'appelle Maxime. Je ne me considère pas comme très politisé, même
+        si j'ai forcément mes opinions. L'origine de ce site tient en une
+        phrase : j'en ai assez de voir des responsables au pouvoir, au casier
+        judiciaire long comme le bras, décider du sort de 70 millions de
+        personnes — alors qu'on a exigé de ma mère, ancienne femme de ménage, un
+        casier vierge pour faire son travail.
       </p>
     </UCard>
   </UContainer>
