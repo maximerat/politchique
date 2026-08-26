@@ -21,8 +21,9 @@ Cette fiche reprend les orientations portées par **Marine Tondelier**, secréta
 
 - **Statut :** **candidature déclarée**
 - **Annonce :** le **22 octobre 2025**, dans un entretien au *Nouvel Obs*. ([franceinfo][1])
-- **Désignation par son parti :** le **8 décembre 2025**, Les Écologistes la désignent comme leur candidate. ([Wikipédia — Primaire de la gauche unitaire de 2026][3])
-- **Cadre initial :** sa candidature devait passer par la **primaire de la gauche unitaire** prévue le 11 octobre 2026, processus qui s'est délité en juillet 2026 après le choix du Parti socialiste d'organiser une primaire séparée. ([Wikipédia — Primaire de la gauche unitaire de 2026][3])
+- **Désignation par son parti :** le **8 décembre 2025**, Les Écologistes la désignent comme leur candidate avec **86 %** des voix, face à Waleed Mouhali. Elle est donc **la** candidate des Écologistes : ni Yannick Jadot ni Sandrine Rousseau ne sont en course. ([Les Écologistes][7], [Wikipédia — Primaire de la gauche unitaire de 2026][3])
+- **Cadre initial :** sa candidature devait passer par la [primaire de la gauche unitaire](/primaires) prévue le 11 octobre 2026, avec Les Écologistes, Debout !, L'APRÈS et l'UDB. ([Wikipédia][3])
+- **Effondrement du processus :** après le vote des militants PS du 9 juillet 2026 en faveur d'une primaire fermée, elle constate que « les adhérents du PS ont décidé d'enterrer la primaire » et réunit son conseil fédéral pour arbitrer une **candidature autonome**. La primaire unitaire est **de facto abandonnée**. ([LCP][8], [Wikipédia][3])
 - **Slogan de campagne :** « **Tenez bon, nous arrivons !** ». ([Marine Tondelier][4])
 
 </details>
@@ -97,6 +98,8 @@ Cette fiche reprend les orientations portées par **Marine Tondelier**, secréta
 [4]: https://marinetondelier.fr/ "Marine Tondelier — Candidate à l'élection présidentielle"
 [5]: https://www.europe1.fr/politique/marine-tondelier-la-patronne-des-ecologistes-officiellement-candidate-a-lelection-presidentielle-de-2027-850505 "Marine Tondelier officiellement candidate à l'élection présidentielle de 2027"
 [6]: https://lesecologistes.fr/ "Les Écologistes — site officiel"
+[7]: https://lesecologistes.fr/posts/4DGpyusxBAU4xQPexfncsx/marine-tondelier-designee-pour-representer-les-ecologistes-a-l-election-presidentielle "Marine Tondelier désignée pour représenter Les Écologistes à l'élection présidentielle"
+[8]: https://lcp.fr/actualites/les-adherents-du-ps-ont-decide-d-enterrer-la-primaire-marine-tondelier-acte-la-rupture "« Les adhérents du PS ont décidé d'enterrer la primaire » : Marine Tondelier acte la rupture"
 
 ---
 

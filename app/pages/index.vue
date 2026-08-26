@@ -39,6 +39,7 @@ const nombreParStatut = computed(() => ({
   declare: candidats.filter((c) => c.statut === "declare").length,
   pressenti: candidats.filter((c) => c.statut === "pressenti").length,
   retire: candidats.filter((c) => c.statut === "retire").length,
+  ecarte: candidats.filter((c) => c.statut === "ecarte").length,
 }));
 
 const filtres = computed(() => [
@@ -57,6 +58,11 @@ const filtres = computed(() => [
     valeur: "retire" as const,
     label: "Retirés",
     nombre: nombreParStatut.value.retire,
+  },
+  {
+    valeur: "ecarte" as const,
+    label: "Hors course",
+    nombre: nombreParStatut.value.ecarte,
   },
 ]);
 
@@ -115,6 +121,13 @@ function remelangerCandidats() {
             Cette application présente les candidats à la future élection
             présidentielle et synthétise leurs positions de manière claire, en
             français.
+          </p>
+
+          <p class="text-sm font-medium text-gray-700 max-w-2xl">
+            À gauche, deux primaires distinctes coexistent en 2026 :
+            <NuxtLink to="/primaires" class="underline underline-offset-2"
+              >comprendre la différence</NuxtLink
+            >.
           </p>
         </div>
       </template>

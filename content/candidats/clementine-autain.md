@@ -17,6 +17,16 @@ photo: https://commons.wikimedia.org/wiki/Special:FilePath/Cl%C3%A9mentine%20Aut
 Cette fiche reprend les orientations présentées par **Clémentine Autain** dans son manifeste **La vie meilleure**, ainsi que les textes de référence de **L'APRÈS**. Ces documents exposent une ligne politique et des priorités programmatiques ; ils ne constituent pas, à ce stade, un programme présidentiel entièrement chiffré mesure par mesure.
 
 <details open>
+<summary><strong>Statut de la candidature</strong></summary>
+
+- **Statut :** **candidature retirée**.
+- **Annonce initiale :** candidature annoncée en **mars 2025**, soutenue par **L'APRÈS** dans le cadre de la [primaire de la gauche unitaire](/primaires) du 11 octobre 2026. ([L'APRÈS][8])
+- **Retrait :** le **11 juillet 2026**, deux jours après le vote des militants socialistes en faveur d'une primaire fermée, qui a vidé le processus unitaire de sa substance. ([Wikipédia — Primaire de la gauche unitaire][16])
+- **Contexte :** **Benjamin Lucas-Lundy** s'était retiré le **7 juillet 2026** ; le **PCF** avait refusé de participer et prépare une candidature autonome. La primaire unitaire est **de facto abandonnée**. ([Wikipédia][16])
+
+</details>
+
+<details open>
 <summary><strong>Parti</strong></summary>
 
 - **Parti / mouvement :** L'APRÈS — Alliance pour la République écologique et sociale
@@ -131,6 +141,7 @@ Cette fiche reprend les orientations présentées par **Clémentine Autain** dan
 [13]: https://www.leparisien.fr/politique/tuer-les-voyous-a-mayotte-renaissance-porte-plainte-contre-des-membres-de-la-nupes-pour-diffamation-26-04-2023-HRFHUXHH3JD33KFJTEI4B2QW3I.php "Renaissance porte plainte contre des membres de la Nupes pour diffamation"
 [14]: https://www.huffingtonpost.fr/politique/article/mayotte-renaissance-veut-porter-plainte-contre-des-elus-de-gauche-apres-la-polemique-salime-mdere_217104.html "Mayotte : Renaissance veut porter plainte contre des élus de gauche"
 [15]: https://commons.wikimedia.org/wiki/File:Cl%C3%A9mentine_Autain,_2017_(cropped).jpg "Clémentine Autain, 2017 - Wikimedia Commons"
+[16]: https://fr.wikipedia.org/wiki/Primaire_de_la_gauche_unitaire_de_2026 "Primaire de la gauche unitaire de 2026 — Wikipédia"
 
 ---
 

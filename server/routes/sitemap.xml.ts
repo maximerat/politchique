@@ -5,6 +5,7 @@ const routes = [
   "/a-propos",
   "/about",
   "/pour-qui-voter",
+  "/primaires",
   ...candidats.map((candidat) => cheminCandidat(candidat.id)),
 ].sort((a, b) => a.localeCompare(b));
 

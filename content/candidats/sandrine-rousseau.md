@@ -14,7 +14,16 @@ photo: https://commons.wikimedia.org/wiki/Special:FilePath/Sandrine%20Rousseau%2
   />
 </div>
 
-Cette fiche reprend les orientations portées par **Sandrine Rousseau**, à partir de son site politique **Vivantes**, de ses travaux parlementaires, de ses prises de position publiques et des textes de référence des **Écologistes**. Ces sources exposent une ligne politique et des priorités thématiques ; elles ne constituent pas, à ce stade, un programme présidentiel complet et chiffré mesure par mesure.
+Cette fiche reprend les orientations portées par **Sandrine Rousseau**, à partir de son site politique **Vivantes**, de ses travaux parlementaires, de ses prises de position publiques et des textes de référence des **Écologistes**. **Elle n'est pas candidate à l'élection présidentielle de 2027** : cette fiche documente une ligne politique et un positionnement, pas une candidature en cours.
+
+<details open>
+<summary><strong>Statut de la candidature</strong></summary>
+
+- **Statut :** **hors course** — aucune candidature déclarée pour 2027.
+- **Désignation écologiste :** le **8 décembre 2025**, Les Écologistes ont désigné **Marine Tondelier** avec **86 %** des voix, face à Waleed Mouhali. Sandrine Rousseau n'était pas candidate à cette désignation. ([Les Écologistes][25], [Wikipédia — Primaire de la gauche unitaire][26])
+- **Antécédent :** finaliste de la **primaire écologiste de 2021**, battue par Yannick Jadot au second tour.
+
+</details>
 
 <details open>
 <summary><strong>Parti</strong></summary>
@@ -169,6 +178,9 @@ Cette fiche reprend les orientations portées par **Sandrine Rousseau**, à part
 [22]: https://www.mediapart.fr/journal/france/300419/la-condamnation-de-denis-baupin-pour-procedure-abusive-est-definitive "La condamnation de Denis Baupin pour procédure abusive est définitive"
 [23]: https://www.rtl.fr/actu/justice-faits-divers/sandrine-rousseau-un-vigneron-condamne-a-une-amende-avec-sursis-pour-avoir-insulte-l-elue-ecologiste-7900506106 "Un vigneron condamné pour avoir insulté Sandrine Rousseau"
 [24]: https://commons.wikimedia.org/wiki/File:Sandrine_Rousseau_20210819_(cropped).jpg "Sandrine Rousseau 20210819 cropped - Wikimedia Commons"
+
+[25]: https://lesecologistes.fr/posts/4DGpyusxBAU4xQPexfncsx/marine-tondelier-designee-pour-representer-les-ecologistes-a-l-election-presidentielle "Marine Tondelier désignée pour représenter Les Écologistes à l'élection présidentielle"
+[26]: https://fr.wikipedia.org/wiki/Primaire_de_la_gauche_unitaire_de_2026 "Primaire de la gauche unitaire de 2026 — Wikipédia"
 
 ---
 

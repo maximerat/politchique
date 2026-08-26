@@ -17,13 +17,25 @@ photo: https://commons.wikimedia.org/wiki/Special:FilePath/J%C3%A9r%C3%B4me%20Gu
 Cette fiche reprend les grandes orientations mises en avant par **Jérôme Guedj**, député socialiste de l'Essonne, ainsi que les axes du **projet socialiste**. Jérôme Guedj a annoncé sa candidature à l'élection présidentielle de 2027 en se présentant comme le représentant d'une gauche républicaine, européenne, universaliste, laïque, sociale et écologiste.
 
 <details open>
+<summary><strong>Statut de la candidature</strong></summary>
+
+- **Statut :** **candidature déclarée**.
+- **Annonce :** le **5 février 2026**, **sans passer par une primaire** — ni celle de la gauche unitaire, ni un processus socialiste. ([CNews][11], [TF1 Info][4])
+- **Revirement :** le **23 août 2026**, il rejoint la **primaire fermée de l'espace social-démocrate** (PS, Place publique), le même jour que l'entrée en lice de Raphaël Glucksmann. ([Wikipédia — Primaire socialiste 2026][18])
+- **Calendrier :** **1er tour les 9 et 10 octobre 2026**, **2d tour les 16 et 17 octobre 2026**, réservé aux adhérents du PS et de Place publique à jour de cotisation. ([Wikipédia][18])
+- **Concurrents :** Philippe Brun, Raphaël Glucksmann et Ségolène Royal ; Olivier Faure reste pressenti. ([Wikipédia][18])
+- **Ne pas confondre :** cette primaire fermée est **distincte** de la [primaire de la gauche unitaire](/primaires) du 11 octobre 2026.
+
+</details>
+
+<details open>
 <summary><strong>Parti</strong></summary>
 
 - **Parti :** Parti socialiste
 - **Groupe parlementaire :** Socialistes et apparentés
 - **Circonscription :** 6e circonscription de l'Essonne
 - **Référence principale :** [Projet du Parti socialiste](https://ressources-militantes.parti-socialiste.fr/assets/pdf/PROJET_PS_V21avril-2.pdf)
-- **Candidature 2027 :** Jérôme Guedj a annoncé sa candidature à l'élection présidentielle de 2027, sans passer par la primaire de la gauche unitaire. ([TF1 Info][4])
+- **Candidature 2027 :** candidature annoncée hors primaire le 5 février 2026, puis engagée dans la primaire de l'espace social-démocrate le 23 août 2026. ([TF1 Info][4], [Wikipédia][18])
 
 </details>
 
@@ -131,6 +143,7 @@ Cette fiche reprend les grandes orientations mises en avant par **Jérôme Guedj
 [Le Parisien][15]: https://www.leparisien.fr/essonne-91/massy-91300/croix-gammee-et-moustache-a-la-hitler-taguees-sur-son-visage-le-depute-jerome-guedj-annonce-avoir-porte-plainte-19-03-2026-T6JMDCUGXJAOPAFO63ITPTCZHU.php "Croix gammée et moustache à la Hitler taguées sur son visage"
 [Marianne][16]: https://www.marianne.net/politique/gauche/affaire-samara-pourquoi-jerome-guedj-saisit-la-justice-sur-un-article-meconnu-de-la-loi-de-1905 "Affaire Samara : pourquoi Jérôme Guedj saisit la justice"
 [Wikimedia Commons][17]: https://commons.wikimedia.org/wiki/File:J%C3%A9r%C3%B4me_Guedj_2010.jpg "File:Jérôme Guedj 2010.jpg"
+[Wikipédia][18]: https://fr.wikipedia.org/wiki/Primaire_pr%C3%A9sidentielle_socialiste_fran%C3%A7aise_de_2026 "Primaire présidentielle socialiste française de 2026 — Wikipédia"
 
 ---
 

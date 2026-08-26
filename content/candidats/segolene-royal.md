@@ -22,7 +22,8 @@ Cette fiche reprend les orientations portées par **Ségolène Royal**, candidat
 - **Statut :** **candidature déclarée** (à la primaire, pas encore à l'élection).
 - **Annonce :** le **10 juillet 2026**, elle annonce sa candidature à la **primaire de l'espace socialiste**. ([LCP][1])
 - **Motif avancé :** le risque d'une arrivée au pouvoir de l'extrême droite. ([CNews][2])
-- **Calendrier de la primaire :** primaire fermée, réservée aux adhérents à jour de cotisation — **1er tour du 9 au 11 octobre 2026**, **2d tour du 16 au 18 octobre 2026**. Le format restreint a été choisi par les militants le 9 juillet 2026 (55,5 %). ([Wikipédia — Primaire socialiste 2026][3])
+- **Calendrier de la primaire :** primaire **fermée**, réservée aux adhérents du **PS** et de **Place publique** à jour de cotisation (ou acquittant 15 euros) — **1er tour les 9 et 10 octobre 2026**, **2d tour les 16 et 17 octobre 2026**. Le format restreint a été choisi par les militants le 9 juillet 2026 (55,5 %). ([Wikipédia — Primaire socialiste 2026][3])
+- **Ne pas confondre :** cette primaire de l'espace social-démocrate est **distincte** de la [primaire de la gauche unitaire](/primaires) du 11 octobre 2026, à laquelle le PS a refusé de participer. ([Wikipédia][3])
 - **Slogan :** « **La France tranquille et l'ordre juste** ». ([CNews][2])
 - **Antécédent :** finaliste de l'élection présidentielle de **2007**, battue au second tour.
 
@@ -59,7 +60,7 @@ Cette fiche reprend les orientations portées par **Ségolène Royal**, candidat
 
 ### Contexte de la primaire
 
-10. Elle affronte notamment **Philippe Brun** (déclaré le 30 juin 2026), qui se présente comme « le candidat des salaires », ainsi que d'autres candidatures issues du PS et de Place publique. ([Wikipédia — Primaire socialiste 2026][3])
+10. Elle affronte **Philippe Brun** (déclaré le 30 juin 2026), qui se présente comme « le candidat des salaires », **Raphaël Glucksmann** (Place publique, 23 août 2026) et **Jérôme Guedj** (rallié à la primaire le 23 août 2026) ; **Olivier Faure** reste pressenti. ([Wikipédia — Primaire socialiste 2026][3])
 11. Sa candidature relance la **bataille du leadership socialiste** en vue de 2027. ([Parlons Politique][5])
 
 </details>

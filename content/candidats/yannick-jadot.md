@@ -14,7 +14,17 @@ photo: https://commons.wikimedia.org/wiki/Special:FilePath/20210819_jadot.yannic
   />
 </div>
 
-Cette fiche reprend les orientations portées par **Yannick Jadot**, à partir de son programme présidentiel 2022, de ses positions publiques comme sénateur écologiste de Paris et des documents de référence des **Écologistes**. Le programme 2022 constitue une base programmatique structurée ; il ne constitue pas, à ce stade, un programme présidentiel 2027 définitivement arrêté mesure par mesure.
+Cette fiche reprend les orientations portées par **Yannick Jadot**, à partir de son programme présidentiel 2022, de ses positions publiques comme sénateur écologiste de Paris et des documents de référence des **Écologistes**. **Il n'est pas candidat à l'élection présidentielle de 2027** : cette fiche documente une base programmatique et un positionnement, pas une candidature en cours.
+
+<details open>
+<summary><strong>Statut de la candidature</strong></summary>
+
+- **Statut :** **hors course** — aucune candidature déclarée pour 2027.
+- **Désignation écologiste :** le **8 décembre 2025**, Les Écologistes ont désigné **Marine Tondelier** avec **86 %** des voix, face à Waleed Mouhali. Elle est la candidate du parti. ([Les Écologistes][19], [Wikipédia — Primaire de la gauche unitaire][20])
+- **Soutien annoncé :** il soutient la candidature de **Raphaël Glucksmann** à la primaire de l'espace social-démocrate d'octobre 2026. ([Wikipédia — Primaire socialiste 2026][21])
+- **Antécédent :** candidat des écologistes à la présidentielle de **2022** (4,63 % au premier tour), d'où la valeur de référence de son programme de l'époque.
+
+</details>
 
 <details open>
 <summary><strong>Parti</strong></summary>
@@ -151,6 +161,10 @@ Les sources citées ici font état d'une **condamnation ancienne** liée à une 
 [16]: https://www.greenpeace.fr/espionnage-de-greenpeace-un-renvoi-en-correctionnel-pour-edf/ "Espionnage de Greenpeace - Greenpeace France"
 [17]: https://www.lemonde.fr/justice/article/2011/11/10/les-mots-durs-du-jugement-du-tribunal-de-nanterre-dans-l-affaire-du-piratage_5989464_1653604.html "Les mots durs du jugement du tribunal de Nanterre dans l'affaire du piratage"
 [18]: https://commons.wikimedia.org/wiki/File:20210819_jadot.yannick_5725.jpg "20210819 jadot.yannick 5725.jpg - Wikimedia Commons"
+
+[19]: https://lesecologistes.fr/posts/4DGpyusxBAU4xQPexfncsx/marine-tondelier-designee-pour-representer-les-ecologistes-a-l-election-presidentielle "Marine Tondelier désignée pour représenter Les Écologistes à l'élection présidentielle"
+[20]: https://fr.wikipedia.org/wiki/Primaire_de_la_gauche_unitaire_de_2026 "Primaire de la gauche unitaire de 2026 — Wikipédia"
+[21]: https://fr.wikipedia.org/wiki/Primaire_pr%C3%A9sidentielle_socialiste_fran%C3%A7aise_de_2026 "Primaire présidentielle socialiste française de 2026 — Wikipédia"
 
 ---
 

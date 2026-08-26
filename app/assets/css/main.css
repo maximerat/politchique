@@ -374,6 +374,12 @@ img[alt*="hoto"] {
   color: var(--fr-ink-soft);
 }
 
+.fr-statut--ecarte {
+  border-color: rgba(11, 18, 32, 0.6);
+  color: var(--fr-ink-soft);
+  border-style: dashed;
+}
+
 .fr-statut-bloc {
   border: 2px solid var(--fr-ink);
   border-left-width: 6px;
@@ -392,6 +398,11 @@ img[alt*="hoto"] {
 
 .fr-statut-bloc--retire {
   border-left-color: rgba(11, 18, 32, 0.35);
+}
+
+.fr-statut-bloc--ecarte {
+  border-left-color: rgba(11, 18, 32, 0.6);
+  border-left-style: dashed;
 }
 
 .fr-statut-bloc__titre {
