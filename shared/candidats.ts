@@ -46,8 +46,7 @@ export const candidats: Candidat[] = [
     nom: "Édouard Philippe",
     parti: "Horizons",
     partiIcone: "i-lucide-compass",
-    photo:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Edouard_Philippe_en_2025.png/500px-Edouard_Philippe_en_2025.png",
+    photo: "/photos/edouard-philippe.jpg",
     resume:
       "Synthèse du Manifeste d'Horizons, avec principaux axes programmatiques, sources et positions publiques.",
     statut: "declare",
@@ -62,8 +61,7 @@ export const candidats: Candidat[] = [
     nom: "David Lisnard",
     parti: "Nouvelle Énergie",
     partiIcone: "i-lucide-bolt",
-    photo:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/David_Lisnard_-_2013.jpg/500px-David_Lisnard_-_2013.jpg",
+    photo: "/photos/david-lisnard.jpg",
     resume:
       "Synthèse des positions de David Lisnard et de Nouvelle Énergie, avec sources et état des procédures.",
     statut: "declare",
@@ -79,8 +77,7 @@ export const candidats: Candidat[] = [
     nom: "Gabriel Attal",
     parti: "Renaissance",
     partiIcone: "i-lucide-sun",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Gabriel%20Attal%202025%20%28cropped%29.jpg",
+    photo: "/photos/gabriel-attal.jpg",
     resume:
       "Synthèse des positions de Gabriel Attal et de Renaissance, avec sources et état des procédures.",
     statut: "declare",
@@ -95,8 +92,7 @@ export const candidats: Candidat[] = [
     nom: "Jérôme Guedj",
     parti: "Parti socialiste",
     partiIcone: "i-lucide-flower-2",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/J%C3%A9r%C3%B4me%20Guedj%202010%20%28cropped%29.jpg",
+    photo: "/photos/jerome-guedj.jpg",
     resume:
       "Synthèse neutre des positions de Jérôme Guedj et du Parti socialiste, avec sources et état des procédures.",
     statut: "declare",
@@ -112,8 +108,7 @@ export const candidats: Candidat[] = [
     nom: "Ségolène Royal",
     parti: "Parti socialiste",
     partiIcone: "i-lucide-flower-2",
-    photo:
-      "https://upload.wikimedia.org/wikipedia/commons/2/25/Royal_Toulouse_2012.JPG",
+    photo: "/photos/segolene-royal.jpg",
     resume:
       "Synthèse neutre des positions de Ségolène Royal, candidate à la primaire socialiste, avec sources et état des procédures.",
     statut: "declare",
@@ -129,8 +124,7 @@ export const candidats: Candidat[] = [
     nom: "Jean-Luc Mélenchon",
     parti: "La France insoumise",
     partiIcone: "i-lucide-megaphone",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Luc%20M%C3%A9lenchon%20%28Place%20au%20Peuple%29%20001.jpg",
+    photo: "/photos/jean-luc-melenchon.jpg",
     resume:
       "Synthèse des positions de Jean-Luc Mélenchon et de La France insoumise, avec sources et état des procédures.",
     statut: "declare",
@@ -145,8 +139,7 @@ export const candidats: Candidat[] = [
     nom: "Marine Le Pen",
     parti: "Rassemblement National",
     partiIcone: "i-lucide-flag",
-    photo:
-      "https://upload.wikimedia.org/wikipedia/commons/8/81/Marine_Le_Pen_2025_%28cropped%29.jpg",
+    photo: "/photos/marine-le-pen.jpg",
     resume:
       "Synthèse des positions de Marine Le Pen et du RN, avec sources et état des procédures.",
     statut: "declare",
@@ -161,8 +154,7 @@ export const candidats: Candidat[] = [
     nom: "Bruno Retailleau",
     parti: "Les Républicains",
     partiIcone: "i-lucide-shield",
-    photo:
-      "https://upload.wikimedia.org/wikipedia/commons/5/57/Bruno_Retailleau.png",
+    photo: "/photos/bruno-retailleau.jpg",
     resume:
       "Synthèse neutre des positions de Bruno Retailleau et des Républicains, avec sources et état des procédures.",
     statut: "declare",
@@ -177,8 +169,7 @@ export const candidats: Candidat[] = [
     nom: "Laurent Wauquiez",
     parti: "Les Républicains",
     partiIcone: "i-lucide-shield",
-    photo:
-      "https://upload.wikimedia.org/wikipedia/commons/2/2d/Laurent_Wauquiez_2021.jpg",
+    photo: "/photos/laurent-wauquiez.jpg",
     resume:
       "Synthèse neutre des positions de Laurent Wauquiez et de la droite républicaine, avec sources et état des procédures.",
     statut: "pressenti",
@@ -194,8 +185,7 @@ export const candidats: Candidat[] = [
     nom: "Xavier Bertrand",
     parti: "Nous France",
     partiIcone: "i-lucide-map",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Xavier%20Bertrand%20-%202025%20%28cropped%29.jpg",
+    photo: "/photos/xavier-bertrand.jpg",
     resume:
       "Synthèse neutre des positions de Xavier Bertrand et de Nous France, avec sources et état des procédures.",
     statut: "declare",
@@ -210,8 +200,7 @@ export const candidats: Candidat[] = [
     nom: "Nicolas Dupont-Aignan",
     parti: "Debout la France",
     partiIcone: "i-lucide-flag",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Nicolas_Dupont-Aignan%2C_homme_politique_fran%C3%A7ais_%28cropped%29.jpg",
+    photo: "/photos/nicolas-dupont-aignan.jpg",
     resume:
       "Synthèse neutre des positions de Nicolas Dupont-Aignan et de Debout la France, avec sources et état des procédures.",
     statut: "declare",
@@ -226,8 +215,7 @@ export const candidats: Candidat[] = [
     nom: "Florian Philippot",
     parti: "Les Patriotes",
     partiIcone: "i-lucide-flag",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Florian_Philippot_%28A%29_%28cropped%29.JPG",
+    photo: "/photos/florian-philippot.jpg",
     resume:
       "Synthèse neutre des positions de Florian Philippot et des Patriotes, avec sources et état des procédures.",
     statut: "declare",
@@ -242,8 +230,7 @@ export const candidats: Candidat[] = [
     nom: "François Asselineau",
     parti: "Union populaire républicaine",
     partiIcone: "i-lucide-landmark",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois%20ASSELINEAU.jpg",
+    photo: "/photos/francois-asselineau.jpg",
     resume:
       "Synthèse neutre des positions de François Asselineau et de l'Union populaire républicaine, avec sources et état des procédures.",
     statut: "declare",
@@ -258,8 +245,7 @@ export const candidats: Candidat[] = [
     nom: "Nathalie Arthaud",
     parti: "Lutte ouvrière",
     partiIcone: "i-lucide-hammer",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Nathalie%20Arthaud%20%28LO%29%2019-05-2024.jpg",
+    photo: "/photos/nathalie-arthaud.jpg",
     resume:
       "Synthèse neutre des positions de Nathalie Arthaud et de Lutte ouvrière, avec sources et état des procédures.",
     statut: "declare",
@@ -274,8 +260,7 @@ export const candidats: Candidat[] = [
     nom: "Delphine Batho",
     parti: "Génération Écologie",
     partiIcone: "i-lucide-leaf",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Delphine%20Batho%20%28cropped%29.png",
+    photo: "/photos/delphine-batho.jpg",
     resume:
       "Synthèse neutre des positions de Delphine Batho et de Génération Écologie, avec sources et état des procédures.",
     statut: "declare",
@@ -290,8 +275,7 @@ export const candidats: Candidat[] = [
     nom: "Clémentine Autain",
     parti: "L'APRÈS",
     partiIcone: "i-lucide-leaf",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Cl%C3%A9mentine%20Autain%2C%202017%20%28cropped%29.jpg",
+    photo: "/photos/clementine-autain.jpg",
     resume:
       "Synthèse neutre des positions de Clémentine Autain et de L'APRÈS, avec sources et état des procédures.",
     statut: "retire",
@@ -307,8 +291,7 @@ export const candidats: Candidat[] = [
     nom: "Fabien Roussel",
     parti: "Parti communiste français",
     partiIcone: "i-lucide-hammer",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Roussel%20Fabien%201.jpg",
+    photo: "/photos/fabien-roussel.jpg",
     resume:
       "Synthèse neutre des positions de Fabien Roussel et du Parti communiste français, avec sources et état des procédures.",
     statut: "pressenti",
@@ -324,8 +307,7 @@ export const candidats: Candidat[] = [
     nom: "Marine Tondelier",
     parti: "Les Écologistes",
     partiIcone: "i-lucide-leaf",
-    photo:
-      "https://upload.wikimedia.org/wikipedia/commons/a/ac/20210819_tondelier.m-cr3.jpg",
+    photo: "/photos/marine-tondelier.jpg",
     resume:
       "Synthèse neutre des positions de Marine Tondelier et des Écologistes, avec sources et état des procédures.",
     statut: "declare",
@@ -341,8 +323,7 @@ export const candidats: Candidat[] = [
     nom: "Yannick Jadot",
     parti: "Les Écologistes",
     partiIcone: "i-lucide-leaf",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/20210819_jadot.yannick_5725.jpg",
+    photo: "/photos/yannick-jadot.jpg",
     resume:
       "Synthèse neutre des positions de Yannick Jadot et des Écologistes, avec sources et état des procédures.",
     statut: "ecarte",
@@ -358,8 +339,7 @@ export const candidats: Candidat[] = [
     nom: "Sandrine Rousseau",
     parti: "Les Écologistes",
     partiIcone: "i-lucide-leaf",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Sandrine%20Rousseau%2020210819%20%28cropped%29.jpg",
+    photo: "/photos/sandrine-rousseau.jpg",
     resume:
       "Synthèse neutre des positions de Sandrine Rousseau et des Écologistes, avec sources et état des procédures.",
     statut: "ecarte",
@@ -375,8 +355,7 @@ export const candidats: Candidat[] = [
     nom: "Dominique de Villepin",
     parti: "La France humaniste",
     partiIcone: "i-lucide-landmark",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/Dominique%20de%20Villepin%20en%202026.jpg",
+    photo: "/photos/dominique-de-villepin.jpg",
     resume:
       "Synthèse neutre des positions de Dominique de Villepin et de La France humaniste, avec sources et état des procédures.",
     statut: "pressenti",
@@ -392,8 +371,7 @@ export const candidats: Candidat[] = [
     nom: "Éric Zemmour",
     parti: "Reconquête",
     partiIcone: "i-lucide-flag",
-    photo:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%89ric%20Zemmour.jpg",
+    photo: "/photos/eric-zemmour.jpg",
     resume:
       "Synthèse neutre des positions d'Éric Zemmour et de Reconquête, avec sources et état des procédures.",
     statut: "pressenti",
@@ -409,7 +387,7 @@ export const candidats: Candidat[] = [
     nom: "Karim Bouamrane",
     parti: "La France Humaine et Forte",
     partiIcone: "i-lucide-handshake",
-    photo: "https://www.lafrancehumaineetforte.fr/kb_bleu_hero.jpeg",
+    photo: "/photos/karim-bouamrane.jpg",
     resume:
       "Synthèse neutre des positions de Karim Bouamrane et de La France Humaine et Forte, avec sources et état des procédures.",
     statut: "declare",
@@ -424,8 +402,7 @@ export const candidats: Candidat[] = [
     nom: "Clara Egger",
     parti: "Solution démocratique",
     partiIcone: "i-lucide-vote",
-    photo:
-      "https://upload.wikimedia.org/wikipedia/commons/9/9d/Clara_Egger.jpg",
+    photo: "/photos/clara-egger.jpg",
     resume:
       "Synthèse neutre des positions de Clara Egger et de Solution démocratique, centrées sur le RIC, avec sources et état des procédures.",
     statut: "declare",
@@ -441,8 +418,7 @@ export const candidats: Candidat[] = [
     nom: "Antoine Mikolajczak",
     parti: "Équinoxe",
     partiIcone: "i-lucide-sun-moon",
-    photo:
-      "https://parti-equinoxe.fr/wp-content/uploads/2026/07/Parti-equinoxe-Antoine-Miko-portrait-768x1024.jpg",
+    photo: "/photos/antoine-mikolajczak.jpg",
     resume:
       "Synthèse neutre des positions d'Antoine Mikolajczak et du parti Équinoxe, avec sources et état des procédures.",
     statut: "declare",
@@ -458,8 +434,7 @@ export const candidats: Candidat[] = [
     nom: "Raphaël Glucksmann",
     parti: "Place publique",
     partiIcone: "i-lucide-users",
-    photo:
-      "https://upload.wikimedia.org/wikipedia/commons/1/1f/1720448398743_20240708_GLUCKSMANN_Raphael_FR_006.jpg",
+    photo: "/photos/raphael-glucksmann.jpg",
     resume:
       "Synthèse neutre des positions de Raphaël Glucksmann et de Place publique, avec sources et état des procédures.",
     statut: "declare",
@@ -475,8 +450,7 @@ export const candidats: Candidat[] = [
     nom: "Olivier Faure",
     parti: "Parti socialiste",
     partiIcone: "i-lucide-flower-2",
-    photo:
-      "https://upload.wikimedia.org/wikipedia/commons/1/18/OF_MATIGNON_-_MAXIME_CLAM_%28cropped%29.png",
+    photo: "/photos/olivier-faure.jpg",
     resume:
       "Synthèse neutre des positions d'Olivier Faure et du Parti socialiste, avec sources et état des procédures.",
     statut: "pressenti",
@@ -492,8 +466,7 @@ export const candidats: Candidat[] = [
     nom: "François Ruffin",
     parti: "Debout !",
     partiIcone: "i-lucide-factory",
-    photo:
-      "https://upload.wikimedia.org/wikipedia/commons/2/2f/Fran%C3%A7ois_Ruffin_%28cropped%29.jpg",
+    photo: "/photos/francois-ruffin.jpg",
     resume:
       "Synthèse neutre des positions de François Ruffin et de Debout !, avec sources et état des procédures.",
     statut: "declare",
@@ -509,8 +482,7 @@ export const candidats: Candidat[] = [
     nom: "Bernard Cazeneuve",
     parti: "La Convention",
     partiIcone: "i-lucide-scale",
-    photo:
-      "https://upload.wikimedia.org/wikipedia/commons/a/ac/Bernard_Cazeneuve%2C_%2842399145362%29_%28cropped%29.jpg",
+    photo: "/photos/bernard-cazeneuve.jpg",
     resume:
       "Synthèse neutre des positions de Bernard Cazeneuve et de La Convention, avec sources et état des procédures.",
     statut: "declare",
@@ -526,8 +498,7 @@ export const candidats: Candidat[] = [
     nom: "Anasse Kazib",
     parti: "Révolution permanente",
     partiIcone: "i-lucide-flame",
-    photo:
-      "https://upload.wikimedia.org/wikipedia/commons/b/b9/Anasse_Kazib%2C_d%C3%A9cembre_2021.jpg",
+    photo: "/photos/anasse-kazib.jpg",
     resume:
       "Synthèse neutre des positions d'Anasse Kazib et de Révolution permanente, avec sources et état des procédures.",
     statut: "declare",
@@ -543,8 +514,7 @@ export const candidats: Candidat[] = [
     nom: "Juan Branco",
     parti: "Les Ruches",
     partiIcone: "i-lucide-hexagon",
-    photo:
-      "https://upload.wikimedia.org/wikipedia/commons/b/b8/2019_-_Centre_Stage_-_Day_2_VJR21625_%2849024215596%29.jpg",
+    photo: "/photos/juan-branco.jpg",
     resume:
       "Synthèse neutre des positions de Juan Branco et du mouvement Les Ruches, avec sources et état des procédures.",
     statut: "declare",

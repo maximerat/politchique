@@ -3,12 +3,13 @@ title: François Asselineau (Union populaire républicaine)
 description: Synthèse neutre des positions de François Asselineau et de l'Union populaire républicaine, avec sources et état des procédures.
 party: Union populaire républicaine
 partyIcon: i-lucide-landmark
-photo: https://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois%20ASSELINEAU.jpg
+photo: /photos/francois-asselineau.jpg
+photoSource: https://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois%20ASSELINEAU.jpg
 ---
 
 <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
   <img
-    src="https://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois%20ASSELINEAU.jpg"
+    src="/photos/francois-asselineau.jpg"
     alt="Photo de François Asselineau"
     style="height: 10rem; width: 10rem; object-fit: cover; border-radius: 1rem; box-shadow: 0 2px 8px #0001;"
   />

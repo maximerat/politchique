@@ -3,12 +3,13 @@ title: Bernard Cazeneuve (La Convention)
 description: Synthèse neutre des positions de Bernard Cazeneuve et de La Convention, avec sources et état des procédures.
 party: La Convention
 partyIcon: i-lucide-scale
-photo: https://upload.wikimedia.org/wikipedia/commons/a/ac/Bernard_Cazeneuve%2C_%2842399145362%29_%28cropped%29.jpg
+photo: /photos/bernard-cazeneuve.jpg
+photoSource: https://upload.wikimedia.org/wikipedia/commons/a/ac/Bernard_Cazeneuve%2C_%2842399145362%29_%28cropped%29.jpg
 ---
 
 <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
   <img
-    src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Bernard_Cazeneuve%2C_%2842399145362%29_%28cropped%29.jpg"
+    src="/photos/bernard-cazeneuve.jpg"
     alt="Photo de Bernard Cazeneuve"
     style="height: 10rem; width: 10rem; object-fit: cover; border-radius: 1rem; box-shadow: 0 2px 8px #0001;"
   />

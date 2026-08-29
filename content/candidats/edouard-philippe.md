@@ -3,12 +3,13 @@ title: Édouard Philippe (Horizons)
 description: Synthèse des positions d'Édouard Philippe et d'Horizons, avec sources et état des procédures.
 party: Horizons
 partyIcon: i-lucide-compass
-photo: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Edouard_Philippe_en_2025.png/500px-Edouard_Philippe_en_2025.png
+photo: /photos/edouard-philippe.jpg
+photoSource: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Edouard_Philippe_en_2025.png/500px-Edouard_Philippe_en_2025.png
 ---
 
 <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
   <img
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Edouard_Philippe_en_2025.png/500px-Edouard_Philippe_en_2025.png"
+    src="/photos/edouard-philippe.jpg"
     alt="Photo d'Édouard Philippe"
     style="height: 10rem; width: 10rem; object-fit: cover; border-radius: 1rem; box-shadow: 0 2px 8px #0001;"
   />

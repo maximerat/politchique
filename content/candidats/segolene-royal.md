@@ -3,12 +3,13 @@ title: Ségolène Royal (Parti socialiste)
 description: Synthèse neutre des positions de Ségolène Royal, candidate à la primaire socialiste, avec sources et état des procédures.
 party: Parti socialiste
 partyIcon: i-lucide-flower-2
-photo: https://upload.wikimedia.org/wikipedia/commons/2/25/Royal_Toulouse_2012.JPG
+photo: /photos/segolene-royal.jpg
+photoSource: https://upload.wikimedia.org/wikipedia/commons/2/25/Royal_Toulouse_2012.JPG
 ---
 
 <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
   <img
-    src="https://upload.wikimedia.org/wikipedia/commons/2/25/Royal_Toulouse_2012.JPG"
+    src="/photos/segolene-royal.jpg"
     alt="Photo de Ségolène Royal"
     style="height: 10rem; width: 10rem; object-fit: cover; border-radius: 1rem; box-shadow: 0 2px 8px #0001;"
   />

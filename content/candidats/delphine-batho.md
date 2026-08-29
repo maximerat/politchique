@@ -3,12 +3,13 @@ title: Delphine Batho (Génération Écologie)
 description: Synthèse neutre des positions de Delphine Batho et de Génération Écologie, avec sources et état des procédures.
 party: Génération Écologie
 partyIcon: i-lucide-leaf
-photo: https://commons.wikimedia.org/wiki/Special:FilePath/Delphine%20Batho%20%28cropped%29.png
+photo: /photos/delphine-batho.jpg
+photoSource: https://commons.wikimedia.org/wiki/Special:FilePath/Delphine%20Batho%20%28cropped%29.png
 ---
 
 <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
   <img
-    src="https://commons.wikimedia.org/wiki/Special:FilePath/Delphine%20Batho%20%28cropped%29.png"
+    src="/photos/delphine-batho.jpg"
     alt="Photo de Delphine Batho"
     style="height: 10rem; width: 10rem; object-fit: cover; border-radius: 1rem; box-shadow: 0 2px 8px #0001;"
   />

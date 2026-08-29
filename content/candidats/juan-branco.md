@@ -3,12 +3,13 @@ title: Juan Branco (Les Ruches)
 description: Synthèse neutre des positions de Juan Branco et du mouvement Les Ruches, avec sources et état des procédures.
 party: Les Ruches
 partyIcon: i-lucide-hexagon
-photo: https://upload.wikimedia.org/wikipedia/commons/b/b8/2019_-_Centre_Stage_-_Day_2_VJR21625_%2849024215596%29.jpg
+photo: /photos/juan-branco.jpg
+photoSource: https://upload.wikimedia.org/wikipedia/commons/b/b8/2019_-_Centre_Stage_-_Day_2_VJR21625_%2849024215596%29.jpg
 ---
 
 <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
   <img
-    src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2019_-_Centre_Stage_-_Day_2_VJR21625_%2849024215596%29.jpg"
+    src="/photos/juan-branco.jpg"
     alt="Photo de Juan Branco"
     style="height: 10rem; width: 10rem; object-fit: cover; border-radius: 1rem; box-shadow: 0 2px 8px #0001;"
   />

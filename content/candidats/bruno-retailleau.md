@@ -3,11 +3,12 @@ title: Bruno Retailleau (Les Républicains)
 description: Synthèse neutre des positions de Bruno Retailleau et des Républicains, avec sources et état des procédures.
 party: Les Républicains
 partyIcon: i-lucide-shield
-photo: https://upload.wikimedia.org/wikipedia/commons/5/57/Bruno_Retailleau.png
+photo: /photos/bruno-retailleau.jpg
+photoSource: https://upload.wikimedia.org/wikipedia/commons/5/57/Bruno_Retailleau.png
 ---
 <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
   <img
-    src="https://upload.wikimedia.org/wikipedia/commons/5/57/Bruno_Retailleau.png"
+    src="/photos/bruno-retailleau.jpg"
     alt="Photo de Bruno Retailleau"
     style="height: 10rem; width: 10rem; object-fit: cover; border-radius: 1rem; box-shadow: 0 2px 8px #0001;"
   />

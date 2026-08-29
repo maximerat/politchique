@@ -3,12 +3,13 @@ title: Jean-Luc Mélenchon (La France insoumise)
 description: Synthèse des positions de Jean-Luc Mélenchon et de La France insoumise, avec sources et état des procédures.
 party: La France insoumise
 partyIcon: i-lucide-megaphone
-photo: https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Luc%20M%C3%A9lenchon%20%28Place%20au%20Peuple%29%20001.jpg
+photo: /photos/jean-luc-melenchon.jpg
+photoSource: https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Luc%20M%C3%A9lenchon%20%28Place%20au%20Peuple%29%20001.jpg
 ---
 
 <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
   <img
-    src="https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Luc%20M%C3%A9lenchon%20%28Place%20au%20Peuple%29%20001.jpg"
+    src="/photos/jean-luc-melenchon.jpg"
     alt="Photo de Jean-Luc Mélenchon"
     style="height: 10rem; width: 10rem; object-fit: cover; border-radius: 1rem; box-shadow: 0 2px 8px #0001;"
   />

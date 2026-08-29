@@ -40,10 +40,24 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/ui-pro',
   ],
-  nitro: {                                                                            
-    prerender: {                                                                      
-      routes: ['/sitemap.xml'],                                                       
-    },                                                                                
+  nitro: {
+    prerender: {
+      routes: ['/sitemap.xml'],
+    },
+  },
+  // Les photos et les images statiques ne changent jamais sous un même nom de
+  // fichier : le navigateur peut les garder en cache un an. Pour remplacer une
+  // photo, publier un nouveau nom de fichier (ou ajouter ?v=2 à l'URL).
+  routeRules: {
+    '/photos/**': {
+      headers: { 'cache-control': 'public, max-age=31536000, immutable' },
+    },
+    '/coq.png': {
+      headers: { 'cache-control': 'public, max-age=2592000' },
+    },
+    '/favicon.ico': {
+      headers: { 'cache-control': 'public, max-age=2592000' },
+    },
   },
   css: ['~/assets/css/main.css'],
   uiPro: {

@@ -3,12 +3,13 @@ title: Anasse Kazib (Révolution permanente)
 description: Synthèse neutre des positions d'Anasse Kazib et de Révolution permanente, avec sources et état des procédures.
 party: Révolution permanente
 partyIcon: i-lucide-flame
-photo: https://upload.wikimedia.org/wikipedia/commons/b/b9/Anasse_Kazib%2C_d%C3%A9cembre_2021.jpg
+photo: /photos/anasse-kazib.jpg
+photoSource: https://upload.wikimedia.org/wikipedia/commons/b/b9/Anasse_Kazib%2C_d%C3%A9cembre_2021.jpg
 ---
 
 <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
   <img
-    src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Anasse_Kazib%2C_d%C3%A9cembre_2021.jpg"
+    src="/photos/anasse-kazib.jpg"
     alt="Photo d'Anasse Kazib"
     style="height: 10rem; width: 10rem; object-fit: cover; border-radius: 1rem; box-shadow: 0 2px 8px #0001;"
   />

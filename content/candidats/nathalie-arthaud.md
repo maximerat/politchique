@@ -3,12 +3,13 @@ title: Nathalie Arthaud (Lutte ouvrière)
 description: Synthèse neutre des positions de Nathalie Arthaud et de Lutte ouvrière, avec sources et état des procédures.
 party: Lutte ouvrière
 partyIcon: i-lucide-hammer
-photo: https://commons.wikimedia.org/wiki/Special:FilePath/Nathalie%20Arthaud%20%28LO%29%2019-05-2024.jpg
+photo: /photos/nathalie-arthaud.jpg
+photoSource: https://commons.wikimedia.org/wiki/Special:FilePath/Nathalie%20Arthaud%20%28LO%29%2019-05-2024.jpg
 ---
 
 <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
   <img
-    src="https://commons.wikimedia.org/wiki/Special:FilePath/Nathalie%20Arthaud%20%28LO%29%2019-05-2024.jpg"
+    src="/photos/nathalie-arthaud.jpg"
     alt="Photo de Nathalie Arthaud"
     style="height: 10rem; width: 10rem; object-fit: cover; border-radius: 1rem; box-shadow: 0 2px 8px #0001;"
   />

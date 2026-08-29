@@ -3,12 +3,13 @@ title: David Lisnard (Nouvelle Énergie)
 description: Synthèse des positions de David Lisnard et de Nouvelle Énergie, avec sources et état des procédures.
 party: Nouvelle Énergie
 partyIcon: i-lucide-bolt
-photo: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/David_Lisnard_-_2013.jpg/500px-David_Lisnard_-_2013.jpg
+photo: /photos/david-lisnard.jpg
+photoSource: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/David_Lisnard_-_2013.jpg/500px-David_Lisnard_-_2013.jpg
 ---
 
 <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
   <img
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/David_Lisnard_-_2013.jpg/500px-David_Lisnard_-_2013.jpg"
+    src="/photos/david-lisnard.jpg"
     alt="Photo de David Lisnard"
     style="height: 10rem; width: 10rem; object-fit: cover; border-radius: 1rem; box-shadow: 0 2px 8px #0001;"
   />

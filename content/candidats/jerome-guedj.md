@@ -3,12 +3,13 @@ title: Jérôme Guedj (Parti socialiste)
 description: Synthèse neutre des positions de Jérôme Guedj et du Parti socialiste, avec sources et état des procédures.
 party: Parti socialiste
 partyIcon: i-lucide-flower-2
-photo: https://commons.wikimedia.org/wiki/Special:FilePath/J%C3%A9r%C3%B4me%20Guedj%202010%20%28cropped%29.jpg
+photo: /photos/jerome-guedj.jpg
+photoSource: https://commons.wikimedia.org/wiki/Special:FilePath/J%C3%A9r%C3%B4me%20Guedj%202010%20%28cropped%29.jpg
 ---
 
 <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
   <img
-    src="https://commons.wikimedia.org/wiki/Special:FilePath/J%C3%A9r%C3%B4me%20Guedj%202010%20%28cropped%29.jpg"
+    src="/photos/jerome-guedj.jpg"
     alt="Photo de Jérôme Guedj"
     style="height: 10rem; width: 10rem; object-fit: cover; border-radius: 1rem; box-shadow: 0 2px 8px #0001;"
   />

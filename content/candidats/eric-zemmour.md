@@ -3,12 +3,13 @@ title: Éric Zemmour (Reconquête)
 description: Synthèse neutre des positions d'Éric Zemmour et de Reconquête, avec sources et état des procédures.
 party: Reconquête
 partyIcon: i-lucide-flag
-photo: https://commons.wikimedia.org/wiki/Special:FilePath/%C3%89ric%20Zemmour.jpg
+photo: /photos/eric-zemmour.jpg
+photoSource: https://commons.wikimedia.org/wiki/Special:FilePath/%C3%89ric%20Zemmour.jpg
 ---
 
 <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
   <img
-    src="https://commons.wikimedia.org/wiki/Special:FilePath/%C3%89ric%20Zemmour.jpg"
+    src="/photos/eric-zemmour.jpg"
     alt="Photo d'Éric Zemmour"
     style="height: 10rem; width: 10rem; object-fit: cover; border-radius: 1rem; box-shadow: 0 2px 8px #0001;"
   />

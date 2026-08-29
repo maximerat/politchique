@@ -3,12 +3,13 @@ title: Olivier Faure (Parti socialiste)
 description: Synthèse neutre des positions d'Olivier Faure et du Parti socialiste, avec sources et état des procédures.
 party: Parti socialiste
 partyIcon: i-lucide-flower-2
-photo: https://upload.wikimedia.org/wikipedia/commons/1/18/OF_MATIGNON_-_MAXIME_CLAM_%28cropped%29.png
+photo: /photos/olivier-faure.jpg
+photoSource: https://upload.wikimedia.org/wikipedia/commons/1/18/OF_MATIGNON_-_MAXIME_CLAM_%28cropped%29.png
 ---
 
 <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
   <img
-    src="https://upload.wikimedia.org/wikipedia/commons/1/18/OF_MATIGNON_-_MAXIME_CLAM_%28cropped%29.png"
+    src="/photos/olivier-faure.jpg"
     alt="Photo d'Olivier Faure"
     style="height: 10rem; width: 10rem; object-fit: cover; border-radius: 1rem; box-shadow: 0 2px 8px #0001;"
   />

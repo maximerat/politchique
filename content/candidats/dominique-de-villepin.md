@@ -3,12 +3,13 @@ title: Dominique de Villepin (La France humaniste)
 description: Synthèse neutre des positions de Dominique de Villepin et de La France humaniste, avec sources et état des procédures.
 party: La France humaniste
 partyIcon: i-lucide-landmark
-photo: https://commons.wikimedia.org/wiki/Special:FilePath/Dominique%20de%20Villepin%20en%202026.jpg
+photo: /photos/dominique-de-villepin.jpg
+photoSource: https://commons.wikimedia.org/wiki/Special:FilePath/Dominique%20de%20Villepin%2020100330%20Salon%20du%20livre%20de%20Paris%202%20cropped.jpg
 ---
 
 <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
   <img
-    src="https://commons.wikimedia.org/wiki/Special:FilePath/Dominique%20de%20Villepin%20en%202026.jpg"
+    src="/photos/dominique-de-villepin.jpg"
     alt="Photo de Dominique de Villepin"
     style="height: 10rem; width: 10rem; object-fit: cover; border-radius: 1rem; box-shadow: 0 2px 8px #0001;"
   />

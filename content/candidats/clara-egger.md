@@ -3,12 +3,13 @@ title: Clara Egger (Solution démocratique)
 description: Synthèse neutre des positions de Clara Egger et de Solution démocratique, centrées sur le RIC, avec sources et état des procédures.
 party: Solution démocratique
 partyIcon: i-lucide-vote
-photo: https://upload.wikimedia.org/wikipedia/commons/9/9d/Clara_Egger.jpg
+photo: /photos/clara-egger.jpg
+photoSource: https://upload.wikimedia.org/wikipedia/commons/9/9d/Clara_Egger.jpg
 ---
 
 <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
   <img
-    src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Clara_Egger.jpg"
+    src="/photos/clara-egger.jpg"
     alt="Photo de Clara Egger"
     style="height: 10rem; width: 10rem; object-fit: cover; border-radius: 1rem; box-shadow: 0 2px 8px #0001;"
   />

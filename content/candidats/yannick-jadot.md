@@ -3,12 +3,13 @@ title: Yannick Jadot (Les Écologistes)
 description: Synthèse neutre des positions de Yannick Jadot et des Écologistes, avec sources et état des procédures.
 party: Les Écologistes
 partyIcon: i-lucide-leaf
-photo: https://commons.wikimedia.org/wiki/Special:FilePath/20210819_jadot.yannick_5725.jpg
+photo: /photos/yannick-jadot.jpg
+photoSource: https://commons.wikimedia.org/wiki/Special:FilePath/20210819_jadot.yannick_5725.jpg
 ---
 
 <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
   <img
-    src="https://commons.wikimedia.org/wiki/Special:FilePath/20210819_jadot.yannick_5725.jpg"
+    src="/photos/yannick-jadot.jpg"
     alt="Photo de Yannick Jadot"
     style="height: 10rem; width: 10rem; object-fit: cover; border-radius: 1rem; box-shadow: 0 2px 8px #0001;"
   />

@@ -3,12 +3,13 @@ title: Karim Bouamrane (La France Humaine et Forte)
 description: Synthèse neutre des positions de Karim Bouamrane et de La France Humaine et Forte, avec sources et état des procédures.
 party: La France Humaine et Forte
 partyIcon: i-lucide-handshake
-photo: https://www.lafrancehumaineetforte.fr/kb_bleu_hero.jpeg
+photo: /photos/karim-bouamrane.jpg
+photoSource: https://commons.wikimedia.org/wiki/Special:FilePath/Karim%20Bouamrane%20en%202026%20%28cropped%29.jpg
 ---
 
 <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
   <img
-    src="https://www.lafrancehumaineetforte.fr/kb_bleu_hero.jpeg"
+    src="/photos/karim-bouamrane.jpg"
     alt="Photo de Karim Bouamrane"
     style="height: 10rem; width: 10rem; object-fit: cover; border-radius: 1rem; box-shadow: 0 2px 8px #0001;"
   />

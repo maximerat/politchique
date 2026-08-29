@@ -3,12 +3,13 @@ title: François Ruffin (Debout !)
 description: Synthèse neutre des positions de François Ruffin et de Debout !, avec sources et état des procédures.
 party: Debout !
 partyIcon: i-lucide-factory
-photo: https://upload.wikimedia.org/wikipedia/commons/2/2f/Fran%C3%A7ois_Ruffin_%28cropped%29.jpg
+photo: /photos/francois-ruffin.jpg
+photoSource: https://upload.wikimedia.org/wikipedia/commons/2/2f/Fran%C3%A7ois_Ruffin_%28cropped%29.jpg
 ---
 
 <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
   <img
-    src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Fran%C3%A7ois_Ruffin_%28cropped%29.jpg"
+    src="/photos/francois-ruffin.jpg"
     alt="Photo de François Ruffin"
     style="height: 10rem; width: 10rem; object-fit: cover; border-radius: 1rem; box-shadow: 0 2px 8px #0001;"
   />

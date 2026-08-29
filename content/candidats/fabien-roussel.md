@@ -3,12 +3,13 @@ title: Fabien Roussel (Parti communiste français)
 description: Synthèse neutre des positions de Fabien Roussel et du Parti communiste français, avec sources et état des procédures.
 party: Parti communiste français
 partyIcon: i-lucide-hammer
-photo: https://commons.wikimedia.org/wiki/Special:FilePath/Roussel%20Fabien%201.jpg
+photo: /photos/fabien-roussel.jpg
+photoSource: https://commons.wikimedia.org/wiki/Special:FilePath/Roussel%20Fabien%201.jpg
 ---
 
 <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
   <img
-    src="https://commons.wikimedia.org/wiki/Special:FilePath/Roussel%20Fabien%201.jpg"
+    src="/photos/fabien-roussel.jpg"
     alt="Photo de Fabien Roussel"
     style="height: 10rem; width: 10rem; object-fit: cover; border-radius: 1rem; box-shadow: 0 2px 8px #0001;"
   />

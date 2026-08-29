@@ -3,12 +3,13 @@ title: Marine Tondelier (Les Écologistes)
 description: Synthèse neutre des positions de Marine Tondelier et des Écologistes, avec sources et état des procédures.
 party: Les Écologistes
 partyIcon: i-lucide-leaf
-photo: https://upload.wikimedia.org/wikipedia/commons/a/ac/20210819_tondelier.m-cr3.jpg
+photo: /photos/marine-tondelier.jpg
+photoSource: https://upload.wikimedia.org/wikipedia/commons/a/ac/20210819_tondelier.m-cr3.jpg
 ---
 
 <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
   <img
-    src="https://upload.wikimedia.org/wikipedia/commons/a/ac/20210819_tondelier.m-cr3.jpg"
+    src="/photos/marine-tondelier.jpg"
     alt="Photo de Marine Tondelier"
     style="height: 10rem; width: 10rem; object-fit: cover; border-radius: 1rem; box-shadow: 0 2px 8px #0001;"
   />

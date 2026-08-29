@@ -3,12 +3,13 @@ title: Xavier Bertrand (Nous France)
 description: Synthèse neutre des positions de Xavier Bertrand et de Nous France, avec sources et état des procédures.
 party: Nous France
 partyIcon: i-lucide-map
-photo: https://commons.wikimedia.org/wiki/Special:FilePath/Xavier%20Bertrand%20-%202025%20%28cropped%29.jpg
+photo: /photos/xavier-bertrand.jpg
+photoSource: https://commons.wikimedia.org/wiki/Special:FilePath/Xavier%20Bertrand%20-%202025%20%28cropped%29.jpg
 ---
 
 <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
   <img
-    src="https://commons.wikimedia.org/wiki/Special:FilePath/Xavier%20Bertrand%20-%202025%20%28cropped%29.jpg"
+    src="/photos/xavier-bertrand.jpg"
     alt="Photo de Xavier Bertrand"
     style="height: 10rem; width: 10rem; object-fit: cover; border-radius: 1rem; box-shadow: 0 2px 8px #0001;"
   />

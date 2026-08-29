@@ -3,12 +3,13 @@ title: Sandrine Rousseau (Les Écologistes)
 description: Synthèse neutre des positions de Sandrine Rousseau et des Écologistes, avec sources et état des procédures.
 party: Les Écologistes
 partyIcon: i-lucide-leaf
-photo: https://commons.wikimedia.org/wiki/Special:FilePath/Sandrine%20Rousseau%2020210819%20%28cropped%29.jpg
+photo: /photos/sandrine-rousseau.jpg
+photoSource: https://commons.wikimedia.org/wiki/Special:FilePath/Sandrine%20Rousseau%2020210819%20%28cropped%29.jpg
 ---
 
 <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
   <img
-    src="https://commons.wikimedia.org/wiki/Special:FilePath/Sandrine%20Rousseau%2020210819%20%28cropped%29.jpg"
+    src="/photos/sandrine-rousseau.jpg"
     alt="Photo de Sandrine Rousseau"
     style="height: 10rem; width: 10rem; object-fit: cover; border-radius: 1rem; box-shadow: 0 2px 8px #0001;"
   />

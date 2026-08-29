@@ -3,11 +3,12 @@ title: Florian Philippot (Les Patriotes)
 description: Synthèse neutre des positions de Florian Philippot et des Patriotes, avec sources et état des procédures.
 party: Les Patriotes
 partyIcon: i-lucide-flag
-photo: https://commons.wikimedia.org/wiki/Special:FilePath/Florian_Philippot_%28A%29_%28cropped%29.JPG
+photo: /photos/florian-philippot.jpg
+photoSource: https://commons.wikimedia.org/wiki/Special:FilePath/Florian_Philippot_%28A%29_%28cropped%29.JPG
 ---
 <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
   <img
-    src="https://commons.wikimedia.org/wiki/Special:FilePath/Florian_Philippot_%28A%29_%28cropped%29.JPG"
+    src="/photos/florian-philippot.jpg"
     alt="Photo de Florian Philippot"
     style="height: 10rem; width: 10rem; object-fit: cover; border-radius: 1rem; box-shadow: 0 2px 8px #0001;"
   />

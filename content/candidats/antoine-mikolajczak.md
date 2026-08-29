@@ -3,12 +3,13 @@ title: Antoine Mikolajczak (Équinoxe)
 description: Synthèse neutre des positions d'Antoine Mikolajczak et du parti Équinoxe, avec sources et état des procédures.
 party: Équinoxe
 partyIcon: i-lucide-sun-moon
-photo: https://parti-equinoxe.fr/wp-content/uploads/2026/07/Parti-equinoxe-Antoine-Miko-portrait-768x1024.jpg
+photo: /photos/antoine-mikolajczak.jpg
+photoSource: https://parti-equinoxe.fr/wp-content/uploads/2026/07/Parti-equinoxe-Antoine-Miko-portrait-768x1024.jpg
 ---
 
 <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
   <img
-    src="https://parti-equinoxe.fr/wp-content/uploads/2026/07/Parti-equinoxe-Antoine-Miko-portrait-768x1024.jpg"
+    src="/photos/antoine-mikolajczak.jpg"
     alt="Photo d'Antoine Mikolajczak"
     style="height: 10rem; width: 10rem; object-fit: cover; border-radius: 1rem; box-shadow: 0 2px 8px #0001;"
   />

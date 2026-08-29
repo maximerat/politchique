@@ -3,12 +3,13 @@ title: Raphaël Glucksmann (Place publique)
 description: Synthèse neutre des positions de Raphaël Glucksmann et de Place publique, avec sources et état des procédures.
 party: Place publique
 partyIcon: i-lucide-users
-photo: https://upload.wikimedia.org/wikipedia/commons/1/1f/1720448398743_20240708_GLUCKSMANN_Raphael_FR_006.jpg
+photo: /photos/raphael-glucksmann.jpg
+photoSource: https://upload.wikimedia.org/wikipedia/commons/1/1f/1720448398743_20240708_GLUCKSMANN_Raphael_FR_006.jpg
 ---
 
 <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
   <img
-    src="https://upload.wikimedia.org/wikipedia/commons/1/1f/1720448398743_20240708_GLUCKSMANN_Raphael_FR_006.jpg"
+    src="/photos/raphael-glucksmann.jpg"
     alt="Photo de Raphaël Glucksmann"
     style="height: 10rem; width: 10rem; object-fit: cover; border-radius: 1rem; box-shadow: 0 2px 8px #0001;"
   />

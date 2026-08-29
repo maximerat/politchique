@@ -3,12 +3,13 @@ title: Laurent Wauquiez (Les Républicains)
 description: Synthèse neutre des positions de Laurent Wauquiez et de la droite républicaine, avec sources et état des procédures.
 party: Les Républicains
 partyIcon: i-lucide-shield
-photo: https://upload.wikimedia.org/wikipedia/commons/2/2d/Laurent_Wauquiez_2021.jpg
+photo: /photos/laurent-wauquiez.jpg
+photoSource: https://upload.wikimedia.org/wikipedia/commons/2/2d/Laurent_Wauquiez_2021.jpg
 ---
 
 <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
   <img
-    src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Laurent_Wauquiez_2021.jpg"
+    src="/photos/laurent-wauquiez.jpg"
     alt="Photo de Laurent Wauquiez"
     style="height: 10rem; width: 10rem; object-fit: cover; border-radius: 1rem; box-shadow: 0 2px 8px #0001;"
   />
