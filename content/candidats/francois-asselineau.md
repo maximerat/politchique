@@ -109,17 +109,17 @@ Cette fiche reprend les grandes orientations mises en avant par **François Asse
 
 </details>
 
-[UPR][1]: https://upr.fr/notre-programme "Notre programme - UPR"
-[UPR][2]: https://upr.fr/actualites/programme-presidentiel-2022 "Notre programme de libération nationale pour 2022"
-[UPR][3]: https://upr.fr/nos-fondamentaux "Nos fondamentaux - UPR"
-[UPR][4]: https://upr.fr/militantisme/19-ans-de-lupr-francois-asselineau-lance-sa-campagne-presidentielle-2027-et-nomme-marc-parigot-directeur-de-campagne "François Asselineau lance sa campagne présidentielle 2027"
-[UPR][5]: https://upr.fr/le-retour-au-franc "Le retour au franc - UPR"
-[UPR][6]: https://upr.fr/essentiels/profession-de-foi-de-la-liste-asselineau-frexit-aux-europeennes-2024/ "Profession de foi de la liste Asselineau-Frexit aux européennes 2024"
-[UPR][7]: https://upr.fr/ "UPR - Union populaire républicaine"
-[Le Parisien][8]: https://www.leparisien.fr/faits-divers/francois-asselineau-president-de-l-upr-mis-en-examen-pour-harcelement-et-agression-sexuelle-05-02-2021-8423438.php "François Asselineau, président de l'UPR, mis en examen pour harcèlement et agressions sexuelles"
-[Brut / AFP][9]: https://www.brut.media/fr/articles/france/justice-faits-divers/agression-et-harcelement-sexuels-francois-asselineau-renvoye-en-proces "Agression et harcèlement sexuels : François Asselineau renvoyé en procès"
-[Mediapart / AFP][10]: https://www.mediapart.fr/journal/fil-dactualites/190526/agression-et-harcelement-sexuels-francois-asselineau-renvoye-en-correctionnelle "Agression et harcèlement sexuels : François Asselineau renvoyé en correctionnelle"
-[Wikimedia Commons][11]: https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_ASSELINEAU.jpg "File: François ASSELINEAU.jpg"
+[1]: https://upr.fr/notre-programme "Notre programme - UPR"
+[2]: https://upr.fr/actualites/programme-presidentiel-2022 "Notre programme de libération nationale pour 2022"
+[3]: https://upr.fr/nos-fondamentaux "Nos fondamentaux - UPR"
+[4]: https://upr.fr/militantisme/19-ans-de-lupr-francois-asselineau-lance-sa-campagne-presidentielle-2027-et-nomme-marc-parigot-directeur-de-campagne "François Asselineau lance sa campagne présidentielle 2027"
+[5]: https://upr.fr/le-retour-au-franc "Le retour au franc - UPR"
+[6]: https://upr.fr/essentiels/profession-de-foi-de-la-liste-asselineau-frexit-aux-europeennes-2024/ "Profession de foi de la liste Asselineau-Frexit aux européennes 2024"
+[7]: https://upr.fr/ "UPR - Union populaire républicaine"
+[8]: https://www.leparisien.fr/faits-divers/francois-asselineau-president-de-l-upr-mis-en-examen-pour-harcelement-et-agression-sexuelle-05-02-2021-8423438.php "François Asselineau, président de l'UPR, mis en examen pour harcèlement et agressions sexuelles"
+[9]: https://www.brut.media/fr/articles/france/justice-faits-divers/agression-et-harcelement-sexuels-francois-asselineau-renvoye-en-proces "Agression et harcèlement sexuels : François Asselineau renvoyé en procès"
+[10]: https://www.mediapart.fr/journal/fil-dactualites/190526/agression-et-harcelement-sexuels-francois-asselineau-renvoye-en-correctionnelle "Agression et harcèlement sexuels : François Asselineau renvoyé en correctionnelle"
+[11]: https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_ASSELINEAU.jpg "File: François ASSELINEAU.jpg"
 
 ---
 

@@ -135,21 +135,21 @@ Cette fiche reprend les grandes orientations mises en avant par **Florian Philip
 
 </details>
 
-[Les Patriotes][1]: https://les-patriotes.fr/ "Les Patriotes - Site officiel"
-[Les Patriotes][2]: https://les-patriotes.fr/wp-content/uploads/2025/09/lespatriotes_projet.pdf "Grandes orientations pour un projet patriote"
-[Les Patriotes][3]: https://les-patriotes.fr/l-equipe-nationale/ "Équipe nationale - Les Patriotes"
-[Les Patriotes][4]: https://les-patriotes.fr/comite-executif/ "Comité Exécutif - Les Patriotes"
-[Les Patriotes][5]: https://les-patriotes.fr/wp-content/uploads/2025/01/Lettre-aux-maires-M.pdf "Lettre aux maires - Parrainage citoyen"
-[La Dépêche][6]: https://www.ladepeche.fr/2026/05/09/presidentielle-2027-lancien-vice-president-du-fn-florian-philippot-se-lance-a-nouveau-dans-la-course-a-lelysee-13363447.php "Présidentielle 2027 : Florian Philippot annonce sa candidature"
-[Programme présidentiel 2022][7]: https://www.politique-animaux.fr/sites/www.politique-animaux.fr/fichiers/prises-de-positions/pieces-jointes/programme2022.pdf "Florian Philippot - Mon projet présidentiel"
-[Les Patriotes][8]: https://les-patriotes.fr/wp-content/uploads/2026/03/TRACT-La-nouvelle-Revolution-francaise.pdf "La nouvelle Révolution française - Les Patriotes"
-[Le Point][9]: https://www.lepoint.fr/politique/assistants-d-eurodeputes-fn-philippot-evite-une-mise-en-examen-02-07-2020-2382828_20.php "Assistants d'eurodéputés FN : Philippot évite une mise en examen"
-[Public Sénat][10]: https://www.publicsenat.fr/actualites/non-classe/enquete-ouverte-contre-florian-philippot-pour-avoir-decroche-le-drapeau-europeen "Enquête ouverte contre Florian Philippot pour avoir décroché le drapeau européen"
-[Public Sénat][11]: https://www.publicsenat.fr/actualites/non-classe/fekl-depose-plainte-pour-diffamation-apres-des-propos-de-philippot-fn-visant-la "Fekl dépose plainte pour diffamation après des propos de Philippot visant la police"
-[Reuters][12]: https://www.reuters.com/article/world/le-qatar-a-port-plainte-pour-diffamation-contre-le-fn-idUSKBN0OH2BN/ "Le Qatar a porté plainte pour diffamation contre le FN"
-[Le Parisien][13]: https://www.leparisien.fr/archives/closer-condamne-a-verser-20-000-eur-a-florian-philippot-25-12-2014-4398977.php "Closer condamné à verser 20 000 euros à Florian Philippot"
-[RTL][14]: https://www.rtl.fr/actu/politique/philippot-closer-la-condamnation-du-magazine-people-confirmee-en-appel-7778939816 "Florian Philippot : la condamnation de Closer confirmée en appel"
-[Wikimedia Commons][15]: https://commons.wikimedia.org/wiki/File:Florian_Philippot_(A)_(cropped).JPG "Florian Philippot (A) (cropped).JPG"
+[1]: https://les-patriotes.fr/ "Les Patriotes - Site officiel"
+[2]: https://les-patriotes.fr/wp-content/uploads/2025/09/lespatriotes_projet.pdf "Grandes orientations pour un projet patriote"
+[3]: https://les-patriotes.fr/l-equipe-nationale/ "Équipe nationale - Les Patriotes"
+[4]: https://les-patriotes.fr/comite-executif/ "Comité Exécutif - Les Patriotes"
+[5]: https://les-patriotes.fr/wp-content/uploads/2025/01/Lettre-aux-maires-M.pdf "Lettre aux maires - Parrainage citoyen"
+[6]: https://www.ladepeche.fr/2026/05/09/presidentielle-2027-lancien-vice-president-du-fn-florian-philippot-se-lance-a-nouveau-dans-la-course-a-lelysee-13363447.php "Présidentielle 2027 : Florian Philippot annonce sa candidature"
+[7]: https://www.politique-animaux.fr/sites/www.politique-animaux.fr/fichiers/prises-de-positions/pieces-jointes/programme2022.pdf "Florian Philippot - Mon projet présidentiel"
+[8]: https://les-patriotes.fr/wp-content/uploads/2026/03/TRACT-La-nouvelle-Revolution-francaise.pdf "La nouvelle Révolution française - Les Patriotes"
+[9]: https://www.lepoint.fr/politique/assistants-d-eurodeputes-fn-philippot-evite-une-mise-en-examen-02-07-2020-2382828_20.php "Assistants d'eurodéputés FN : Philippot évite une mise en examen"
+[10]: https://www.publicsenat.fr/actualites/non-classe/enquete-ouverte-contre-florian-philippot-pour-avoir-decroche-le-drapeau-europeen "Enquête ouverte contre Florian Philippot pour avoir décroché le drapeau européen"
+[11]: https://www.publicsenat.fr/actualites/non-classe/fekl-depose-plainte-pour-diffamation-apres-des-propos-de-philippot-fn-visant-la "Fekl dépose plainte pour diffamation après des propos de Philippot visant la police"
+[12]: https://www.reuters.com/article/world/le-qatar-a-port-plainte-pour-diffamation-contre-le-fn-idUSKBN0OH2BN/ "Le Qatar a porté plainte pour diffamation contre le FN"
+[13]: https://www.leparisien.fr/archives/closer-condamne-a-verser-20-000-eur-a-florian-philippot-25-12-2014-4398977.php "Closer condamné à verser 20 000 euros à Florian Philippot"
+[14]: https://www.rtl.fr/actu/politique/philippot-closer-la-condamnation-du-magazine-people-confirmee-en-appel-7778939816 "Florian Philippot : la condamnation de Closer confirmée en appel"
+[15]: https://commons.wikimedia.org/wiki/File:Florian_Philippot_(A)_(cropped).JPG "Florian Philippot (A) (cropped).JPG"
 
 ---
 

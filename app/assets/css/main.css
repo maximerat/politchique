@@ -107,8 +107,104 @@ body::before {
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.18);
 }
 
-main {
-  padding-top: 6px;
+/* === Barre de menu (entête) === */
+.fr-entete {
+  position: sticky;
+  top: 6px;
+  z-index: 50;
+  margin-top: 6px;
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(8px);
+  border-bottom: 2px solid var(--fr-ink);
+  box-shadow: 0 8px 24px -20px rgba(11, 18, 32, 0.6);
+}
+
+.fr-entete__marque {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  text-decoration: none;
+  color: var(--fr-ink);
+}
+
+.fr-entete__titre {
+  font-family:
+    "DM Serif Display",
+    Georgia,
+    serif;
+  font-size: 1.05rem;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.fr-entete__lien {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.7rem;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--fr-ink);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.fr-entete__lien:hover {
+  background: var(--fr-paper);
+  border-color: rgba(11, 18, 32, 0.18);
+}
+
+.fr-entete__lien--actif {
+  background: #ffffff;
+  border-color: var(--fr-bleu);
+  color: var(--fr-bleu);
+}
+
+.fr-entete__lien--soutien {
+  color: var(--fr-rouge);
+  border-color: rgba(225, 0, 15, 0.35);
+}
+
+.fr-entete__lien--soutien:hover {
+  background: #fff1f1;
+  border-color: var(--fr-rouge);
+}
+
+.fr-entete__lien--soutien.fr-entete__lien--actif {
+  background: #fff1f1;
+  border-color: var(--fr-rouge);
+  color: var(--fr-rouge);
+}
+
+/* Sur petit écran, les libellés priment sur les icônes : « Pour qui voter »
+   ne tient pas sur une seule ligne autrement. */
+@media (max-width: 640px) {
+  .fr-entete__titre {
+    display: none;
+  }
+
+  .fr-entete__lien {
+    padding: 0.3rem 0.4rem;
+    font-size: 0.68rem;
+  }
+
+  .fr-entete__lien .iconify,
+  .fr-entete__lien svg {
+    display: none;
+  }
+
+  .fr-entete nav {
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .fr-entete nav::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 /* === Marianne accent: filigrane discret bleu/rouge sous le header === */

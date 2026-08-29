@@ -70,6 +70,7 @@ onMounted(() => {
   <UApp>
     <div class="min-h-screen flex flex-col">
       <NuxtRouteAnnouncer />
+      <AppHeader />
       <main class="flex-1">
         <NuxtPage />
       </main>
@@ -104,6 +105,8 @@ onMounted(() => {
         </p>
         <p class="opacity-80">
           <NuxtLink to="/a-propos">À propos</NuxtLink>
+          ·
+          <NuxtLink to="/soutenir">Soutenir</NuxtLink>
           · La politique c'est chiant mais c'est important ·
           <NuxtLink to="https://github.com/maximerat/politchique"
             >GitHub</NuxtLink
