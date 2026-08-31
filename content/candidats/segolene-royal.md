@@ -61,7 +61,7 @@ Cette fiche reprend les orientations portées par **Ségolène Royal**, candidat
 
 ### Contexte de la primaire
 
-10. Elle affronte **Philippe Brun** (déclaré le 30 juin 2026), qui se présente comme « le candidat des salaires », **Raphaël Glucksmann** (Place publique, 23 août 2026) et **Jérôme Guedj** (rallié à la primaire le 23 août 2026) ; **Olivier Faure** reste pressenti. ([Wikipédia — Primaire socialiste 2026][3])
+10. Elle affronte **Philippe Brun** (déclaré le 30 juin 2026), qui se présente comme « le candidat des salaires », **Raphaël Glucksmann** (Place publique, 23 août 2026), **Jérôme Guedj** (rallié à la primaire le 23 août 2026) et **Olivier Faure** (30 août 2026). ([Wikipédia — Primaire socialiste 2026][3])
 11. Sa candidature relance la **bataille du leadership socialiste** en vue de 2027. ([Parlons Politique][5])
 
 </details>

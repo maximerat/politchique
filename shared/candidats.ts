@@ -453,9 +453,9 @@ export const candidats: Candidat[] = [
     photo: "/photos/olivier-faure.jpg",
     resume:
       "Synthèse neutre des positions d'Olivier Faure et du Parti socialiste, avec sources et état des procédures.",
-    statut: "pressenti",
+    statut: "declare",
     statutDetail:
-      "Premier secrétaire du PS, cité parmi les candidats possibles à la primaire de l'espace social-démocrate : il s'est donné « jusqu'au mois de septembre » 2026 pour trancher, sans candidature déclarée à ce stade.",
+      "Candidature déclarée le 30 août 2026 au 20 h de TF1, au lendemain de l'université d'été du PS à Blois ; il concourt à la primaire fermée de l'espace social-démocrate (PS, Place publique) des 9-10 et 16-17 octobre 2026.",
     source: {
       label: "Parti socialiste — Projet",
       url: "https://ressources-militantes.parti-socialiste.fr/assets/pdf/PROJET_PS_V21avril-2.pdf",

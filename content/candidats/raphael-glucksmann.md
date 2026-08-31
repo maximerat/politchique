@@ -24,7 +24,7 @@ Cette fiche reprend les orientations portées par **Raphaël Glucksmann**, cofon
 - **Annonce :** le **23 août 2026**, au journal de 20 h de TF1 : « Oui, je suis candidat », « pour **relever la France** ». ([franceinfo][1], [France 24][3])
 - **Primaire :** il concourt à la **primaire fermée de l'espace social-démocrate**, organisée par le **PS**, **Place publique** et la Gauche républicaine et socialiste — **1er tour les 9 et 10 octobre 2026**, **2d tour les 16 et 17 octobre 2026**. ([LCP][2], [Wikipédia — Primaire socialiste 2026][7])
 - **Ne pas confondre :** cette primaire fermée est **distincte** de la [primaire de la gauche unitaire](/primaires) du 11 octobre 2026, à laquelle Place publique n'a jamais participé.
-- **Concurrents dans la primaire :** Philippe Brun (30 juin 2026), Ségolène Royal (10 juillet 2026) et Jérôme Guedj (rallié à la primaire le 23 août 2026). ([Wikipédia][7])
+- **Concurrents dans la primaire :** Philippe Brun (30 juin 2026), Ségolène Royal (10 juillet 2026), Jérôme Guedj (rallié à la primaire le 23 août 2026) et Olivier Faure (30 août 2026). ([Wikipédia][7])
 - **Soutiens mis en avant :** Daniel Cohn-Bendit et **Yannick Jadot**. ([Wikipédia][7])
 
 </details>

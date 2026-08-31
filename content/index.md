@@ -18,6 +18,7 @@ Chaque fiche précise si la **candidature est déclarée** (annonce publique), s
 - [Bernard Cazeneuve (La Convention)](/candidats/bernard-cazeneuve)
 - [Nicolas Dupont-Aignan (Debout la France)](/candidats/nicolas-dupont-aignan)
 - [Clara Egger (Solution démocratique)](/candidats/clara-egger)
+- [Olivier Faure (Parti socialiste)](/candidats/olivier-faure)
 - [Raphaël Glucksmann (Place publique)](/candidats/raphael-glucksmann)
 - [Jérôme Guedj (Parti socialiste)](/candidats/jerome-guedj)
 - [Anasse Kazib (Révolution permanente)](/candidats/anasse-kazib)
@@ -34,7 +35,6 @@ Chaque fiche précise si la **candidature est déclarée** (annonce publique), s
 
 ## Candidatures pressenties
 
-- [Olivier Faure (Parti socialiste)](/candidats/olivier-faure)
 - [Fabien Roussel (Parti communiste français)](/candidats/fabien-roussel)
 - [Dominique de Villepin (La France humaniste)](/candidats/dominique-de-villepin)
 - [Laurent Wauquiez (Les Républicains)](/candidats/laurent-wauquiez)

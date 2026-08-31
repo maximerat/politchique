@@ -24,7 +24,7 @@ Cette fiche reprend les grandes orientations mises en avant par **Jérôme Guedj
 - **Annonce :** le **5 février 2026**, **sans passer par une primaire** — ni celle de la gauche unitaire, ni un processus socialiste. ([CNews][11], [TF1 Info][4])
 - **Revirement :** le **23 août 2026**, il rejoint la **primaire fermée de l'espace social-démocrate** (PS, Place publique), le même jour que l'entrée en lice de Raphaël Glucksmann. ([Wikipédia — Primaire socialiste 2026][18])
 - **Calendrier :** **1er tour les 9 et 10 octobre 2026**, **2d tour les 16 et 17 octobre 2026**, réservé aux adhérents du PS et de Place publique à jour de cotisation. ([Wikipédia][18])
-- **Concurrents :** Philippe Brun, Raphaël Glucksmann et Ségolène Royal ; Olivier Faure reste pressenti. ([Wikipédia][18])
+- **Concurrents :** Philippe Brun, Raphaël Glucksmann, Ségolène Royal et Olivier Faure (déclaré le 30 août 2026). ([Wikipédia][18])
 - **Ne pas confondre :** cette primaire fermée est **distincte** de la [primaire de la gauche unitaire](/primaires) du 11 octobre 2026.
 
 </details>

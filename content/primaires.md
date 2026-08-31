@@ -21,8 +21,8 @@ Deux processus **distincts** ont coexisté en 2026. Les confondre est la premiè
 - **Format :** primaire **fermée**, réservée aux adhérents à jour de cotisation du **Parti socialiste**, de **Place publique** et de la Gauche républicaine et socialiste — l'adhésion étant possible pour 15 euros.
 - **Décision :** le **9 juillet 2026**, les militants du PS ont choisi ce format restreint à **55,5 %**, contre la primaire ouverte aux sympathisants que défendait Olivier Faure.
 - **Calendrier :** **1er tour les 9 et 10 octobre 2026**, **2d tour les 16 et 17 octobre 2026**.
-- **Candidats déclarés :** [Philippe Brun](https://fr.wikipedia.org/wiki/Primaire_pr%C3%A9sidentielle_socialiste_fran%C3%A7aise_de_2026) (30 juin 2026, pas encore de fiche ici), [Ségolène Royal](/candidats/segolene-royal) (10 juillet 2026), [Raphaël Glucksmann](/candidats/raphael-glucksmann) (23 août 2026) et [Jérôme Guedj](/candidats/jerome-guedj) (rallié le 23 août 2026).
-- **Pressentis :** [Olivier Faure](/candidats/olivier-faure), Carole Delga, Boris Vallaud, Emmanuel Maurel.
+- **Candidats déclarés :** [Philippe Brun](https://fr.wikipedia.org/wiki/Primaire_pr%C3%A9sidentielle_socialiste_fran%C3%A7aise_de_2026) (30 juin 2026, pas encore de fiche ici), [Ségolène Royal](/candidats/segolene-royal) (10 juillet 2026), [Raphaël Glucksmann](/candidats/raphael-glucksmann) (23 août 2026), [Jérôme Guedj](/candidats/jerome-guedj) (rallié le 23 août 2026) et [Olivier Faure](/candidats/olivier-faure) (30 août 2026).
+- **Pressentis :** Carole Delga, Boris Vallaud, Emmanuel Maurel.
 
 ## En dehors des deux primaires
 
