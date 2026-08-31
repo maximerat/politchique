@@ -12,6 +12,30 @@ type DoorbellOptions = {
   appKey: string;
   windowLoaded?: boolean;
   language: string;
+  strings: Record<string, string>;
+};
+
+// Doorbell ne fournit aucune traduction embarquée : `language` sert seulement à
+// étiqueter les retours envoyés. Les libellés doivent donc être écrasés un à un.
+const doorbellStrings: Record<string, string> = {
+  title: "Votre avis",
+  "feedback-button-text": "Votre avis",
+  "feedback-textarea-placeholder":
+    "Envoyez-nous vos commentaires ou suggestions…",
+  "email-input-placeholder": "Votre adresse e-mail",
+  "attach-a-screenshot": "Joindre une capture d'écran",
+  "add-attachments-label-button": "Envoyer des fichiers",
+  "submit-button-text": "Envoyer",
+  "submitting-button-text": "Envoi…",
+  "uploading-button-text": "Téléversement…",
+  "nps-rating-label": "Quelle note nous donnez-vous ?",
+  "nps-rating-bad-label": "Pas terrible",
+  "nps-rating-good-label": "Excellent",
+  "message-success": "Merci, votre message a bien été envoyé !",
+  "message-error-missing-email": "Veuillez indiquer votre adresse e-mail.",
+  "message-error-invalid-email": "Cette adresse e-mail n'est pas valide.",
+  "message-error-missing-message": "Veuillez écrire un message.",
+  "message-error-message-too-short": "Votre message est trop court.",
 };
 
 onMounted(() => {
@@ -27,6 +51,7 @@ onMounted(() => {
     id: "14691",
     appKey: "9QqghzW44x1JhGhHQagax1nL0ObUwYNqm47c62hHPZYdMPBkU66IAWIvi7SCpCYi",
     language: "fr",
+    strings: doorbellStrings,
   };
   w.doorbellOptions = doorbellOptions;
 
