@@ -20,9 +20,16 @@ function melangerCandidats<T>(liste: T[]): T[] {
   return copie;
 }
 
-const candidatsAleatoires = useState("candidats-aleatoires", () =>
-  melangerCandidats(candidats),
-);
+// Le tirage est fait côté client uniquement : le serveur rend la liste dans son
+// ordre d'origine, puis chaque montage du composant (chargement de page comme
+// navigation interne) applique un nouveau mélange. Passer par `onMounted` évite
+// une divergence d'hydratation, et le rendu est mis à jour avant le premier
+// affichage à l'écran.
+const candidatsAleatoires = ref<Candidat[]>(candidats);
+
+onMounted(() => {
+  candidatsAleatoires.value = melangerCandidats(candidats);
+});
 
 const recherche = ref("");
 const filtreStatut = ref<StatutCandidature | "tous">("tous");
