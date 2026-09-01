@@ -167,17 +167,20 @@ function remelangerCandidats() {
       <div
         class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between"
       >
-        <div class="flex items-center gap-3">
-          <h2 class="text-xl font-semibold">Liste des candidats</h2>
-          <UButton
-            size="xs"
-            variant="subtle"
-            icon="i-lucide-shuffle"
-            class="bg-red-500 text-white hover:bg-red-600"
-            @click="remelangerCandidats"
-          >
-            Mélanger
-          </UButton>
+        <div class="space-y-1">
+          <div class="flex items-center gap-3">
+            <h2 class="text-xl font-semibold">Liste des candidats</h2>
+            <UButton
+              size="xs"
+              variant="subtle"
+              icon="i-lucide-shuffle"
+              class="bg-red-500 text-white hover:bg-red-600"
+              @click="remelangerCandidats"
+            >
+              Mélanger
+            </UButton>
+          </div>
+          <p class="text-sm opacity-70">L'ordre d'affichage est aléatoire.</p>
         </div>
         <UBadge color="neutral" variant="outline">
           {{ candidatsFiltres.length }} / {{ candidats.length }} candidat{{
