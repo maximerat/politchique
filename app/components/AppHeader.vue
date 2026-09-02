@@ -43,6 +43,8 @@ const estActif = (chemin: string) =>
           <span>{{ lien.label }}</span>
         </NuxtLink>
 
+        <!-- Lien "Soutenir" masqué temporairement (la page reste accessible). -->
+        <!--
         <NuxtLink
           to="/soutenir"
           class="fr-entete__lien fr-entete__lien--soutien"
@@ -52,6 +54,7 @@ const estActif = (chemin: string) =>
           <UIcon name="i-lucide-heart" class="size-4" />
           <span>Soutenir</span>
         </NuxtLink>
+        -->
       </nav>
     </UContainer>
   </header>
