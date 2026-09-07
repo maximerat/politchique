@@ -2,6 +2,7 @@
 import {
   candidats,
   cheminCandidat,
+  niveauxProgramme,
   statutsCandidature,
   type Candidat,
   type StatutCandidature,
@@ -87,6 +88,13 @@ const candidatsFiltres = computed(() => {
 });
 
 const statutDe = (candidat: Candidat) => statutsCandidature[candidat.statut];
+
+// Un programme publié et structuré n'est pas signalé : seuls les deux niveaux
+// en retrait le sont, pour que l'absence de contenu soit visible dès la liste.
+const programmeDe = (candidat: Candidat) =>
+  candidat.programme && candidat.programme !== "detaille"
+    ? niveauxProgramme[candidat.programme]
+    : undefined;
 
 useSeoMeta({
   title: "Présidentielle française 2027 : candidats et programmes",
@@ -251,14 +259,25 @@ function remelangerCandidats() {
                 {{ candidat.parti }}
               </UBadge>
             </div>
-            <span
-              class="fr-statut"
-              :class="`fr-statut--${candidat.statut}`"
-              :title="candidat.statutDetail"
-            >
-              <UIcon :name="statutDe(candidat).icone" />
-              {{ statutDe(candidat).label }}
-            </span>
+            <div class="flex flex-wrap items-center gap-2">
+              <span
+                class="fr-statut"
+                :class="`fr-statut--${candidat.statut}`"
+                :title="candidat.statutDetail"
+              >
+                <UIcon :name="statutDe(candidat).icone" />
+                {{ statutDe(candidat).label }}
+              </span>
+              <span
+                v-if="programmeDe(candidat)"
+                class="fr-programme"
+                :class="`fr-programme--${candidat.programme}`"
+                :title="candidat.programmeDetail"
+              >
+                <UIcon :name="programmeDe(candidat)!.icone" />
+                {{ programmeDe(candidat)!.label }}
+              </span>
+            </div>
             <p class="text-sm text-muted">
               {{ candidat.resume }}
             </p>

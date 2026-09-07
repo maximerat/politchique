@@ -52,6 +52,54 @@ useSeoMeta({
 
     <UCard>
       <template #header>
+        <h2 class="text-lg font-semibold">Comment les fiches sont classées</h2>
+      </template>
+      <div class="space-y-3 text-sm">
+        <p>
+          Chaque fiche porte deux indicateurs, appliqués à tous les candidats
+          avec le même critère.
+        </p>
+        <p>
+          Le <strong>statut</strong> décrit l'état de la candidature :
+          déclarée, pressentie, retirée ou hors course. Une candidature n'est
+          dite déclarée que si une annonce officielle est sourcée.
+        </p>
+        <p>
+          Le <strong>niveau de programme</strong> décrit ce qu'il est possible
+          de lire des propositions du candidat, indépendamment de son poids
+          politique :
+        </p>
+        <ul class="list-disc space-y-1 pl-5">
+          <li>
+            <strong>Programme détaillé</strong> — un programme public et
+            structuré existe, couvrant plusieurs domaines. Aucun marqueur
+            n'est affiché dans ce cas.
+          </li>
+          <li>
+            <strong>Programme mono-thématique</strong> — un contenu public
+            existe, mais volontairement limité à un seul sujet. Le candidat
+            l'assume.
+          </li>
+          <li>
+            <strong>Programme sommaire</strong> — quelques axes ont été
+            annoncés publiquement, sans document programmatique publié.
+          </li>
+          <li>
+            <strong>Aucun programme publié</strong> — aucune proposition
+            identifiable dans les sources consultées.
+          </li>
+        </ul>
+        <p>
+          Ces marqueurs portent sur la <strong>disponibilité</strong> des
+          propositions, pas sur leur qualité ni sur leur contenu. Une
+          candidature déclarée sans programme reste listée : l'absence est
+          signalée, la fiche n'est pas écartée.
+        </p>
+      </div>
+    </UCard>
+
+    <UCard>
+      <template #header>
         <h2 class="text-lg font-semibold">A propos de moi</h2>
       </template>
       <p class="text-sm">

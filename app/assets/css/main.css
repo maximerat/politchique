@@ -476,6 +476,37 @@ img[alt*="hoto"] {
   border-style: dashed;
 }
 
+/* === Niveau de programme : signalé uniquement quand il est sommaire ou absent === */
+.fr-programme {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.1rem 0.5rem;
+  border: 2px dashed;
+  border-radius: 4px;
+  background: #ffffff;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+.fr-programme--thematique {
+  border-color: var(--fr-bleu);
+  color: var(--fr-bleu);
+}
+
+.fr-programme--sommaire {
+  border-color: rgba(11, 18, 32, 0.45);
+  color: var(--fr-ink-soft);
+}
+
+.fr-programme--absent {
+  border-color: var(--fr-rouge);
+  color: var(--fr-rouge);
+}
+
 .fr-statut-bloc {
   border: 2px solid var(--fr-ink);
   border-left-width: 6px;
@@ -498,6 +529,21 @@ img[alt*="hoto"] {
 
 .fr-statut-bloc--ecarte {
   border-left-color: rgba(11, 18, 32, 0.6);
+  border-left-style: dashed;
+}
+
+.fr-statut-bloc--programme-thematique {
+  border-left-color: var(--fr-bleu);
+  border-left-style: dashed;
+}
+
+.fr-statut-bloc--programme-sommaire {
+  border-left-color: rgba(11, 18, 32, 0.45);
+  border-left-style: dashed;
+}
+
+.fr-statut-bloc--programme-absent {
+  border-left-color: var(--fr-rouge);
   border-left-style: dashed;
 }
 

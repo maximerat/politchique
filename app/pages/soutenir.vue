@@ -33,9 +33,12 @@ useSeoMeta({
         variant="soft"
         icon="i-lucide-shield-check"
         title="Aucune contrepartie"
-        description="Un don ne donne aucun droit de regard sur le contenu : ni sur les fiches des candidats, ni sur le quiz, ni sur l'ordre d'affichage. Les dons ne sont pas des dons politiques et ne financent aucun parti ni aucune campagne."
-      />
-
+      >
+        <template #description>
+          L'argent sera déclaré pour éponger la dette de la France, et servira à
+          payer quelques canons à la cantine de l'assemblee nationale.
+        </template>
+      </UAlert>
       <div
         class="mt-5 flex flex-col items-start gap-3 sm:flex-row sm:items-center"
       >
@@ -100,17 +103,6 @@ useSeoMeta({
           <span>
             <strong>Les nouveautés.</strong> Comparateur de programmes,
             nouvelles thématiques dans le quiz, meilleures sources.
-          </span>
-        </li>
-        <li class="flex gap-3">
-          <UIcon
-            name="i-lucide-badge-euro"
-            class="mt-0.5 size-5 shrink-0 text-red-600"
-          />
-          <span>
-            <strong>Transparence totale :</strong> L’argent sera déclaré pour
-            éponger la dette de la France, et servira à payer quelques canons à
-            la cantine de l'assemblee nationale.
           </span>
         </li>
       </ul>

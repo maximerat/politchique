@@ -1,5 +1,9 @@
 <script setup lang="ts">
-import { candidatsParId, statutsCandidature } from "#shared/candidats";
+import {
+  candidatsParId,
+  niveauxProgramme,
+  statutsCandidature,
+} from "#shared/candidats";
 
 const route = useRoute();
 
@@ -12,6 +16,14 @@ const candidat = computed(() => {
 const statut = computed(() =>
   candidat.value ? statutsCandidature[candidat.value.statut] : undefined,
 );
+
+// Le niveau de programme n'est affiché que lorsqu'il est en retrait : il rend
+// visible qu'une candidature déclarée peut n'avoir publié aucune proposition.
+const niveauProgramme = computed(() => {
+  const niveau = candidat.value?.programme;
+
+  return niveau && niveau !== "detaille" ? niveauxProgramme[niveau] : undefined;
+});
 
 const { data: page } = await useAsyncData("page-" + route.path, () => {
   const normalizedPath = route.path.endsWith("/")
@@ -118,6 +130,14 @@ if (!page.value) {
                   <UIcon :name="statut.icone" />
                   {{ statut.label }}
                 </span>
+                <span
+                  v-if="candidat && niveauProgramme"
+                  class="fr-programme"
+                  :class="`fr-programme--${candidat.programme}`"
+                >
+                  <UIcon :name="niveauProgramme.icone" />
+                  {{ niveauProgramme.label }}
+                </span>
               </div>
             </div>
           </div>
@@ -150,6 +170,20 @@ if (!page.value) {
           {{ statut.label }}
         </p>
         <p class="fr-statut-bloc__detail">{{ candidat.statutDetail }}</p>
+      </div>
+
+      <div
+        v-if="candidat && niveauProgramme"
+        class="fr-statut-bloc not-prose mb-6"
+        :class="`fr-statut-bloc--programme-${candidat.programme}`"
+      >
+        <p class="fr-statut-bloc__titre">
+          <UIcon :name="niveauProgramme.icone" class="mr-1 align-[-0.15em]" />
+          {{ niveauProgramme.label }}
+        </p>
+        <p v-if="candidat.programmeDetail" class="fr-statut-bloc__detail">
+          {{ candidat.programmeDetail }}
+        </p>
       </div>
 
       <ContentRenderer :value="page" />
