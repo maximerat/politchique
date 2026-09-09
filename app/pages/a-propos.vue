@@ -60,9 +60,9 @@ useSeoMeta({
           avec le même critère.
         </p>
         <p>
-          Le <strong>statut</strong> décrit l'état de la candidature :
-          déclarée, pressentie, retirée ou hors course. Une candidature n'est
-          dite déclarée que si une annonce officielle est sourcée.
+          Le <strong>statut</strong> décrit l'état de la candidature : déclarée,
+          pressentie, retirée ou hors course. Une candidature n'est dite
+          déclarée que si une annonce officielle est sourcée.
         </p>
         <p>
           Le <strong>niveau de programme</strong> décrit ce qu'il est possible
@@ -72,8 +72,8 @@ useSeoMeta({
         <ul class="list-disc space-y-1 pl-5">
           <li>
             <strong>Programme détaillé</strong> — un programme public et
-            structuré existe, couvrant plusieurs domaines. Aucun marqueur
-            n'est affiché dans ce cas.
+            structuré existe, couvrant plusieurs domaines. Aucun marqueur n'est
+            affiché dans ce cas.
           </li>
           <li>
             <strong>Programme mono-thématique</strong> — un contenu public
@@ -81,8 +81,8 @@ useSeoMeta({
             l'assume.
           </li>
           <li>
-            <strong>Programme sommaire</strong> — quelques axes ont été
-            annoncés publiquement, sans document programmatique publié.
+            <strong>Programme sommaire</strong> — quelques axes ont été annoncés
+            publiquement, sans document programmatique publié.
           </li>
           <li>
             <strong>Aucun programme publié</strong> — aucune proposition
@@ -103,12 +103,17 @@ useSeoMeta({
         <h2 class="text-lg font-semibold">A propos de moi</h2>
       </template>
       <p class="text-sm">
-        Je m'appelle Maxime. Je ne me considère pas comme très politisé, même
-        si j'ai forcément mes opinions. L'origine de ce site tient en une
-        phrase : j'en ai assez de voir des responsables au pouvoir, au casier
-        judiciaire long comme le bras, décider du sort de 70 millions de
-        personnes — alors qu'on a exigé de ma mère, ancienne femme de ménage, un
-        casier vierge pour faire son travail.
+        <p>
+          Je m'appelle Maxime. Je ne me considère pas comme très politisé, même
+          si j'ai forcément mes opinions. Ce site part d'un constat simple : on
+          a demandé à ma mère, ancienne femme de ménage, un casier judiciaire
+          vierge pour exercer son métier. On ne demande rien de tel à ceux qui
+          gouvernent 68 millions de Français.
+        </p>
+        <p>
+          C'est pour ça que j'ai construit ce site : comparer les programmes,
+          regarder les parcours, et faire son choix en connaissance de cause.
+        </p>
       </p>
     </UCard>
   </UContainer>

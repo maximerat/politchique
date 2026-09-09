@@ -85,8 +85,11 @@ Les sources citées ici font état d'une **condamnation pénale** de Jean-Luc M�
 - La presse mentionne également une enquête concernant l'utilisation d'assistants parlementaires européens lorsque Jean-Luc Mélenchon était député européen entre 2009 et 2017. ([Le Monde][19])
 - Le Monde rapporte qu'un rapport de l'OLAF évoque des "manquements" et "irrégularités" concernant l'activité de deux collaborateurs entre 2013 et 2017, avec un préjudice estimé à un peu plus de 500 000 euros selon l'OLAF. ([Le Monde][19])
 - Le Point indique en 2025 que cette enquête s'éternise et reste marquée par des temps morts. ([Le Point][20])
+- L'information judiciaire, ouverte en novembre 2018 notamment pour détournement de fonds publics, a été **clôturée le 26 mai 2026 sans mise en examen** de Jean-Luc Mélenchon. ([CNews][25])
+- Deux anciens collaborateurs, Laurent Maffeis et Aigline de Causans, conservent le statut de **témoin assisté**, qui leur avait été accordé en mai 2022. ([CNews][25])
+- La procédure n'est pas close pour autant : le parquet doit encore rendre ses **réquisitions définitives**, après quoi les juges d'instruction décideront d'un non-lieu ou d'un renvoi devant un tribunal. ([CNews][25])
 
-> Une enquête ou un rapport administratif ne constitue pas une condamnation. Jean-Luc Mélenchon reste présumé innocent dans ce dossier.
+> Une enquête ou un rapport administratif ne constitue pas une condamnation. Jean-Luc Mélenchon n'a été mis en examen à aucun stade de ce dossier et reste présumé innocent.
 
 ### Plainte pour injure publique liée à des propos sur l'université de Lille
 
@@ -126,6 +129,7 @@ Les sources citées ici font état d'une **condamnation pénale** de Jean-Luc M�
 - **TF1 Info — Convocation dans l'enquête préliminaire** — article sur l'audition annoncée en septembre 2024. ([TF1 Info][22])
 - **Wikimedia Commons — Photo** — fiche de la photo utilisée. ([Wikimedia Commons][23])
 - **Biographie officielle de Jean-Luc Mélenchon** — parcours politique et résultats aux présidentielles précédentes. ([Jean-Luc Mélenchon][24])
+- **CNews — Clôture de l'instruction en mai 2026** — article sur la fin de l'information judiciaire sur les assistants parlementaires européens, sans mise en examen. ([CNews][25])
 
 </details>
 
@@ -153,6 +157,7 @@ Les sources citées ici font état d'une **condamnation pénale** de Jean-Luc M�
 [22]: https://www.tf1info.fr/politique/jean-luc-melenchon-entendu-mardi-par-la-police-apres-une-plainte-pour-injure-publique-reference-au-nazisme-adolf-eichmann-president-universite-lille-2320979.html "Référence au nazisme : Jean-Luc Mélenchon convoqué par la police"
 [23]: https://commons.wikimedia.org/wiki/File:Jean-Luc_M%C3%A9lenchon_(Place_au_Peuple)_001.jpg "Jean-Luc Mélenchon (Place au Peuple) 001.jpg"
 [24]: https://melenchon.fr/biographie/ "Biographie — Jean-Luc Mélenchon"
+[25]: https://www.cnews.fr/france/2026-05-27/assistants-parlementaires-de-jean-luc-melenchon-les-juges-cloturent-linstruction "Assistants parlementaires de Jean-Luc Mélenchon : les juges clôturent l'instruction, sans mise en examen"
 
 ---
 
