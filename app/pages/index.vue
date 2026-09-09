@@ -51,7 +51,11 @@ const nombreParStatut = computed(() => ({
 }));
 
 const filtres = computed(() => [
-  { valeur: "tous" as const, label: "Tous", nombre: nombreParStatut.value.tous },
+  {
+    valeur: "tous" as const,
+    label: "Tous",
+    nombre: nombreParStatut.value.tous,
+  },
   {
     valeur: "declare" as const,
     label: "Déclarés",
@@ -163,12 +167,6 @@ function remelangerCandidats() {
           seulement <strong>pressentie</strong> (nom qui circule, sans annonce).
         </template>
       </UAlert>
-
-      <div class="mt-4">
-        <UButton to="/pour-qui-voter" icon="i-lucide-compass" variant="outline">
-          Voir la page "Pour qui voter ?"
-        </UButton>
-      </div>
     </UCard>
 
     <section class="space-y-4">

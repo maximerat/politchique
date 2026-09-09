@@ -14,20 +14,6 @@ export default defineNuxtConfig({
           href: "https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700;800;900&display=swap",
         },
       ],
-      script: [
-        {
-          src: "https://www.googletagmanager.com/gtag/js?id=G-8BMF09DZ7L",
-          async: true,
-        },
-        {
-          innerHTML: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-8BMF09DZ7L');
-          `,
-        },
-      ],
     },
   },
   runtimeConfig: {
