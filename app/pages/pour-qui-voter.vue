@@ -84,8 +84,14 @@ const questions: Question[] = [
       "bernard-cazeneuve": 1,
       "anasse-kazib": -2,
       "juan-branco": -1,
+      "gilles-platret": 1,
     }),
-    sources: {},
+    sources: {
+      "gilles-platret": {
+        label: "Dijon Actualités : communiqué de Gilles Platret",
+        url: "https://dijon-actualites.fr/2026/10/10/presidentielle-2027-le-maire-de-chalon-sur-saone-gilles-platret-sest-lance-dans-la-course-a-lelysee/",
+      },
+    },
   },
   {
     id: "q2",
@@ -188,8 +194,14 @@ const questions: Question[] = [
       "bernard-cazeneuve": 0,
       "anasse-kazib": -2,
       "juan-branco": -1,
+      "gilles-platret": 2,
     }),
-    sources: {},
+    sources: {
+      "gilles-platret": {
+        label: "Dijon Actualités : communiqué de Gilles Platret",
+        url: "https://dijon-actualites.fr/2026/10/10/presidentielle-2027-le-maire-de-chalon-sur-saone-gilles-platret-sest-lance-dans-la-course-a-lelysee/",
+      },
+    },
   },
   {
     id: "q5",
@@ -225,8 +237,19 @@ const questions: Question[] = [
       "bernard-cazeneuve": 2,
       "anasse-kazib": -2,
       "juan-branco": -1,
+      "gilles-platret": 2,
+      "olivier-becht": 1,
     }),
-    sources: {},
+    sources: {
+      "gilles-platret": {
+        label: "France 3 Bourgogne-Franche-Comté : meeting de Gilles Platret",
+        url: "https://france3-regions.franceinfo.fr/bourgogne-franche-comte/saone-et-loire/chalon-sur-saone/gilles-platret-le-maire-de-chalon-sur-saone-se-declare-candidat-a-l-election-presidentielle-je-m-engage-resolument-vers-2027-3430416.html",
+      },
+      "olivier-becht": {
+        label: "ICI Alsace : « Projet France » d'Olivier Becht",
+        url: "https://www.ici.fr/grand-est/alsace-cea/rixheim/il-faut-refonder-notre-modele-le-depute-alsacien-olivier-becht-est-candidat-a-la-presidentielle-1401407",
+      },
+    },
   },
   {
     id: "q6",
@@ -327,8 +350,14 @@ const questions: Question[] = [
       "bernard-cazeneuve": -2,
       "anasse-kazib": 0,
       "juan-branco": 0,
+      "natacha-polony": -1,
     }),
-    sources: {},
+    sources: {
+      "natacha-polony": {
+        label: "Pleinchamp : propositions de Natacha Polony",
+        url: "https://www.pleinchamp.com/actualite/natacha-polony-candidate-a-l-elysee-avec-l-agriculture-comme-champ-de-bataille",
+      },
+    },
   },
   {
     id: "q9",
@@ -431,8 +460,19 @@ const questions: Question[] = [
       "bernard-cazeneuve": -1,
       "anasse-kazib": 2,
       "juan-branco": 2,
+      "olivier-becht": 1,
+      "manolo-mlekuz": 2,
     }),
-    sources: {},
+    sources: {
+      "olivier-becht": {
+        label: "France 3 Grand Est : « fédéralisme à la française »",
+        url: "https://france3-regions.franceinfo.fr/grand-est/haut-rhin/je-suis-lucide-je-ne-suis-pas-le-favori-olivier-becht-depute-du-haut-rhin-declare-sa-candidature-a-l-election-presidentielle-3422486.html",
+      },
+      "manolo-mlekuz": {
+        label: "ICI Isère : Constitution rédigée par 200 citoyens tirés au sort",
+        url: "https://www.ici.fr/auvergne-rhone-alpes/isere-38/il-y-a-un-vrai-probleme-d-ecoute-a-20-ans-il-est-candidat-a-la-presidentielle-et-cherche-des-parrainages-en-isere-6140683",
+      },
+    },
   },
   {
     id: "q12",
@@ -540,8 +580,14 @@ const questions: Question[] = [
       "bernard-cazeneuve": 0,
       "anasse-kazib": -2,
       "juan-branco": -1,
+      "gilles-platret": 1,
     }),
-    sources: {},
+    sources: {
+      "gilles-platret": {
+        label: "France 3 Bourgogne-Franche-Comté : meeting de Gilles Platret",
+        url: "https://france3-regions.franceinfo.fr/bourgogne-franche-comte/saone-et-loire/chalon-sur-saone/gilles-platret-le-maire-de-chalon-sur-saone-se-declare-candidat-a-l-election-presidentielle-je-m-engage-resolument-vers-2027-3430416.html",
+      },
+    },
   },
   {
     id: "q15",
@@ -578,8 +624,14 @@ const questions: Question[] = [
       "bernard-cazeneuve": 0,
       "anasse-kazib": 1,
       "juan-branco": 1,
+      "mira-markovic": 1,
     }),
-    sources: {},
+    sources: {
+      "mira-markovic": {
+        label: "HuffPost : propositions du Parti animaliste",
+        url: "https://fr.news.yahoo.com/sport/pr%C3%A9sidentielle-2027-candidate-parti-animaliste-092813187.html",
+      },
+    },
   },
   {
     id: "q16",
@@ -692,8 +744,14 @@ const questions: Question[] = [
       "bernard-cazeneuve": 0,
       "anasse-kazib": 1,
       "juan-branco": 2,
+      "gilles-platret": -2,
     }),
-    sources: {},
+    sources: {
+      "gilles-platret": {
+        label: "Dijon Actualités : communiqué de Gilles Platret",
+        url: "https://dijon-actualites.fr/2026/10/10/presidentielle-2027-le-maire-de-chalon-sur-saone-gilles-platret-sest-lance-dans-la-course-a-lelysee/",
+      },
+    },
   },
   {
     id: "q19",
@@ -767,8 +825,14 @@ const questions: Question[] = [
       "bernard-cazeneuve": 0,
       "anasse-kazib": -1,
       "juan-branco": 0,
+      "natacha-polony": 2,
     }),
-    sources: {},
+    sources: {
+      "natacha-polony": {
+        label: "Pleinchamp : propositions de Natacha Polony",
+        url: "https://www.pleinchamp.com/actualite/natacha-polony-candidate-a-l-elysee-avec-l-agriculture-comme-champ-de-bataille",
+      },
+    },
   },
   {
     id: "q21",
@@ -806,8 +870,14 @@ const questions: Question[] = [
       "bernard-cazeneuve": -2,
       "anasse-kazib": 0,
       "juan-branco": 2,
+      "manolo-mlekuz": 1,
     }),
-    sources: {},
+    sources: {
+      "manolo-mlekuz": {
+        label: "ICI Isère : Constitution rédigée par 200 citoyens tirés au sort",
+        url: "https://www.ici.fr/auvergne-rhone-alpes/isere-38/il-y-a-un-vrai-probleme-d-ecoute-a-20-ans-il-est-candidat-a-la-presidentielle-et-cherche-des-parrainages-en-isere-6140683",
+      },
+    },
   },
 ];
 
@@ -1239,6 +1309,11 @@ useSeoMeta({
           (-2 à +2), pour {{ candidates.length }} candidats.
         </li>
         <li>Pondération ×1,5 pour tes thèmes prioritaires (max 3).</li>
+        <li>
+          Une position à 0 signifie « neutre » ou « non documentée » : faute de
+          source, les candidats au programme sommaire ou mono-thématique sont
+          placés au centre sur les questions qu'ils n'abordent pas.
+        </li>
         <li>Chaque position renvoie vers une source ou la fiche candidat.</li>
         <li>
           Par défaut, la comparaison ne retient que les
