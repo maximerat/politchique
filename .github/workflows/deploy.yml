@@ -37,6 +37,24 @@ jobs:
           chmod 600 ~/.ssh/deploy_key
           echo "${{ secrets.SSH_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
 
+      - name: Check host key
+        env:
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+        run: |
+          if [ ! -s ~/.ssh/known_hosts ] || [ "$(tr -d '[:space:]' < ~/.ssh/known_hosts)" = "" ]; then
+            echo "::error::SSH_KNOWN_HOSTS secret is empty or not visible to this job"
+            exit 1
+          fi
+          echo "known_hosts has $(grep -cv '^#' ~/.ssh/known_hosts) entries"
+          echo "--- fingerprints in SSH_KNOWN_HOSTS (public, safe to print):"
+          ssh-keygen -lf ~/.ssh/known_hosts || echo "::error::SSH_KNOWN_HOSTS is not in known_hosts format"
+          echo "--- fingerprints the server presents right now:"
+          ssh-keyscan "$SSH_HOST" 2>/dev/null | ssh-keygen -lf - || true
+          if ! ssh-keygen -F "$SSH_HOST" -f ~/.ssh/known_hosts > /dev/null; then
+            echo "::error::No known_hosts entry matches SSH_HOST exactly (hostname vs IP, or port mismatch?)"
+            exit 1
+          fi
+
       - name: Upload to server
         env:
           SSH_HOST: ${{ secrets.SSH_HOST }}
