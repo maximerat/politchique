@@ -24,7 +24,8 @@ Cette fiche reprend les orientations mises en avant par **Dominique de Villepin*
 - **Fonction dans le mouvement :** président d'honneur
 - **Anciennes fonctions :** Premier ministre de 2005 à 2007 ; ministre des Affaires étrangères de 2002 à 2004 ; ministre de l'Intérieur de 2004 à 2005
 - **Positionnement revendiqué :** gaullisme, humanisme républicain, souveraineté, justice sociale et ordre républicain
-- **Statut présidentiel :** Dominique de Villepin a lancé La France humaniste dans la perspective de 2027, sans que les sources citées ici ne présentent un programme présidentiel définitif.
+- **Statut présidentiel :** **candidature pressentie**, non déclarée. Le **3 novembre 2026** sur France Inter, il affirme « Je ne suis pas encore candidat », tout en confirmant vouloir l'être et en jugeant le moment mal choisi pour l'officialiser ; il exclut toute alliance avec Édouard Philippe ou Gabriel Attal. ([franceinfo][27])
+- **Programme :** La France humaniste a été lancée dans la perspective de 2027, sans que les sources citées ici ne présentent un programme présidentiel définitif.
 - **Référence principale :** [La France humaniste](https://lafrancehumaniste.fr/)
 
 </details>
@@ -197,6 +198,7 @@ Cette fiche reprend les orientations mises en avant par **Dominique de Villepin*
 [24]: https://www.lemonde.fr/politique/article/2011/11/16/financements-occultes-l-enquete-sur-les-accusations-de-robert-bourgi-classee-sans-suite_1604739_823448.html "Financements occultes : l'enquête sur les accusations de Robert Bourgi classée sans suite"
 [25]: https://www.lejdd.fr/Societe/Affaire-Bourgi-l-enquete-preliminaire-classee-sans-suite-424449-3226982 "L'enquête classée dans l'affaire Bourgi"
 [26]: https://commons.wikimedia.org/wiki/File:Dominique_de_Villepin_en_2026.jpg "Dominique de Villepin en 2026 - Wikimedia Commons"
+[27]: https://www.franceinfo.fr/elections/presidentielle/je-ne-suis-pas-encore-candidat-a-la-presidentielle-2027-indique-dominique-de-villepin_8265395.html "« Je ne suis pas encore candidat » à la présidentielle 2027, indique Dominique de Villepin"
 
 ---
 

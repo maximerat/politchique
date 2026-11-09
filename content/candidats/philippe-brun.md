@@ -1,6 +1,6 @@
 ---
 title: Philippe Brun (Parti socialiste)
-description: Synthèse neutre des positions de Philippe Brun, candidat à la primaire socialiste de 2026 sur la ligne des salaires, avec sources et état des procédures.
+description: Synthèse neutre des positions de Philippe Brun, candidat déclaré à la primaire socialiste de 2026 sur la ligne des salaires, qui n'a pas pu y concourir, avec sources et état des procédures.
 party: Parti socialiste
 partyIcon: i-lucide-flower-2
 photo: /photos/philippe-brun.jpg
@@ -15,14 +15,17 @@ photoSource: https://upload.wikimedia.org/wikipedia/commons/0/08/LOUVIERS_-_4e_c
   />
 </div>
 
-Cette fiche reprend les orientations portées par **Philippe Brun**, député socialiste de l'Eure, candidat à la **primaire fermée de l'espace social-démocrate** d'octobre 2026. Il se présente comme l'**outsider** de cette primaire, face à Raphaël Glucksmann et Olivier Faure, sur une ligne explicitement centrée sur les **salaires** et la **réindustrialisation**.
+Cette fiche reprend les orientations portées par **Philippe Brun**, député socialiste de l'Eure, candidat déclaré à la **primaire fermée de l'espace social-démocrate** d'octobre 2026, à laquelle il n'a finalement pas pu concourir. Il se présentait comme l'**outsider** de cette primaire, face à Raphaël Glucksmann et Olivier Faure, sur une ligne explicitement centrée sur les **salaires** et la **réindustrialisation**.
 
 <details open>
 <summary><strong>Statut de la candidature</strong></summary>
 
-- **Statut :** **candidature déclarée** à la primaire, pas à l'élection présidentielle elle-même.
+- **Statut :** **hors course** : il n'a pas pu concourir à la primaire.
 - **Annonce :** le **30 juin 2026**. ([Wikipédia][1])
-- **Processus :** primaire **fermée** de l'espace social-démocrate (PS, Place publique, GRS), **1er tour les 9 et 10 octobre 2026**, **2d tour les 16 et 17 octobre 2026**. ([Wikipédia][1])
+- **Processus :** primaire **fermée** de l'espace social-démocrate (PS, Place publique, GRS), tenue du 9 au 11 octobre 2026 et remportée dès le premier tour par Raphaël Glucksmann. ([Wikipédia][1])
+- **Suspension :** après avoir revendiqué les parrainages nécessaires, il est **suspendu du PS « à titre conservatoire »** le **16 septembre 2026**, à la suite d'**accusations** d'une militante portant, selon la direction du parti, sur « des faits susceptibles de relever d'une caractérisation pénale ». Il **conteste** et dénonce une « instrumentalisation » destinée à l'écarter de la primaire. ([Wikipédia][1])
+- **Recours :** le tribunal judiciaire de Paris, saisi en référé, puis la cour d'appel de Paris ont **rejeté** sa demande de réintégration. ([Wikipédia][1])
+- **Présomption d'innocence :** cette fiche fait état d'accusations et d'une mesure interne au parti, non d'une décision de justice sur le fond.
 - **Conditions d'accès :** parrainages de 15 membres du conseil national, ou 10 parlementaires, ou 50 conseillers régionaux et départementaux, ou 50 maires répartis sur trois régions. ([Wikipédia][1])
 - **Slogan revendiqué :** « le candidat des salaires ». ([Wikipédia][1])
 

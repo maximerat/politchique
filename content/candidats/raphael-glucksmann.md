@@ -20,11 +20,13 @@ Cette fiche reprend les orientations portées par **Raphaël Glucksmann**, cofon
 <details open>
 <summary><strong>Statut de la candidature</strong></summary>
 
-- **Statut :** **candidature déclarée**.
+- **Statut :** **candidature déclarée** ; **candidat commun** de Place publique, du PS et de la Gauche républicaine et socialiste depuis le 11 octobre 2026.
 - **Annonce :** le **23 août 2026**, au journal de 20 h de TF1 : « Oui, je suis candidat », « pour **relever la France** ». ([franceinfo][1], [France 24][3])
-- **Primaire :** il concourt à la **primaire fermée de l'espace social-démocrate**, organisée par le **PS**, **Place publique** et la Gauche républicaine et socialiste — **1er tour les 9 et 10 octobre 2026**, **2d tour les 16 et 17 octobre 2026**. ([LCP][2], [Wikipédia — Primaire socialiste 2026][7])
+- **Primaire :** il a concouru à la **primaire fermée de l'espace social-démocrate**, organisée par le **PS**, **Place publique** et la Gauche républicaine et socialiste ; le scrutin en ligne, prévu les 9 et 10 octobre 2026, a été prolongé jusqu'au 11 octobre après une cyberattaque. ([LCP][2], [Wikipédia][7])
+- **Résultat (11 octobre 2026) :** Raphaël Glucksmann est désigné **dès le premier tour** avec **66,17 %** des voix, devant Olivier Faure (14,46 %), Ségolène Royal (7,62 %), Emmanuel Maurel (5,92 %) et Jérôme Guedj (5,83 %) ; participation de 89,83 % sur 134 456 inscrits. Il n'y a pas eu de second tour. ([Wikipédia][7])
+- **Ralliements :** Olivier Faure, Ségolène Royal (soutien conditionnel), Jérôme Guedj et Emmanuel Maurel se sont retirés et le soutiennent. ([Wikipédia][8])
 - **Ne pas confondre :** cette primaire fermée est **distincte** de la [primaire de la gauche unitaire](/primaires) du 11 octobre 2026, à laquelle Place publique n'a jamais participé.
-- **Concurrents dans la primaire :** Philippe Brun (30 juin 2026), Ségolène Royal (10 juillet 2026), Jérôme Guedj (rallié à la primaire le 23 août 2026) et Olivier Faure (30 août 2026). ([Wikipédia][7])
+- **Candidatures non abouties :** Philippe Brun, suspendu du PS le 16 septembre 2026, et Fabien Verdier, faute de parrainages internes, n'ont pas concouru. ([Wikipédia][7])
 - **Soutiens mis en avant :** Daniel Cohn-Bendit et **Yannick Jadot**. ([Wikipédia][7])
 
 </details>
@@ -108,6 +110,7 @@ Cette fiche reprend les orientations portées par **Raphaël Glucksmann**, cofon
 [5]: https://place-publique.eu/pages/69jA2SKIG5udlNX7wI3dmc/le-projet "Place publique — Le projet"
 [6]: https://fr.wikipedia.org/wiki/Rapha%C3%ABl_Glucksmann "Raphaël Glucksmann — Wikipédia"
 [7]: https://fr.wikipedia.org/wiki/Primaire_pr%C3%A9sidentielle_socialiste_fran%C3%A7aise_de_2026 "Primaire présidentielle socialiste française de 2026 — Wikipédia"
+[8]: https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l'%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027 "Candidatures à l'élection présidentielle française de 2027 (Wikipédia)"
 
 ---
 

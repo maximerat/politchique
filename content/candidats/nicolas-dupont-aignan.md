@@ -24,7 +24,7 @@ Cette fiche reprend les grandes orientations mises en avant par **Nicolas Dupont
 - **Président du parti :** Nicolas Dupont-Aignan
 - **Positionnement :** souverainiste, gaulliste, républicain, patriote
 - **Référence principale :** [Le Projet de Debout la France](https://www.debout-la-france.fr/notre-projet/)
-- **Candidature 2027 :** Nicolas Dupont-Aignan a annoncé sa candidature à l'élection présidentielle de 2027. ([Debout la France][2])
+- **Candidature 2027 :** intention annoncée le 8 mars 2025 à Yerres, candidature **officialisée le 19 septembre 2026** dans un entretien au *Journal du dimanche*. ([Debout la France][2], [Wikipédia][21])
 
 </details>
 
@@ -151,6 +151,7 @@ Cette fiche reprend les grandes orientations mises en avant par **Nicolas Dupont
 [18]: https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047062559 "Décision du 14 décembre 2022 relative au compte de campagne de Nicolas Dupont-Aignan"
 [19]: https://cnccfp.fr/election-presidentielle-des-10-et-24-avril-2022-publication-au-journal-officiel-des-decisions-de-la-commission/ "Élection présidentielle 2022 : publication des décisions de la Commission"
 [20]: https://commons.wikimedia.org/wiki/File:Nicolas_Dupont-Aignan,_homme_politique_fran%C3%A7ais_(cropped).jpg "Nicolas Dupont-Aignan, homme politique français (cropped).jpg"
+[21]: https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l'%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027 "Candidatures à l'élection présidentielle française de 2027 (Wikipédia)"
 
 ---
 

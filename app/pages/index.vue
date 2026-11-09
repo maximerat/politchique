@@ -143,9 +143,11 @@ function remelangerCandidats() {
           </p>
 
           <p class="text-sm font-medium text-gray-700 max-w-2xl">
-            À gauche, deux primaires distinctes coexistent en 2026 :
+            À gauche, Raphaël Glucksmann a remporté le 11 octobre 2026 la
+            primaire de l'espace social-démocrate, tandis que la primaire de la
+            gauche unitaire n'a pas eu lieu :
             <NuxtLink to="/primaires" class="underline underline-offset-2"
-              >comprendre la différence</NuxtLink
+              >le détail des deux processus</NuxtLink
             >.
           </p>
         </div>

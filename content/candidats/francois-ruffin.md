@@ -24,7 +24,8 @@ Cette fiche reprend les orientations portées par **François Ruffin**, député
 - **Étape 1 — la primaire :** il **co-lance** la [primaire de la gauche unitaire](/primaires) le **15 novembre 2025** avec Marine Tondelier et Olivier Faure, et y **inscrit sa candidature** le même jour. ([Wikipédia — Primaire de la gauche unitaire][4])
 - **Étape 2 — la campagne :** il lance sa campagne présidentielle le **25 avril 2026 à Lyon**, devant plus de 2 000 personnes, sous le slogan « **Nous président !** ». ([Ruffin 2027][1])
 - **Étape 3 — l'annonce conditionnelle :** le **12 mai 2026** sur France Inter, il déclare « **s'il n'y a pas de primaire, moi j'y vais** », imputant l'échec du processus aux « appareils » socialistes. ([CNews][2], [LCP][3])
-- **Où en est la primaire ?** Après le vote des militants PS du 9 juillet 2026 en faveur d'une **primaire fermée**, et les retraits de **Benjamin Lucas-Lundy** (7 juillet) et **Clémentine Autain** (11 juillet), la primaire unitaire du 11 octobre 2026 est **de facto abandonnée**. ([Wikipédia][4])
+- **Où en est la primaire ?** Après le vote des militants PS du 9 juillet 2026 en faveur d'une **primaire fermée**, et les retraits de **Benjamin Lucas-Lundy** (7 juillet), **Clémentine Autain** (11 juillet) et **Lydie Massard** (9 septembre), la primaire unitaire du 11 octobre 2026 n'a pas eu lieu. ([Wikipédia][4])
+- **Condition de retrait (6 novembre 2026) :** il dit qu'il retirera sa candidature « **si une solution se dégage pour battre Marine Le Pen** » au second tour, solution qu'il ne voit pas à ce stade. ([BFMTV via Yahoo][7])
 - **Soutiens revendiqués :** plus de **100 000 soutiens citoyens** réunis en deux semaines, objectif affiché de **500 maires** pour les parrainages. ([Ruffin 2027][1])
 - **Sondages :** 6 à 8 % des intentions de vote au premier tour au printemps 2026. ([Wikipédia — François Ruffin][5])
 
@@ -117,6 +118,7 @@ Les sources citées ici font état d'une **condamnation civile pour diffamation*
 [4]: https://fr.wikipedia.org/wiki/Primaire_de_la_gauche_unitaire_de_2026 "Primaire de la gauche unitaire de 2026 — Wikipédia"
 [5]: https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Ruffin "François Ruffin — Wikipédia"
 [6]: https://nouspresident.fr/cahiers-de-campagne/ "Nos cahiers de campagne — Ruffin 2027"
+[7]: https://fr.news.yahoo.com/pr%C3%A9sidentielle-2027-fran%C3%A7ois-ruffin-retirera-092541933.html "Présidentielle 2027 : François Ruffin retirera sa candidature « si une solution se dégage pour battre Marine Le Pen »"
 
 ---
 

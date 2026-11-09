@@ -5,12 +5,12 @@ party: Divers gauche
 partyIcon: i-lucide-map-pin
 ---
 
-Cette fiche reprend les orientations portées par **Fabien Verdier**, ancien maire de **Châteaudun**, candidat à la **primaire fermée de l'espace social-démocrate** d'octobre 2026. Sa candidature est explicitement **mono-thématique** : la place des **territoires ruraux et des villes sous-préfectures**.
+Cette fiche reprend les orientations portées par **Fabien Verdier**, ancien maire de **Châteaudun**, candidat déclaré à la **primaire fermée de l'espace social-démocrate** d'octobre 2026, à laquelle il n'a finalement pas concouru. Sa candidature est explicitement **mono-thématique** : la place des **territoires ruraux et des villes sous-préfectures**.
 
 <details open>
 <summary><strong>Statut de la candidature</strong></summary>
 
-- **Statut :** **candidature déclarée** à la primaire, pas à l'élection présidentielle elle-même.
+- **Statut :** **hors course** : faute d'avoir réuni les **parrainages internes** requis, il n'a pas concouru à la primaire. ([Wikipédia][1])
 - **Annonce :** le **2 septembre 2026**, dans un entretien à *Libération*. ([Wikipédia][1], [franceinfo][2])
 - **Slogan revendiqué :** **« Nos terroirs au pouvoir »**. ([franceinfo][2])
 - **Objectif affiché :** porter la voix « des terroirs et des sous-préfectures » et faire que « la gauche parle à toute la France ». ([franceinfo][2])

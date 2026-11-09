@@ -24,7 +24,8 @@ Cette fiche reprend les orientations portées par **Marine Tondelier**, secréta
 - **Annonce :** le **22 octobre 2025**, dans un entretien au *Nouvel Obs*. ([franceinfo][1])
 - **Désignation par son parti :** le **8 décembre 2025**, Les Écologistes la désignent comme leur candidate avec **86 %** des voix, face à Waleed Mouhali. Elle est donc **la** candidate des Écologistes : ni Yannick Jadot ni Sandrine Rousseau ne sont en course. ([Les Écologistes][7], [Wikipédia — Primaire de la gauche unitaire de 2026][3])
 - **Cadre initial :** sa candidature devait passer par la [primaire de la gauche unitaire](/primaires) prévue le 11 octobre 2026, avec Les Écologistes, Debout !, L'APRÈS et l'UDB. ([Wikipédia][3])
-- **Effondrement du processus :** après le vote des militants PS du 9 juillet 2026 en faveur d'une primaire fermée, elle constate que « les adhérents du PS ont décidé d'enterrer la primaire » et réunit son conseil fédéral pour arbitrer une **candidature autonome**. La primaire unitaire est **de facto abandonnée**. ([LCP][8], [Wikipédia][3])
+- **Désignation pour la présidentielle :** la primaire unitaire ayant été abandonnée, Les Écologistes la désignent candidate à l'élection présidentielle le **21 septembre 2026**. ([Wikipédia][9])
+- **Effondrement du processus :** après le vote des militants PS du 9 juillet 2026 en faveur d'une primaire fermée, elle constate que « les adhérents du PS ont décidé d'enterrer la primaire » et réunit son conseil fédéral pour arbitrer une **candidature autonome**. La primaire unitaire est abandonnée. ([LCP][8], [Wikipédia][3])
 - **Slogan de campagne :** « **Tenez bon, nous arrivons !** ». ([Marine Tondelier][4])
 
 </details>
@@ -101,6 +102,7 @@ Cette fiche reprend les orientations portées par **Marine Tondelier**, secréta
 [6]: https://lesecologistes.fr/ "Les Écologistes — site officiel"
 [7]: https://lesecologistes.fr/posts/4DGpyusxBAU4xQPexfncsx/marine-tondelier-designee-pour-representer-les-ecologistes-a-l-election-presidentielle "Marine Tondelier désignée pour représenter Les Écologistes à l'élection présidentielle"
 [8]: https://lcp.fr/actualites/les-adherents-du-ps-ont-decide-d-enterrer-la-primaire-marine-tondelier-acte-la-rupture "« Les adhérents du PS ont décidé d'enterrer la primaire » : Marine Tondelier acte la rupture"
+[9]: https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l'%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027 "Candidatures à l'élection présidentielle française de 2027 (Wikipédia)"
 
 ---
 

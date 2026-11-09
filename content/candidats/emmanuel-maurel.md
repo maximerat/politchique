@@ -20,11 +20,12 @@ Cette fiche reprend les orientations portées par **Emmanuel Maurel**, député 
 <details open>
 <summary><strong>Statut de la candidature</strong></summary>
 
-- **Statut :** **candidature déclarée** à la primaire, pas à l'élection présidentielle elle-même.
+- **Statut :** **candidature retirée** après la primaire ; il **soutient Raphaël Glucksmann**. ([Wikipédia][2])
 - **Annonce :** le **vendredi 4 septembre 2026**. ([franceinfo][1])
-- **Processus :** primaire **fermée** de l'espace social-démocrate (PS, Place publique, GRS), **1er tour les 9 et 10 octobre 2026**. ([franceinfo][1])
+- **Processus :** primaire **fermée** de l'espace social-démocrate (PS, Place publique, GRS). ([franceinfo][1])
+- **Résultat (11 octobre 2026) :** **quatrième** avec **5,92 %** des voix ; Raphaël Glucksmann est désigné dès le premier tour avec 66,17 %. ([Wikipédia][2])
 - **Justification avancée :** permettre « le débat devant les Français » ; il affirme que la gauche « peut atteindre le second tour et battre le Rassemblement national », contestant l'idée d'une victoire inéluctable du RN. ([franceinfo][1])
-- **Autres candidats à cette primaire :** Raphaël Glucksmann, Olivier Faure, Philippe Brun, Jérôme Guedj, Ségolène Royal et Fabien Verdier. ([franceinfo][1])
+- **Autres candidats à cette primaire :** Raphaël Glucksmann, Olivier Faure, Ségolène Royal et Jérôme Guedj ; Philippe Brun et Fabien Verdier n'ont finalement pas concouru. ([Wikipédia][2])
 
 </details>
 

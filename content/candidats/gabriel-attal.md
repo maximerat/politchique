@@ -22,6 +22,8 @@ Cette fiche reprend les orientations mises en avant par **Renaissance**, dont Ga
 
 - **Parti :** Renaissance
 - **Fonctions politiques :** secrétaire général de Renaissance ; député des Hauts-de-Seine ; président du groupe Ensemble pour la République à l'Assemblée nationale.
+- **Candidature :** annoncée le **22 mai 2026** à Mur-de-Barrez (Aveyron). ([Wikipédia][16])
+- **Proposition de primaire :** le **28 octobre 2026**, au 20 h de TF1, il plaide pour une « **grande primaire des démocrates** » afin d'éviter un second tour RN-LFI. Édouard Philippe a rejeté cette perspective à ce stade, et l'entourage de Bruno Retailleau l'a jugée « fantaisiste ». ([franceinfo][17], [CNews][18])
 - **Référence principale :** [Renaissance - site officiel](https://parti-renaissance.fr/)
 
 </details>
@@ -145,6 +147,9 @@ Cette fiche reprend les orientations mises en avant par **Renaissance**, dont Ga
 [13]: https://www.lemonde.fr/societe/article/2024/09/05/gabriel-attal-avant-de-quitter-matignon-redonne-son-agrement-a-anticor_6305025_3224.html "Gabriel Attal, avant de quitter Matignon, redonne son agrément à Anticor"
 [14]: https://lcp.fr/actualites/a-arras-gabriel-attal-prone-une-nouvelle-republique-en-vue-de-l-election-presidentielle "À Arras, Gabriel Attal prône une nouvelle République"
 [15]: https://commons.wikimedia.org/wiki/File:Gabriel_Attal_2025_(cropped).jpg "Gabriel Attal 2025 (cropped) - Wikimedia Commons"
+[16]: https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l'%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027 "Candidatures à l'élection présidentielle française de 2027 (Wikipédia)"
+[17]: https://www.franceinfo.fr/elections/presidentielle/gabriel-attal-plaide-pour-l-organisation-d-une-grande-primaire-des-democrates-en-vue-de-la-presidentielle_8257895.html "Gabriel Attal plaide pour l'organisation d'une « grande primaire des démocrates »"
+[18]: https://www.cnews.fr/france/2026-10-29/presidentielle-2027-la-grande-primaire-des-democrates-proposee-par-gabriel-attal "La « grande primaire des démocrates » proposée par Gabriel Attal divise le centre et la droite"
 
 ---
 

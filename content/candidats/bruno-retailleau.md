@@ -21,7 +21,8 @@ Cette fiche reprend les grandes orientations mises en avant par **Bruno Retaille
 
 - **Parti :** Les Républicains
 - **Référence principale :** [Nos propositions - Les Républicains](https://republicains.fr/qrtravail/)
-- **Statut politique :** Bruno Retailleau a été désigné candidat des Républicains pour l'élection présidentielle de 2027 par une consultation interne des adhérents. ([Les Républicains][1])
+- **Statut politique :** Bruno Retailleau a été désigné candidat des Républicains pour l'élection présidentielle de 2027 par une consultation interne des adhérents, le 19 avril 2026. ([Les Républicains][1])
+- **Primaire :** le **28 octobre 2026**, il se dit ouvert à une primaire à la seule condition qu'**Édouard Philippe** y participe, et juge « fantaisiste » la « grande primaire des démocrates » proposée par Gabriel Attal si Raphaël Glucksmann y prend part. ([Wikipédia][20], [CNews][21])
 
 </details>
 
@@ -129,6 +130,8 @@ Cette fiche reprend les grandes orientations mises en avant par **Bruno Retaille
 [17]: https://commons.wikimedia.org/wiki/File:Bruno_Retailleau.png "File:Bruno Retailleau.png"
 [18]: https://www.info.gouv.fr/personnalite/bruno-retailleau "Bruno Retailleau - Composition officielle du Gouvernement"
 [19]: https://lcp.fr/actualites/presidentielle-bruno-retailleau-choisi-comme-candidat-officiel-des-republicains-435440 "Présidentielle : Bruno Retailleau choisi comme candidat officiel des Républicains"
+[20]: https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l'%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027 "Candidatures à l'élection présidentielle française de 2027 (Wikipédia)"
+[21]: https://www.cnews.fr/france/2026-10-29/presidentielle-2027-la-grande-primaire-des-democrates-proposee-par-gabriel-attal "La « grande primaire des démocrates » proposée par Gabriel Attal divise le centre et la droite"
 
 ---
 

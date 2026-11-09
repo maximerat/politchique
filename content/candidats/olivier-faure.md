@@ -20,10 +20,11 @@ Cette fiche reprend les orientations portées par **Olivier Faure**, **premier s
 <details open>
 <summary><strong>Statut de la candidature</strong></summary>
 
-- **Statut :** **candidature déclarée**.
+- **Statut :** **candidature retirée** après la primaire de l'espace social-démocrate ; il **soutient Raphaël Glucksmann**.
 - **Annonce :** le **30 août 2026**, au journal de 20 h de TF1, au lendemain de l'université d'été du PS à Blois : « **Je suis candidat à la présidence de la République** et je le fais car je veux porter une France plus juste. » C'est sa **première** entrée dans une course à l'Élysée. ([franceinfo][6], [ICI][7])
 - **Formule de campagne :** « J'aime profondément notre pays, je veux **tout reconstruire, tout rebâtir, tout réparer**. » ([ICI][7])
-- **Primaire :** il concourt à la **primaire fermée de l'espace social-démocrate**, organisée par le **PS**, **Place publique** et la Gauche républicaine et socialiste — **1er tour les 9 et 10 octobre 2026**, **2d tour les 16 et 17 octobre 2026**. ([Wikipédia][3])
+- **Primaire :** il a concouru à la **primaire fermée de l'espace social-démocrate**, organisée par le **PS**, **Place publique** et la Gauche républicaine et socialiste. ([Wikipédia][3])
+- **Résultat (11 octobre 2026) :** **deuxième** avec **14,46 %** des voix, loin derrière Raphaël Glucksmann (66,17 %), désigné dès le premier tour. C'est la première fois depuis 1965 que le PS ne présente pas de candidat issu de ses rangs. ([Wikipédia][3])
 - **Concurrents dans la primaire :** [Philippe Brun](https://fr.wikipedia.org/wiki/Primaire_pr%C3%A9sidentielle_socialiste_fran%C3%A7aise_de_2026) (30 juin 2026), [Ségolène Royal](/candidats/segolene-royal) (10 juillet 2026), [Raphaël Glucksmann](/candidats/raphael-glucksmann) (23 août 2026) et [Jérôme Guedj](/candidats/jerome-guedj) (rallié le 23 août 2026). ([Wikipédia][3])
 - **Contexte défavorable :** le **9 juillet 2026**, les militants du PS ont choisi à **55,5 %** une **primaire fermée**, réservée aux adhérents à jour de cotisation, contre le format **ouvert aux sympathisants** qu'il défendait. ([Public Sénat][2], [Wikipédia][3])
 - **L'autre primaire :** il avait **co-lancé**, le 15 novembre 2025, la [primaire de la gauche unitaire](/primaires) avec Marine Tondelier et François Ruffin. Le vote des militants socialistes de juillet 2026 en a acté l'abandon de fait. ([Wikipédia — Primaire de la gauche unitaire][4])

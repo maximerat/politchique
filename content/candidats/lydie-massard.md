@@ -15,12 +15,12 @@ photoSource: https://upload.wikimedia.org/wikipedia/commons/4/44/Member_of_the_E
   />
 </div>
 
-Cette fiche reprend les orientations portées par **Lydie Massard**, porte-parole de l'**Union démocratique bretonne (UDB)** et ancienne députée européenne, candidate déclarée à la **primaire de la gauche unitaire**. Sa candidature est revendiquée comme **fédéraliste** : elle porte une revendication institutionnelle, la **République fédérale**.
+Cette fiche reprend les orientations portées par **Lydie Massard**, porte-parole de l'**Union démocratique bretonne (UDB)** et ancienne députée européenne, candidate à la **primaire de la gauche unitaire** jusqu'à son retrait le 9 septembre 2026. Sa candidature est revendiquée comme **fédéraliste** : elle porte une revendication institutionnelle, la **République fédérale**.
 
 <details open>
 <summary><strong>Statut de la candidature</strong></summary>
 
-- **Statut :** **candidature déclarée**, au sein d'un processus aujourd'hui **de facto abandonné**.
+- **Statut :** **candidature retirée** le **9 septembre 2026**, après l'abandon de fait de la primaire de la gauche unitaire. ([Wikipédia : candidatures 2027][5])
 - **Annonce :** le **2 avril 2026**, à la **primaire de la gauche unitaire** prévue le **11 octobre 2026**. ([Wikipédia][1], [UDB][2])
 - **Processus :** cette primaire, lancée le 15 novembre 2025 par Les Écologistes, le PS et Debout !, s'est **effondrée** en juillet 2026 après le vote des militants socialistes et les retraits successifs. Voir [Les deux primaires de la gauche](/primaires).
 - **Autres candidats de cette primaire :** Marine Tondelier et François Ruffin.
@@ -66,6 +66,7 @@ Cette fiche reprend les orientations portées par **Lydie Massard**, porte-parol
 [2]: https://www.udb.bzh/non-classifiee/lydie-massard-candidate-aux-primaires-de-la-gauche/ "Lydie Massard, candidate aux primaires de la gauche — UDB"
 [3]: https://lepeuplebreton.bzh/2026/04/02/lydie-massard-candidate-federaliste-a-lelection-presidentielle/ "Lydie Massard, candidate fédéraliste à l'élection présidentielle — Le Peuple breton"
 [4]: https://fr.wikipedia.org/wiki/Lydie_Massard "Lydie Massard — Wikipédia"
+[5]: https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l'%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027 "Candidatures à l'élection présidentielle française de 2027 (Wikipédia)"
 
 ---
 

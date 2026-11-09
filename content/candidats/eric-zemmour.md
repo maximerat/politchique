@@ -24,7 +24,7 @@ Cette fiche reprend les orientations portées par **Éric Zemmour** et **Reconqu
 - **Fonction :** président de Reconquête
 - **Ancienne candidature présidentielle :** candidat à l'élection présidentielle de 2022
 - **Profil public :** ancien journaliste, essayiste, polémiste et responsable politique
-- **Statut présidentiel :** Éric Zemmour est présenté dans la presse comme candidat putatif ou probable pour 2027, mais les sources officielles citées ici ne présentent pas encore de programme présidentiel 2027 finalisé.
+- **Statut présidentiel :** **candidature déclarée**, confirmée le **17 septembre 2026** sur BFMTV. Les sources officielles citées ici ne présentent pas encore de programme présidentiel 2027 finalisé. ([Wikipédia][23])
 - **Référence principale :** [Programme d'Éric Zemmour 2022](https://programme.ericzemmour.fr/)
 
 </details>
@@ -193,6 +193,7 @@ Les sources citées ici font état de plusieurs **condamnations pénales défini
 [20]: https://www.deshoulieres-avocats.com/relaxe-eric-zemmour-negationnisme-associations-lgbt-font-appel/ "Relaxe d'Éric Zemmour pour négationnisme — appel annoncé"
 [21]: https://www.actu-juridique.fr/penal/proces-de-zemmour-pour-contestation-de-crime-contre-lhumanite-nier-la-deportation-dhomosexuels-cest-nourrir-la-haine/ "Procès d'Éric Zemmour pour contestation de crime contre l'humanité"
 [22]: https://commons.wikimedia.org/wiki/File:%C3%89ric_Zemmour.jpg "Éric Zemmour.jpg — Wikimedia Commons"
+[23]: https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l'%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027 "Candidatures à l'élection présidentielle française de 2027 (Wikipédia)"
 
 ---
 

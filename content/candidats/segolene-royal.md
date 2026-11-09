@@ -20,10 +20,11 @@ Cette fiche reprend les orientations portées par **Ségolène Royal**, candidat
 <details open>
 <summary><strong>Statut de la candidature</strong></summary>
 
-- **Statut :** **candidature déclarée** (à la primaire, pas encore à l'élection).
+- **Statut :** **candidature retirée** après la primaire ; elle apporte un **soutien conditionnel** à Raphaël Glucksmann. ([Wikipédia][9])
 - **Annonce :** le **10 juillet 2026**, elle annonce sa candidature à la **primaire de l'espace socialiste**. ([LCP][1])
 - **Motif avancé :** le risque d'une arrivée au pouvoir de l'extrême droite. ([CNews][2])
-- **Calendrier de la primaire :** primaire **fermée**, réservée aux adhérents du **PS** et de **Place publique** à jour de cotisation (ou acquittant 15 euros) — **1er tour les 9 et 10 octobre 2026**, **2d tour les 16 et 17 octobre 2026**. Le format restreint a été choisi par les militants le 9 juillet 2026 (55,5 %). ([Wikipédia — Primaire socialiste 2026][3])
+- **Primaire :** primaire **fermée**, réservée aux adhérents du **PS**, de **Place publique** et de la GRS à jour de cotisation (ou acquittant 15 euros). Le format restreint a été choisi par les militants le 9 juillet 2026 (55,5 %). ([Wikipédia][3])
+- **Résultat (11 octobre 2026) :** **troisième** avec **7,62 %** des voix ; Raphaël Glucksmann est désigné dès le premier tour avec 66,17 %. ([Wikipédia][3])
 - **Ne pas confondre :** cette primaire de l'espace social-démocrate est **distincte** de la [primaire de la gauche unitaire](/primaires) du 11 octobre 2026, à laquelle le PS a refusé de participer. ([Wikipédia][3])
 - **Slogan :** « **La France tranquille et l'ordre juste** ». ([CNews][2])
 - **Antécédent :** finaliste de l'élection présidentielle de **2007**, battue au second tour.
@@ -106,6 +107,7 @@ Cette fiche reprend les orientations portées par **Ségolène Royal**, candidat
 [5]: https://www.parlons-politique.fr/elections/en-se-lancant-dans-la-primaire-de-la-gauche-segolene-royal-relance-la-bataille-du-leadership-socialiste-pour-2027_23431/ "En se lançant dans la primaire de la gauche, Ségolène Royal relance la bataille du leadership socialiste"
 [6]: https://www.lejdd.fr/politique/presidentielle-segolene-royal-annonce-sa-candidature-a-la-primaire-socialiste-178674 "Présidentielle : Ségolène Royal annonce sa candidature à la primaire socialiste"
 [7]: https://www.lapresse.ca/international/europe/2026-07-10/presidentielle-francaise-de-2027/segolene-royal-veut-se-representer.php "Présidentielle française de 2027 : Ségolène Royal veut se représenter"
+[9]: https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l'%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027 "Candidatures à l'élection présidentielle française de 2027 (Wikipédia)"
 
 ---
 

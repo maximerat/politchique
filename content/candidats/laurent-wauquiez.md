@@ -20,14 +20,14 @@ Cette fiche reprend les orientations portées par **Laurent Wauquiez**, préside
 <details open>
 <summary><strong>Statut de la candidature</strong></summary>
 
-- **Statut :** **candidature pressentie**, non déclarée.
+- **Statut :** **hors course** : il a renoncé à se présenter et soutient Édouard Philippe. ([Wikipédia][8])
 - **Ambition assumée :** en mars 2025, il déclare « *Mon objectif, c'est de reconstruire mon pays* » et évoque explicitement la présidence de la République comme le poste « où les choses se décident ». ([CNews][1])
 - **Recul (juin 2026) :** il reconnaît que **Bruno Retailleau est « le candidat légitime des Républicains »** et met de côté toute candidature personnelle, pour se concentrer sur le rassemblement de la droite. ([franceinfo][2])
 - **Bascule (1er juillet 2026) :** dans un entretien au *Figaro*, il estime qu'**Édouard Philippe** « peut incarner l'ordre et le sérieux » pour redresser la France, appelle Bruno Retailleau à se retirer, et justifie ce choix par le risque d'éliminer toute candidature de droite au profit d'une qualification de Jean-Luc Mélenchon au second tour. ([franceinfo][3], [LCP][4])
 - **Conditions posées :** Édouard Philippe devrait selon lui « s'émanciper de l'histoire du macronisme » et « inventer un nouveau cycle politique ». ([LCP][4])
 - **Réception :** Édouard Philippe s'est publiquement félicité de ces déclarations, y voyant un premier pas vers un soutien. ([Europe 1][5])
 
-> Cette fiche est conservée parce que Laurent Wauquiez reste une figure structurante du débat à droite pour 2027, mais **il ne figure pas parmi les candidats déclarés** à ce stade.
+> Cette fiche est conservée parce que Laurent Wauquiez reste une figure structurante du débat à droite pour 2027, mais **il n'est pas candidat**.
 
 </details>
 
@@ -103,6 +103,7 @@ Cette fiche reprend les orientations portées par **Laurent Wauquiez**, préside
 [5]: https://www.europe1.fr/politique/presidentielle-2027-edouard-philippe-se-rejouit-des-compliments-de-laurent-wauquiez-965208 "Présidentielle 2027 : Édouard Philippe se réjouit des compliments de Laurent Wauquiez"
 [6]: https://fr.wikipedia.org/wiki/Laurent_Wauquiez "Laurent Wauquiez — Wikipédia"
 [7]: https://republicains.fr/ "Les Républicains — site officiel"
+[8]: https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l'%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027 "Candidatures à l'élection présidentielle française de 2027 (Wikipédia)"
 
 ---
 

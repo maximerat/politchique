@@ -22,6 +22,7 @@ Cette fiche reprend les orientations portées par **Sandrine Rousseau**, à part
 
 - **Statut :** **hors course** — aucune candidature déclarée pour 2027.
 - **Désignation écologiste :** le **8 décembre 2025**, Les Écologistes ont désigné **Marine Tondelier** avec **86 %** des voix, face à Waleed Mouhali. Sandrine Rousseau n'était pas candidate à cette désignation. ([Les Écologistes][25], [Wikipédia — Primaire de la gauche unitaire][26])
+- **Position actuelle :** elle plaide pour que Les Écologistes s'allient à La France insoumise et soutiennent **Jean-Luc Mélenchon**, alors que son parti a désigné Marine Tondelier pour la présidentielle le 21 septembre 2026. ([Wikipédia][27])
 - **Antécédent :** finaliste de la **primaire écologiste de 2021**, battue par Yannick Jadot au second tour.
 
 </details>
@@ -182,6 +183,7 @@ Cette fiche reprend les orientations portées par **Sandrine Rousseau**, à part
 
 [25]: https://lesecologistes.fr/posts/4DGpyusxBAU4xQPexfncsx/marine-tondelier-designee-pour-representer-les-ecologistes-a-l-election-presidentielle "Marine Tondelier désignée pour représenter Les Écologistes à l'élection présidentielle"
 [26]: https://fr.wikipedia.org/wiki/Primaire_de_la_gauche_unitaire_de_2026 "Primaire de la gauche unitaire de 2026 — Wikipédia"
+[27]: https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l'%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027 "Candidatures à l'élection présidentielle française de 2027 (Wikipédia)"
 
 ---
 

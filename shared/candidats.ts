@@ -116,7 +116,8 @@ export const candidats: Candidat[] = [
     resume:
       "Synthèse des positions de Gabriel Attal et de Renaissance, avec sources et état des procédures.",
     statut: "declare",
-    statutDetail: "Candidature annoncée le 22 mai 2026.",
+    statutDetail:
+      "Candidature annoncée le 22 mai 2026 ; le 28 octobre 2026, au 20 h de TF1, il a proposé une « grande primaire des démocrates », rejetée à ce stade par Édouard Philippe.",
     programme: "detaille",
     source: {
       label: "Renaissance — Site officiel",
@@ -131,9 +132,9 @@ export const candidats: Candidat[] = [
     photo: "/photos/jerome-guedj.jpg",
     resume:
       "Synthèse neutre des positions de Jérôme Guedj et du Parti socialiste, avec sources et état des procédures.",
-    statut: "declare",
+    statut: "retire",
     statutDetail:
-      "Candidature annoncée le 5 février 2026 hors primaire, puis ralliée le 23 août 2026 à la primaire fermée de l'espace social-démocrate (PS, Place publique).",
+      "Candidature annoncée le 5 février 2026 hors primaire, puis ralliée le 23 août 2026 à la primaire de l'espace social-démocrate ; cinquième au premier tour du 11 octobre 2026 avec 5,83 % des voix, il s'est retiré et soutient Raphaël Glucksmann.",
     programme: "detaille",
     source: {
       label: "Parti socialiste — Projet",
@@ -148,9 +149,9 @@ export const candidats: Candidat[] = [
     photo: "/photos/segolene-royal.jpg",
     resume:
       "Synthèse neutre des positions de Ségolène Royal, candidate à la primaire socialiste, avec sources et état des procédures.",
-    statut: "declare",
+    statut: "retire",
     statutDetail:
-      "Candidature annoncée le 10 juillet 2026 à la primaire fermée de l'espace social-démocrate (PS, Place publique), dont le premier tour est prévu les 9 et 10 octobre 2026.",
+      "Candidate à la primaire de l'espace social-démocrate (déclarée le 10 juillet 2026), troisième au premier tour du 11 octobre 2026 avec 7,62 % des voix ; elle s'est retirée et apporte un soutien conditionnel à Raphaël Glucksmann.",
     programme: "sommaire",
     programmeDetail:
       "Plan en cinq points annoncé oralement le 10 juillet 2026 et orientations rapportées par la presse ; aucun document programmatique publié pour cette candidature à ce jour.",
@@ -200,7 +201,8 @@ export const candidats: Candidat[] = [
     resume:
       "Synthèse neutre des positions de Bruno Retailleau et des Républicains, avec sources et état des procédures.",
     statut: "declare",
-    statutDetail: "Désigné candidat des Républicains le 19 avril 2026.",
+    statutDetail:
+      "Désigné candidat des Républicains le 19 avril 2026 ; le 28 octobre 2026, il s'est dit ouvert à une primaire à la seule condition qu'Édouard Philippe y participe.",
     programme: "detaille",
     source: {
       label: "Les Républicains — Nos propositions",
@@ -215,9 +217,9 @@ export const candidats: Candidat[] = [
     photo: "/photos/laurent-wauquiez.jpg",
     resume:
       "Synthèse neutre des positions de Laurent Wauquiez et de la droite républicaine, avec sources et état des procédures.",
-    statut: "pressenti",
+    statut: "ecarte",
     statutDetail:
-      "Ambitions présidentielles assumées en 2025, mais pas de candidature déclarée : il a reconnu Bruno Retailleau comme « candidat légitime » en juin 2026, puis appelé à un soutien à Édouard Philippe le 1er juillet 2026.",
+      "N'est pas candidat : après avoir reconnu Bruno Retailleau comme « candidat légitime » en juin 2026, il a appelé le 1er juillet 2026 à un soutien à Édouard Philippe.",
     programme: "sommaire",
     programmeDetail:
       "Positions documentées à partir de son parcours et des orientations des Républicains ; candidature non déclarée et aucun programme présidentiel publié.",
@@ -251,7 +253,8 @@ export const candidats: Candidat[] = [
     resume:
       "Synthèse neutre des positions de Nicolas Dupont-Aignan et de Debout la France, avec sources et état des procédures.",
     statut: "declare",
-    statutDetail: "Candidature déclarée le 8 mars 2025.",
+    statutDetail:
+      "Intention annoncée le 8 mars 2025, candidature officialisée le 19 septembre 2026 dans un entretien au Journal du dimanche.",
     programme: "detaille",
     source: {
       label: "Debout la France — Le projet",
@@ -366,7 +369,7 @@ export const candidats: Candidat[] = [
       "Synthèse neutre des positions de Marine Tondelier et des Écologistes, avec sources et état des procédures.",
     statut: "declare",
     statutDetail:
-      "Candidature déclarée le 22 octobre 2025, puis désignée candidate des Écologistes le 8 décembre 2025 avec 86 % des voix. Elle devait porter ces couleurs à la primaire de la gauche unitaire du 11 octobre 2026, aujourd'hui de facto abandonnée.",
+      "Candidature déclarée le 22 octobre 2025, puis désignée le 8 décembre 2025 avec 86 % des voix pour la primaire de la gauche unitaire ; ce processus ayant été abandonné, Les Écologistes l'ont désignée candidate à la présidentielle le 21 septembre 2026.",
     programme: "detaille",
     source: {
       label: "Marine Tondelier — Site de campagne",
@@ -400,7 +403,7 @@ export const candidats: Candidat[] = [
       "Synthèse neutre des positions de Sandrine Rousseau et des Écologistes, avec sources et état des procédures.",
     statut: "ecarte",
     statutDetail:
-      "N'est pas candidate pour 2027 : la désignation interne des Écologistes du 8 décembre 2025 a retenu Marine Tondelier, et Sandrine Rousseau n'a pas déclaré de candidature.",
+      "N'est pas candidate pour 2027 : la désignation interne des Écologistes du 8 décembre 2025 a retenu Marine Tondelier ; elle plaide désormais pour une alliance des Écologistes avec La France insoumise derrière Jean-Luc Mélenchon.",
     programme: "detaille",
     source: {
       label: "Sandrine Rousseau — Vivantes",
@@ -417,7 +420,7 @@ export const candidats: Candidat[] = [
       "Synthèse neutre des positions de Dominique de Villepin et de La France humaniste, avec sources et état des procédures.",
     statut: "pressenti",
     statutDetail:
-      "Cité parmi les candidats pressentis, sans candidature déclarée pour 2027.",
+      "Pas de candidature déclarée : le 3 novembre 2026, il a confirmé vouloir être candidat, tout en jugeant que le moment n'était pas venu de l'officialiser.",
     programme: "detaille",
     source: {
       label: "La France humaniste — Site officiel",
@@ -432,9 +435,9 @@ export const candidats: Candidat[] = [
     photo: "/photos/eric-zemmour.jpg",
     resume:
       "Synthèse neutre des positions d'Éric Zemmour et de Reconquête, avec sources et état des procédures.",
-    statut: "pressenti",
+    statut: "declare",
     statutDetail:
-      "Cité parmi les candidats pressentis, sans candidature déclarée pour 2027.",
+      "Candidature confirmée le 17 septembre 2026 sur BFMTV.",
     programme: "detaille",
     source: {
       label: "Éric Zemmour — Programme 2022",
@@ -503,7 +506,7 @@ export const candidats: Candidat[] = [
       "Synthèse neutre des positions de Raphaël Glucksmann et de Place publique, avec sources et état des procédures.",
     statut: "declare",
     statutDetail:
-      "Candidature déclarée le 23 août 2026 sur TF1 ; il concourt à la primaire fermée de l'espace social-démocrate (PS, Place publique) des 9-10 et 16-17 octobre 2026.",
+      "Candidature déclarée le 23 août 2026 sur TF1 ; désigné le 11 octobre 2026, dès le premier tour de la primaire de l'espace social-démocrate (66,17 % des voix), candidat commun de Place publique, du PS et de la GRS.",
     programme: "detaille",
     source: {
       label: "Place publique — Le projet",
@@ -518,9 +521,9 @@ export const candidats: Candidat[] = [
     photo: "/photos/olivier-faure.jpg",
     resume:
       "Synthèse neutre des positions d'Olivier Faure et du Parti socialiste, avec sources et état des procédures.",
-    statut: "declare",
+    statut: "retire",
     statutDetail:
-      "Candidature déclarée le 30 août 2026 au 20 h de TF1, au lendemain de l'université d'été du PS à Blois ; il concourt à la primaire fermée de l'espace social-démocrate (PS, Place publique) des 9-10 et 16-17 octobre 2026.",
+      "Candidat à la primaire de l'espace social-démocrate (déclaré le 30 août 2026), deuxième au premier tour du 11 octobre 2026 avec 14,46 % des voix ; il s'est retiré et soutient Raphaël Glucksmann.",
     programme: "detaille",
     source: {
       label: "Parti socialiste — Projet",
@@ -537,7 +540,7 @@ export const candidats: Candidat[] = [
       "Synthèse neutre des positions de François Ruffin et de Debout !, avec sources et état des procédures.",
     statut: "declare",
     statutDetail:
-      "Inscrit le 15 novembre 2025 à la primaire de la gauche unitaire, campagne lancée le 25 avril 2026 à Lyon ; il a confirmé le 12 mai 2026 qu'il irait à la présidentielle en l'absence de primaire.",
+      "Inscrit le 15 novembre 2025 à la primaire de la gauche unitaire, campagne lancée le 25 avril 2026 à Lyon ; il a confirmé le 12 mai 2026 qu'il irait à la présidentielle en l'absence de primaire, et a dit le 6 novembre 2026 qu'il ne se retirerait que « si une solution se dégage pour battre Marine Le Pen ».",
     programme: "detaille",
     source: {
       label: "Ruffin 2027 — Cahiers de campagne",
@@ -603,9 +606,9 @@ export const candidats: Candidat[] = [
     photo: "/photos/philippe-brun.jpg",
     resume:
       "Synthèse neutre des positions de Philippe Brun, candidat à la primaire socialiste sur la ligne des salaires, avec sources et état des procédures.",
-    statut: "declare",
+    statut: "ecarte",
     statutDetail:
-      "Candidature annoncée le 30 juin 2026 à la primaire fermée de l'espace social-démocrate (PS, Place publique), dont le premier tour est prévu les 9 et 10 octobre 2026.",
+      "Candidature à la primaire annoncée le 30 juin 2026 ; suspendu du PS « à titre conservatoire » le 16 septembre 2026 à la suite d'accusations d'une militante, qu'il conteste, il n'a pas pu concourir. Ses demandes de réintégration ont été rejetées en référé puis en appel.",
     programme: "detaille",
     source: {
       label: "Wikipédia — Primaire présidentielle socialiste de 2026",
@@ -620,9 +623,9 @@ export const candidats: Candidat[] = [
     photo: "/photos/emmanuel-maurel.jpg",
     resume:
       "Synthèse neutre des positions d'Emmanuel Maurel et de la Gauche républicaine et socialiste, avec sources et état des procédures.",
-    statut: "declare",
+    statut: "retire",
     statutDetail:
-      "Candidature annoncée le 4 septembre 2026 à la primaire fermée de l'espace social-démocrate (PS, Place publique, GRS) ; septième candidat déclaré à cette primaire.",
+      "Candidat à la primaire de l'espace social-démocrate (déclaré le 4 septembre 2026), quatrième au premier tour du 11 octobre 2026 avec 5,92 % des voix ; il s'est retiré et soutient Raphaël Glucksmann.",
     programme: "sommaire",
     programmeDetail:
       "Ligne annoncée en trois mots — démondialiser, démarchandiser, démocratiser — sans document programmatique publié à ce jour.",
@@ -640,9 +643,9 @@ export const candidats: Candidat[] = [
     photo: "",
     resume:
       "Synthèse neutre des positions de Fabien Verdier, candidat à la primaire socialiste sur la justice territoriale, avec sources et état des procédures.",
-    statut: "declare",
+    statut: "ecarte",
     statutDetail:
-      "Candidature annoncée le 2 septembre 2026 dans un entretien à Libération, à la primaire fermée de l'espace social-démocrate (PS, Place publique).",
+      "Candidature à la primaire annoncée le 2 septembre 2026 dans un entretien à Libération ; faute d'avoir réuni les parrainages internes requis, il n'a pas concouru.",
     programme: "thematique",
     programmeDetail:
       "Un axe unique revendiqué — la justice territoriale et les villes sous-préfectures — sans programme thématique complet publié à ce jour.",
@@ -659,9 +662,9 @@ export const candidats: Candidat[] = [
     photo: "/photos/lydie-massard.jpg",
     resume:
       "Synthèse neutre des positions de Lydie Massard et de l'Union démocratique bretonne, centrées sur le fédéralisme, avec sources et état des procédures.",
-    statut: "declare",
+    statut: "retire",
     statutDetail:
-      "Candidature annoncée le 2 avril 2026 à la primaire de la gauche unitaire du 11 octobre 2026, aujourd'hui de facto abandonnée.",
+      "Candidature annoncée le 2 avril 2026 à la primaire de la gauche unitaire, retirée le 9 septembre 2026 après l'abandon de fait de ce processus.",
     programme: "thematique",
     programmeDetail:
       "Candidature centrée sur une revendication institutionnelle — la République fédérale — sans programme thématique complet publié à ce jour.",
@@ -746,6 +749,104 @@ export const candidats: Candidat[] = [
     source: {
       label: "Le Tribunal du Net — Annonce de candidature",
       url: "https://www.letribunaldunet.fr/politique/sylvain-durif-grand-monarque-candidat-presidentielle-2027.html",
+    },
+  },
+  {
+    id: "olivier-becht",
+    nom: "Olivier Becht",
+    parti: "Sans étiquette (centre)",
+    partiIcone: "i-lucide-zap",
+    photo: "/photos/olivier-becht.jpg",
+    resume:
+      "Synthèse neutre de la candidature d'Olivier Becht et de son « Projet France », avec sources et état des procédures.",
+    statut: "declare",
+    statutDetail:
+      "Candidature annoncée le 24 septembre 2026 à Rixheim (Haut-Rhin) et dans Paris Match ; député apparenté au groupe Ensemble pour la République, il se présente sans étiquette.",
+    programme: "sommaire",
+    programmeDetail:
+      "Quatre axes rapportés par la presse (énergie 100 % française et décarbonée, contrat social universel, centres de redressement, fédéralisme), détaillés dans un livre non consulté ; aucun chiffrage publié.",
+    source: {
+      label: "ICI Alsace : annonce de candidature",
+      url: "https://www.ici.fr/grand-est/alsace-cea/rixheim/il-faut-refonder-notre-modele-le-depute-alsacien-olivier-becht-est-candidat-a-la-presidentielle-1401407",
+    },
+  },
+  {
+    id: "gilles-platret",
+    nom: "Gilles Platret",
+    parti: "Divers droite",
+    partiIcone: "i-lucide-landmark",
+    // Aucune photographie libre de droits identifiée : repli sur les initiales.
+    photo: "",
+    resume:
+      "Synthèse neutre de la candidature de Gilles Platret, maire de Chalon-sur-Saône, avec sources et état des procédures.",
+    statut: "declare",
+    statutDetail:
+      "Candidature annoncée le 8 octobre 2026 lors d'un meeting à Chalon-sur-Saône ; ancien vice-président des Républicains, il se présente hors des partis.",
+    programme: "sommaire",
+    programmeDetail:
+      "Une dizaine de mesures annoncées par communiqué (39 heures, dette sous 100 % du PIB, frontières, interdiction du voile dans l'espace public), sans chiffrage ni calendrier.",
+    source: {
+      label: "France 3 Bourgogne-Franche-Comté : annonce de candidature",
+      url: "https://france3-regions.franceinfo.fr/bourgogne-franche-comte/saone-et-loire/chalon-sur-saone/gilles-platret-le-maire-de-chalon-sur-saone-se-declare-candidat-a-l-election-presidentielle-je-m-engage-resolument-vers-2027-3430416.html",
+    },
+  },
+  {
+    id: "natacha-polony",
+    nom: "Natacha Polony",
+    parti: "Nous sommes la France",
+    partiIcone: "i-lucide-wheat",
+    photo: "/photos/natacha-polony.jpg",
+    resume:
+      "Synthèse neutre de la candidature de Natacha Polony, essayiste souverainiste, avec sources et état des procédures.",
+    statut: "declare",
+    statutDetail:
+      "Candidature annoncée le 14 octobre 2026 sur France Inter, portée par le mouvement « Nous sommes la France » et soutenue par plusieurs petites formations souverainistes et républicaines.",
+    programme: "sommaire",
+    programmeDetail:
+      "Propositions publiées surtout sur l'agriculture et la souveraineté (revenus agricoles, préférence nationale dans la commande publique, clauses miroirs) ; ni programme complet ni chiffrage à ce stade.",
+    source: {
+      label: "Pleinchamp : annonce et propositions agricoles",
+      url: "https://www.pleinchamp.com/actualite/natacha-polony-candidate-a-l-elysee-avec-l-agriculture-comme-champ-de-bataille",
+    },
+  },
+  {
+    id: "mira-markovic",
+    nom: "Mira Markovic",
+    parti: "Parti animaliste",
+    partiIcone: "i-lucide-paw-print",
+    // Aucune photographie libre de droits identifiée : repli sur les initiales.
+    photo: "",
+    resume:
+      "Synthèse neutre de la candidature de Mira Markovic et des positions du Parti animaliste, avec sources et état des procédures.",
+    statut: "declare",
+    statutDetail:
+      "Candidature annoncée le 2 octobre 2026 en conférence de presse ; le Parti animaliste n'avait pas réuni les 500 parrainages en 2022.",
+    programme: "thematique",
+    programmeDetail:
+      "Propositions centrées sur la condition animale (ministère dédié, sortie des animaux du régime des biens, fin de l'élevage intensif), sans positions documentées sur les autres thèmes.",
+    source: {
+      label: "HuffPost : annonce de candidature",
+      url: "https://fr.news.yahoo.com/sport/pr%C3%A9sidentielle-2027-candidate-parti-animaliste-092813187.html",
+    },
+  },
+  {
+    id: "manolo-mlekuz",
+    nom: "Manolo Mlekuz",
+    parti: "Trajectoire",
+    partiIcone: "i-lucide-route",
+    // Aucune photographie libre de droits identifiée : repli sur les initiales.
+    photo: "",
+    resume:
+      "Synthèse neutre de la candidature de Manolo Mlekuz et du mouvement Trajectoire, centrée sur une nouvelle Constitution, avec sources et état des procédures.",
+    statut: "declare",
+    statutDetail:
+      "Candidature présentée début 2026, sans parti établi ; il parcourt la France en van pour réunir les 500 parrainages, avec 4 signatures confirmées fin octobre 2026.",
+    programme: "thematique",
+    programmeDetail:
+      "Une proposition centrale : une nouvelle Constitution rédigée par 200 citoyens tirés au sort puis soumise à référendum ; pas de positions documentées sur les autres thèmes.",
+    source: {
+      label: "ICI Isère : portrait du candidat",
+      url: "https://www.ici.fr/auvergne-rhone-alpes/isere-38/il-y-a-un-vrai-probleme-d-ecoute-a-20-ans-il-est-candidat-a-la-presidentielle-et-cherche-des-parrainages-en-isere-6140683",
     },
   },
 ];
