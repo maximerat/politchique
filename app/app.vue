@@ -11,17 +11,19 @@ type DoorbellOptions = {
   id: string;
   appKey: string;
   windowLoaded?: boolean;
+  hideButton?: boolean;
   language: string;
   strings: Record<string, string>;
 };
 
 // Doorbell ne fournit aucune traduction embarquée : `language` sert seulement à
 // étiqueter les retours envoyés. Les libellés doivent donc être écrasés un à un.
+// Le bouton flottant est masqué : le formulaire s'ouvre via le lien « Contact »
+// du pied de page.
 const doorbellStrings: Record<string, string> = {
-  title: "Votre avis",
-  "feedback-button-text": "Votre avis",
-  "feedback-textarea-placeholder":
-    "Envoyez-nous vos commentaires ou suggestions…",
+  title: "Nous contacter",
+  "feedback-button-text": "Contact",
+  "feedback-textarea-placeholder": "Votre message…",
   "email-input-placeholder": "Votre adresse e-mail",
   "attach-a-screenshot": "Joindre une capture d'écran",
   "add-attachments-label-button": "Envoyer des fichiers",
@@ -38,6 +40,14 @@ const doorbellStrings: Record<string, string> = {
   "message-error-message-too-short": "Votre message est trop court.",
 };
 
+type DoorbellWindow = Window & {
+  doorbell?: { show: () => void };
+};
+
+const ouvrirContact = () => {
+  (window as DoorbellWindow).doorbell?.show();
+};
+
 onMounted(() => {
   type LegacyWindow = Window & {
     doorbellOptions?: DoorbellOptions;
@@ -50,6 +60,7 @@ onMounted(() => {
   const doorbellOptions: DoorbellOptions = {
     id: "14691",
     appKey: "9QqghzW44x1JhGhHQagax1nL0ObUwYNqm47c62hHPZYdMPBkU66IAWIvi7SCpCYi",
+    hideButton: true,
     language: "fr",
     strings: doorbellStrings,
   };
@@ -132,6 +143,10 @@ onMounted(() => {
           <NuxtLink to="/a-propos">À propos</NuxtLink>
           ·
           <NuxtLink to="/soutenir">Soutenir</NuxtLink>
+          ·
+          <button type="button" class="hover:underline" @click="ouvrirContact">
+            Contact
+          </button>
           · La politique c'est chiant mais c'est important ·
           <NuxtLink to="https://github.com/maximerat/politchique"
             >GitHub</NuxtLink
