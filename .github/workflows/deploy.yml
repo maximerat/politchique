@@ -61,6 +61,8 @@ jobs:
           SSH_USER: ${{ secrets.SSH_USER }}
           DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
         run: |
+          # .well-known est géré par le serveur (certificat HTTPS) : ne pas le supprimer.
           rsync -az --delete --delay-updates \
+            --exclude '/.well-known/' \
             -e "ssh -i ~/.ssh/deploy_key" \
             .output/public/ "$SSH_USER@$SSH_HOST:$DEPLOY_PATH/"
