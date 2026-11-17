@@ -33,7 +33,7 @@ onMounted(() => {
 });
 
 const recherche = ref("");
-const filtreStatut = ref<StatutCandidature | "tous">("tous");
+const filtreStatut = ref<StatutCandidature | "tous">("declare");
 
 function normaliserTexte(texte: string) {
   return texte
