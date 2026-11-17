@@ -36,6 +36,7 @@ Chaque fiche précise si la **candidature est déclarée** (annonce publique), s
 - [Gilles Platret (divers droite)](/candidats/gilles-platret)
 - [Natacha Polony (Nous sommes la France)](/candidats/natacha-polony)
 - [Bruno Retailleau (Les Républicains)](/candidats/bruno-retailleau)
+- [Teddy Riner (sans étiquette)](/candidats/teddy-riner)
 - [Fabien Roussel (Parti communiste français)](/candidats/fabien-roussel)
 - [François Ruffin (Debout !)](/candidats/francois-ruffin)
 - [Marine Tondelier (Les Écologistes)](/candidats/marine-tondelier)

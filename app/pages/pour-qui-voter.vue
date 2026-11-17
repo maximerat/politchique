@@ -85,8 +85,13 @@ const questions: Question[] = [
       "anasse-kazib": -2,
       "juan-branco": -1,
       "gilles-platret": 1,
+      "teddy-riner": 1,
     }),
     sources: {
+      "teddy-riner": {
+        label: "LCP : annonce de candidature de Teddy Riner",
+        url: "https://lcp.fr/actualites/le-judoka-teddy-riner-annonce-sa-candidature-a-l-election-presidentielle-de-2027-444920",
+      },
       "gilles-platret": {
         label: "Dijon Actualités : communiqué de Gilles Platret",
         url: "https://dijon-actualites.fr/2026/10/10/presidentielle-2027-le-maire-de-chalon-sur-saone-gilles-platret-sest-lance-dans-la-course-a-lelysee/",
@@ -158,8 +163,14 @@ const questions: Question[] = [
       "bernard-cazeneuve": -1,
       "anasse-kazib": 2,
       "juan-branco": 1,
+      "teddy-riner": -1,
     }),
-    sources: {},
+    sources: {
+      "teddy-riner": {
+        label: "LCP : annonce de candidature de Teddy Riner",
+        url: "https://lcp.fr/actualites/le-judoka-teddy-riner-annonce-sa-candidature-a-l-election-presidentielle-de-2027-444920",
+      },
+    },
   },
   {
     id: "q4",

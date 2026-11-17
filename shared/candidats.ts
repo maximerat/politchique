@@ -849,6 +849,25 @@ export const candidats: Candidat[] = [
       url: "https://www.ici.fr/auvergne-rhone-alpes/isere-38/il-y-a-un-vrai-probleme-d-ecoute-a-20-ans-il-est-candidat-a-la-presidentielle-et-cherche-des-parrainages-en-isere-6140683",
     },
   },
+  {
+    id: "teddy-riner",
+    nom: "Teddy Riner",
+    parti: "Sans étiquette",
+    partiIcone: "i-lucide-medal",
+    photo: "/photos/teddy-riner.jpg",
+    resume:
+      "Synthèse neutre de la candidature de Teddy Riner, quintuple champion olympique de judo, avec sources et état des procédures.",
+    statut: "declare",
+    statutDetail:
+      "Candidature annoncée le 9 novembre 2026 par une vidéo sur les réseaux sociaux et un entretien au Parisien, sans parti, sous le slogan « La France qu'on veut ».",
+    programme: "sommaire",
+    programmeDetail:
+      "Premières orientations sur les retraites (répartition avec une part de capitalisation possible), le salaire net, la dette et l'autorité de l'État ; ni programme complet ni chiffrage à ce stade.",
+    source: {
+      label: "LCP : annonce de candidature",
+      url: "https://lcp.fr/actualites/le-judoka-teddy-riner-annonce-sa-candidature-a-l-election-presidentielle-de-2027-444920",
+    },
+  },
 ];
 
 export const candidatsParId = Object.fromEntries(
