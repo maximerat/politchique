@@ -141,15 +141,6 @@ function remelangerCandidats() {
             présidentielle et synthétise leurs positions de manière claire, en
             français.
           </p>
-
-          <p class="text-sm font-medium text-gray-700 max-w-2xl">
-            À gauche, Raphaël Glucksmann a remporté le 11 octobre 2026 la
-            primaire de l'espace social-démocrate, tandis que la primaire de la
-            gauche unitaire n'a pas eu lieu :
-            <NuxtLink to="/primaires" class="underline underline-offset-2"
-              >le détail des deux processus</NuxtLink
-            >.
-          </p>
         </div>
       </template>
 
