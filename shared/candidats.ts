@@ -418,9 +418,9 @@ export const candidats: Candidat[] = [
     photo: "/photos/dominique-de-villepin.jpg",
     resume:
       "Synthèse neutre des positions de Dominique de Villepin et de La France humaniste, avec sources et état des procédures.",
-    statut: "pressenti",
+    statut: "declare",
     statutDetail:
-      "Pas de candidature déclarée : le 3 novembre 2026, il a confirmé vouloir être candidat, tout en jugeant que le moment n'était pas venu de l'officialiser.",
+      "Candidature annoncée le 20 novembre 2026 en conférence de presse à Paris, portée par La France humaniste, en alternative au macronisme, au RN et à LFI.",
     programme: "detaille",
     source: {
       label: "La France humaniste — Site officiel",

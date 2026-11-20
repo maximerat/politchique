@@ -40,11 +40,8 @@ Chaque fiche précise si la **candidature est déclarée** (annonce publique), s
 - [Fabien Roussel (Parti communiste français)](/candidats/fabien-roussel)
 - [François Ruffin (Debout !)](/candidats/francois-ruffin)
 - [Marine Tondelier (Les Écologistes)](/candidats/marine-tondelier)
+- [Dominique de Villepin (La France humaniste)](/candidats/dominique-de-villepin)
 - [Éric Zemmour (Reconquête)](/candidats/eric-zemmour)
-
-## Candidatures pressenties
-
-- [Dominique de Villepin (La France humaniste)](/candidats/dominique-de-villepin) : dit vouloir être candidat, sans l'avoir officialisé
 
 ## Candidatures retirées
 

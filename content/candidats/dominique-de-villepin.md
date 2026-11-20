@@ -18,13 +18,25 @@ photoSource: https://commons.wikimedia.org/wiki/Special:FilePath/Dominique%20de%
 Cette fiche reprend les orientations mises en avant par **Dominique de Villepin** et par **La France humaniste**, à partir du site officiel du mouvement, de ses chroniques, de son texte doctrinal **Le pouvoir de dire non** et de ses prises de position récentes. Les documents consultés présentent une ligne politique structurée ; ils ne constituent pas, à ce stade, un programme présidentiel complet et chiffré mesure par mesure.
 
 <details open>
+<summary><strong>Statut de la candidature</strong></summary>
+
+- **Statut :** **candidature déclarée**.
+- **Annonce :** le **vendredi 20 novembre 2026**, lors d'une conférence de presse à la Maison de l'Amérique latine, à Paris : « Je suis candidat à l'élection présidentielle de 2027 ». ([LCP][28])
+- **Positionnement :** il se présente comme une alternative au macronisme, qu'il qualifie de « pouvoir zombie », et au RN comme à LFI, « deux ennemis complémentaires » ; il écarte toute primaire avec les héritiers du macronisme ou avec les partisans d'une alliance avec l'extrême droite. ([LCP][28])
+- **Premières annonces :** redresser les comptes publics par une trajectoire pluriannuelle, présentée comme sa première mesure, avec un déficit ramené sous les 3 % à l'horizon 2031 ; une « nouvelle méthode » pour réformer les retraites, appuyée sur des conventions citoyennes et des conférences sociales ; une « nouvelle nuit du 4 août » pour abolir les privilèges, notamment en réexaminant les niches fiscales ; une rénovation de la fonction publique. ([LCP][28], [France 24][29])
+- **Étape précédente :** le **3 novembre 2026** sur France Inter, il affirmait encore « Je ne suis pas encore candidat », tout en confirmant vouloir l'être. ([franceinfo][27])
+- **Parrainages :** il doit réunir **500 présentations d'élus** avant le 12 mars 2027 ; il avait échoué à les obtenir en 2012. ([France 24][29])
+
+</details>
+
+<details open>
 <summary><strong>Parti</strong></summary>
 
 - **Parti / mouvement :** La France humaniste
 - **Fonction dans le mouvement :** président d'honneur
 - **Anciennes fonctions :** Premier ministre de 2005 à 2007 ; ministre des Affaires étrangères de 2002 à 2004 ; ministre de l'Intérieur de 2004 à 2005
 - **Positionnement revendiqué :** gaullisme, humanisme républicain, souveraineté, justice sociale et ordre républicain
-- **Statut présidentiel :** **candidature pressentie**, non déclarée. Le **3 novembre 2026** sur France Inter, il affirme « Je ne suis pas encore candidat », tout en confirmant vouloir l'être et en jugeant le moment mal choisi pour l'officialiser ; il exclut toute alliance avec Édouard Philippe ou Gabriel Attal. ([franceinfo][27])
+- **Statut présidentiel :** **candidature déclarée** le 20 novembre 2026 (voir ci-dessus).
 - **Programme :** La France humaniste a été lancée dans la perspective de 2027, sans que les sources citées ici ne présentent un programme présidentiel définitif.
 - **Référence principale :** [La France humaniste](https://lafrancehumaniste.fr/)
 
@@ -169,6 +181,9 @@ Cette fiche reprend les orientations mises en avant par **Dominique de Villepin*
 - **Le Monde — Accusations de Robert Bourgi classées sans suite** — article sur le classement de l'enquête. ([Le Monde][24])
 - **Le JDD — Enquête Bourgi classée** — article sur le classement sans suite des accusations de "mallettes africaines". ([Le JDD][25])
 - **Wikimedia Commons — Photo de Dominique de Villepin** — source de la photo utilisée. ([Wikimedia Commons][26])
+- **franceinfo — « Je ne suis pas encore candidat »** — entretien du 3 novembre 2026 sur France Inter. ([franceinfo][27])
+- **LCP — Déclaration de candidature** — conférence de presse du 20 novembre 2026. ([LCP][28])
+- **France 24 — Analyse de la candidature** — premières propositions et précédent de 2012. ([France 24][29])
 
 </details>
 
@@ -199,6 +214,8 @@ Cette fiche reprend les orientations mises en avant par **Dominique de Villepin*
 [25]: https://www.lejdd.fr/Societe/Affaire-Bourgi-l-enquete-preliminaire-classee-sans-suite-424449-3226982 "L'enquête classée dans l'affaire Bourgi"
 [26]: https://commons.wikimedia.org/wiki/File:Dominique_de_Villepin_en_2026.jpg "Dominique de Villepin en 2026 - Wikimedia Commons"
 [27]: https://www.franceinfo.fr/elections/presidentielle/je-ne-suis-pas-encore-candidat-a-la-presidentielle-2027-indique-dominique-de-villepin_8265395.html "« Je ne suis pas encore candidat » à la présidentielle 2027, indique Dominique de Villepin"
+[28]: https://lcp.fr/actualites/presidentielle-2027-dominique-de-villepin-officiellement-candidat-a-l-elysee-445372 "Présidentielle 2027 : Dominique de Villepin officiellement candidat à l'Élysée"
+[29]: https://france24.com/fr/france/20261120-france-presidentielle-2027-dominique-de-villepin-homme-droite-populaire-gauche-sans-electeurs "Dominique de Villepin candidat : un homme de droite populaire à gauche mais en quête d'électeurs (France 24)"
 
 ---
 
