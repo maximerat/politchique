@@ -830,6 +830,26 @@ export const candidats: Candidat[] = [
     },
   },
   {
+    id: "cedric-rouleau",
+    nom: "Cédric Rouleau",
+    parti: "Sans étiquette",
+    partiIcone: "i-lucide-user",
+    // Photographie fournie par le candidat, qui en autorise la diffusion.
+    photo: "/photos/cedric-rouleau.jpg",
+    resume:
+      "Synthèse neutre de la candidature de Cédric Rouleau, candidat sans parti, centrée sur le pouvoir d'achat, la fiscalité et la réforme de l'État, avec sources et état des procédures.",
+    statut: "declare",
+    statutDetail:
+      "Candidature présentée sur son site de campagne depuis juillet 2026, sans parti ; campagne de demande de parrainages auprès des maires lancée à l'automne 2026.",
+    programme: "thematique",
+    programmeDetail:
+      "Propositions par thème (carburant plafonné à 1,35 €/L, zéro impôt sur le revenu au SMIC, division par deux du nombre de parlementaires, fin de l'AME), sans chiffrage d'ensemble publié.",
+    source: {
+      label: "Site de campagne du candidat",
+      url: "https://cedricrouleau.com/",
+    },
+  },
+  {
     id: "manolo-mlekuz",
     nom: "Manolo Mlekuz",
     parti: "Trajectoire",
