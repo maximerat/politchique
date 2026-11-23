@@ -538,9 +538,9 @@ export const candidats: Candidat[] = [
     photo: "/photos/francois-ruffin.jpg",
     resume:
       "Synthèse neutre des positions de François Ruffin et de Debout !, avec sources et état des procédures.",
-    statut: "declare",
+    statut: "retire",
     statutDetail:
-      "Inscrit le 15 novembre 2025 à la primaire de la gauche unitaire, campagne lancée le 25 avril 2026 à Lyon ; il a confirmé le 12 mai 2026 qu'il irait à la présidentielle en l'absence de primaire, et a dit le 6 novembre 2026 qu'il ne se retirerait que « si une solution se dégage pour battre Marine Le Pen ».",
+      "Candidat depuis le 25 avril 2026 (campagne « Nous président ! »), il a retiré sa candidature le 21 novembre 2026, faute de primaire de toute la gauche, sans soutenir aucun autre candidat.",
     programme: "detaille",
     source: {
       label: "Ruffin 2027 — Cahiers de campagne",

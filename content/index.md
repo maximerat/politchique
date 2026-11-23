@@ -38,7 +38,6 @@ Chaque fiche précise si la **candidature est déclarée** (annonce publique), s
 - [Bruno Retailleau (Les Républicains)](/candidats/bruno-retailleau)
 - [Teddy Riner (sans étiquette)](/candidats/teddy-riner)
 - [Fabien Roussel (Parti communiste français)](/candidats/fabien-roussel)
-- [François Ruffin (Debout !)](/candidats/francois-ruffin)
 - [Marine Tondelier (Les Écologistes)](/candidats/marine-tondelier)
 - [Dominique de Villepin (La France humaniste)](/candidats/dominique-de-villepin)
 - [Éric Zemmour (Reconquête)](/candidats/eric-zemmour)
@@ -51,6 +50,7 @@ Chaque fiche précise si la **candidature est déclarée** (annonce publique), s
 - [Lydie Massard (Union démocratique bretonne)](/candidats/lydie-massard) : retrait le 9 septembre 2026
 - [Emmanuel Maurel (Gauche républicaine et socialiste)](/candidats/emmanuel-maurel) : battu à la primaire, soutient Raphaël Glucksmann
 - [Ségolène Royal (Parti socialiste)](/candidats/segolene-royal) : battue à la primaire, soutien conditionnel à Raphaël Glucksmann
+- [François Ruffin (Debout !)](/candidats/francois-ruffin) : retrait le 21 novembre 2026, sans soutenir de candidat
 
 ## Hors course
 

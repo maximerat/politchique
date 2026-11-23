@@ -20,7 +20,10 @@ Cette fiche reprend les orientations portées par **François Ruffin**, député
 <details open>
 <summary><strong>Statut de la candidature</strong></summary>
 
-- **Statut :** **candidature déclarée**.
+- **Statut :** **candidature retirée** le **samedi 21 novembre 2026**, par un communiqué. ([LCP][8])
+- **Motifs du retrait :** il prend acte de l'échec de la « grande primaire » de toute la gauche qu'il réclamait, estime que « le duel des deux gauches irréconciliables est installé » et qu'aucune candidature de gauche, la sienne comprise, n'a de dynamique de victoire. Les sondages le plaçaient alors entre 1 et 3 %. ([LCP][8], [Ouest-France][9])
+- **Soutien :** il n'appelle à **aucun ralliement** et souhaite « bon courage » aux candidats de gauche encore en lice. ([LCP][8])
+- **Suite :** il poursuit son action avec son mouvement Debout ! et dit vouloir combattre le Rassemblement national. ([LCP][8])
 - **Étape 1 — la primaire :** il **co-lance** la [primaire de la gauche unitaire](/primaires) le **15 novembre 2025** avec Marine Tondelier et Olivier Faure, et y **inscrit sa candidature** le même jour. ([Wikipédia — Primaire de la gauche unitaire][4])
 - **Étape 2 — la campagne :** il lance sa campagne présidentielle le **25 avril 2026 à Lyon**, devant plus de 2 000 personnes, sous le slogan « **Nous président !** ». ([Ruffin 2027][1])
 - **Étape 3 — l'annonce conditionnelle :** le **12 mai 2026** sur France Inter, il déclare « **s'il n'y a pas de primaire, moi j'y vais** », imputant l'échec du processus aux « appareils » socialistes. ([CNews][2], [LCP][3])
@@ -108,6 +111,8 @@ Les sources citées ici font état d'une **condamnation civile pour diffamation*
 - **LCP — Annonce conditionnelle de candidature** — reprise et contexte parlementaire. ([LCP][3])
 - **Wikipédia — Primaire de la gauche unitaire de 2026** — lancement, candidats, retraits et abandon de fait. ([Wikipédia][4])
 - **Wikipédia — François Ruffin** — parcours, mandats, positions, controverses et procédures. ([Wikipédia][5])
+- **LCP : retrait de la candidature** : communiqué du 21 novembre 2026, motifs et absence de ralliement. ([LCP][8])
+- **Ouest-France : retrait de la candidature** : contexte et réactions. ([Ouest-France][9])
 - **Ruffin 2027 — Cahiers de campagne** — travaux programmatiques de la campagne. ([Ruffin 2027][6])
 
 </details>
@@ -119,6 +124,8 @@ Les sources citées ici font état d'une **condamnation civile pour diffamation*
 [5]: https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Ruffin "François Ruffin — Wikipédia"
 [6]: https://nouspresident.fr/cahiers-de-campagne/ "Nos cahiers de campagne — Ruffin 2027"
 [7]: https://fr.news.yahoo.com/pr%C3%A9sidentielle-2027-fran%C3%A7ois-ruffin-retirera-092541933.html "Présidentielle 2027 : François Ruffin retirera sa candidature « si une solution se dégage pour battre Marine Le Pen »"
+[8]: https://lcp.fr/actualites/francois-ruffin-se-retire-de-la-presidentielle-2027-sans-soutenir-aucun-des-candidats-de "François Ruffin se retire de la présidentielle 2027 sans soutenir aucun des candidats de gauche encore en lice"
+[9]: https://www.ouest-france.fr/elections/presidentielle/presidentielle-2027-francois-ruffin-retire-sa-candidature-2e91a6fc-e5cd-11f1-bd4e-6f30b8f49e21 "Présidentielle : François Ruffin retire sa candidature"
 
 ---
 
