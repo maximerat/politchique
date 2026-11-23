@@ -1,6 +1,21 @@
 <script setup lang="ts">
 import { candidats, cheminCandidat } from "#shared/candidats";
 
+// Image d'aperçu des liens partagés (messageries, réseaux sociaux) : sans
+// og:image, les services choisissent une photo de candidat au hasard dans la
+// page. Le coq est utilisé partout, en URL absolue comme l'exige Open Graph.
+const { siteUrl } = useRuntimeConfig().public;
+useSeoMeta({
+  ogImage: `${siteUrl}/coq.png`,
+  ogImageWidth: 1024,
+  ogImageHeight: 1024,
+  ogImageType: "image/png",
+  ogImageAlt: "Coq, logo du site Candidats présidentielle 2027",
+  ogType: "website",
+  twitterCard: "summary",
+  twitterImage: `${siteUrl}/coq.png`,
+});
+
 // Ordre alphabétique stable : le footer sert aussi de maillage interne pour le
 // référencement, il ne suit donc pas le mélange aléatoire de la page d'accueil.
 const candidatsFooter = [...candidats].sort((a, b) =>
