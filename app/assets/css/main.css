@@ -180,30 +180,60 @@ body::before {
   color: var(--fr-rouge);
 }
 
-/* Sur petit écran, les libellés priment sur les icônes : « Pour qui voter »
-   ne tient pas sur une seule ligne autrement. */
-@media (max-width: 640px) {
-  .fr-entete__titre {
+.fr-entete__nav {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.fr-entete__burger {
+  display: none;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.7rem;
+  border: 2px solid var(--fr-ink);
+  border-radius: 4px;
+  background: #ffffff;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--fr-ink);
+  cursor: pointer;
+}
+
+.fr-entete__burger[aria-expanded="true"] {
+  border-color: var(--fr-bleu);
+  color: var(--fr-bleu);
+}
+
+.fr-entete__panneau {
+  border-top: 1px solid rgba(11, 18, 32, 0.12);
+  background: #ffffff;
+}
+
+.fr-entete__lien--panneau {
+  padding: 0.75rem 0.85rem;
+  font-size: 0.9rem;
+}
+
+/* Les quatre liens ne tiennent plus sur une ligne en dessous de ~900 px :
+   ils passent dans un menu déroulant ouvert par le bouton « Menu ». */
+@media (max-width: 900px) {
+  .fr-entete__nav {
     display: none;
   }
 
-  .fr-entete__lien {
-    padding: 0.3rem 0.4rem;
-    font-size: 0.68rem;
+  .fr-entete__burger {
+    display: inline-flex;
   }
+}
 
-  .fr-entete__lien .iconify,
-  .fr-entete__lien svg {
-    display: none;
-  }
-
-  .fr-entete nav {
-    overflow-x: auto;
-    scrollbar-width: none;
-  }
-
-  .fr-entete nav::-webkit-scrollbar {
-    display: none;
+/* Le panneau n'existe que sur petit écran, même s'il était resté ouvert
+   avant un agrandissement de la fenêtre. */
+@media (min-width: 901px) {
+  .fr-entete__panneau {
+    display: none !important;
   }
 }
 
