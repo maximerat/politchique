@@ -102,7 +102,15 @@ useSeoMeta({
       <template #header>
         <h2 class="text-lg font-semibold">A propos de moi</h2>
       </template>
-      <p class="text-sm">
+      <div class="flex flex-col items-center gap-5 sm:flex-row sm:items-start">
+        <img
+          src="/maxime.jpg"
+          alt="Photo de Maxime, créateur du site"
+          width="112"
+          height="112"
+          class="size-28 shrink-0 rounded-full object-cover shadow-md ring-2 ring-gray-900"
+        />
+        <div class="space-y-3 text-sm">
         <p>
           Je m'appelle Maxime. Je ne me considère pas comme très politisé, même
           si j'ai forcément mes opinions. Ce site part d'un constat simple : on
@@ -114,7 +122,8 @@ useSeoMeta({
           C'est pour ça que j'ai construit ce site : comparer les programmes,
           regarder les parcours, et faire son choix en connaissance de cause.
         </p>
-      </p>
+        </div>
+      </div>
     </UCard>
   </UContainer>
 </template>
