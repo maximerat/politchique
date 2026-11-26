@@ -236,10 +236,10 @@ const texteBrut = (html: string) =>
     .trim();
 
 useSeoMeta({
-  title: "Questions fréquentes sur la présidentielle 2027",
+  title: "Foire aux questions sur la présidentielle 2027",
   description:
     "Parrainages, calendrier, conditions pour être candidat, financement, inscription et procuration : les réponses aux questions courantes sur la présidentielle 2027.",
-  ogTitle: "Questions fréquentes sur la présidentielle 2027",
+  ogTitle: "Foire aux questions sur la présidentielle 2027",
 });
 
 useHead({
@@ -268,7 +268,7 @@ useHead({
       <template #header>
         <div class="flex items-center justify-between gap-3">
           <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">
-            Questions fréquentes
+            Foire aux questions
           </h1>
           <UButton
             to="/"

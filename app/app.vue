@@ -157,7 +157,7 @@ onMounted(() => {
         <p class="opacity-80">
           <NuxtLink to="/a-propos">À propos</NuxtLink>
           ·
-          <NuxtLink to="/faq">FAQ</NuxtLink>
+          <NuxtLink to="/faq">Foire aux questions</NuxtLink>
           ·
           <NuxtLink to="/soutenir">Soutenir</NuxtLink>
           ·
