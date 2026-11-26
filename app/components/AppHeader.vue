@@ -4,6 +4,7 @@ const route = useRoute();
 const liens = [
   { label: "Candidats", to: "/", icon: "i-lucide-users" },
   { label: "Pour qui voter", to: "/pour-qui-voter", icon: "i-lucide-compass" },
+  { label: "FAQ", to: "/faq", icon: "i-lucide-circle-help" },
 ];
 
 const estActif = (chemin: string) =>

@@ -157,6 +157,8 @@ onMounted(() => {
         <p class="opacity-80">
           <NuxtLink to="/a-propos">À propos</NuxtLink>
           ·
+          <NuxtLink to="/faq">FAQ</NuxtLink>
+          ·
           <NuxtLink to="/soutenir">Soutenir</NuxtLink>
           ·
           <button type="button" class="hover:underline" @click="ouvrirContact">
